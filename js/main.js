@@ -4,11 +4,10 @@ bindings();
 
 
 function init() {
-    console.log('damn');
 }
 
 function getSteps() {
-    $('.uit-step').each(function(i, el) {
+    $('.body__text-step').each(function(i, el) {
         steps.push($(el).attr('data-step'));
     }.bind(this));
 }
@@ -28,14 +27,13 @@ function onScroll() {
 function updateValues() {
     windowTop = window.pageYOffset || document.documentElement.scrollTop;
     windowHeight = $(window).height();
-    //chartHeight = $('.uit-chart').height() + 48;
 }
 
 function fixMap() {
-    if (windowTop > $('.uit-chart__point').offset().top - this.percentageOfHeight(25)) {
-        $('.cityscape_container').css('opacity', '1');
+    if (windowTop > $('.body__text-start').offset().top - this.percentageOfHeight(5)) {
+        $('.intro2').css('display', 'block');
     } else {
-        $('.cityscape_container').css('opacity', '0');
+        $('.intro2').css('display', 'none');
     }
 }
 
