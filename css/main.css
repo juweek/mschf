@@ -1,3 +1,17 @@
+@font-face {
+  font-family: 'Cabin-Bold';
+  src: url('../fonts/Cabin-Bold.otf');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'NHaasGrotesk';
+  src: url('../fonts/NHaasGroteskBd.ttf');
+  font-weight: bold;
+}
+
+
+
 html {
     box-sizing: border-box;
 }
@@ -5,6 +19,9 @@ html {
 body {
     max-width: 640px;
     margin: 0 auto;
+    background-color: #F1F0EC;
+    color: #333;
+    font-family: 'NHaasGrotesk';
 }
 
 .body__text-container h2 {
@@ -14,12 +31,12 @@ body {
     text-align: left;
     z-index: 100;
     position: relative;
-    margin-bottom: 400px;
-    background-color: #fff;
+    margin-top: 400px;
+    background-color: #F1F0EC;
 }
 
 .body__text-container {
-    margin-top: 500px;
+    margin-top: 400px;
 }
 
 .body__image {
@@ -27,11 +44,24 @@ body {
     position: fixed;
     min-height: 30%;
     margin-left: calc(40% - (640px / 2));
+    top: 180px;
 }
 
 .body__content {
     display: flex;
     flex-direction: row;
+}
+
+.body__content-intro {
+    text-align: center;
+}
+
+.body__content-intro h1 {
+    font-size: 64px;
+    text-decoration: underline;
+    z-index: 10;
+    position: relative;
+    background-color: #F1F0EC;
 }
 
 @keyframes hide {
@@ -45,7 +75,7 @@ body {
     to   { transform: rotate(360deg); }
 }
 
-@keyframes notes_rotate {
+@keyframes young_rotate {
     from { transform: rotate(-10deg); }
     to   { transform: rotate(10deg); }
 }
@@ -65,22 +95,51 @@ body {
 
 .image__fixed {
     position: absolute;
-    top: 180px;
     width: 230px;
+    transition: width 1.2s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 
 .ball__fixed {
-    position: fixed;
-    top: 300px;
-    min-width: 75px;
-    max-width: 50px;
+    position: absolute;
+    right: 20px;
+    width: 200px;
     animation: rotate 2s linear infinite;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 
-.notes__fixed {
-    position: fixed;
-    top: 300px;
-    min-width: 75px;
-    max-width: 50px;
-    animation: notes_rotate .3s linear infinite alternate;
+.arrow__fixed {
+    position: absolute;
+    left: 20px;
+    width: 50px;
+    transition: width 1s ease-in-out;
+    opacity: 0;
+    transition: opacity .6s ease-in-out;
+}
+
+.young__fixed {
+    position: absolute;
+    width: 200px;
+    animation: young_rotate 1.8s linear infinite alternate;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+@keyframes slideout {
+  from {
+    stroke-dasharray: 12px;
+    stroke-dashoffset: 0px;
+  }
+
+  to {
+    stroke-dasharray: 12px;
+    stroke-dashoffset: 24px;
+  }
+}
+
+.arrow__fixed path {
+    stroke-dasharray: 192px;
+    stroke-dashoffset: -192px;
+    animation: slideout .5s linear 0s infinite;
 }

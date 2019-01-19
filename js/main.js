@@ -39,8 +39,8 @@ function fixMap() {
 
 function setStep() {
     var stepToShow = null;
-    $('.uit-step').each(function(i, el) {
-        if (windowTop > $(el).offset().top - this.percentageOfHeight(95)) {
+    $('.body__text-step').each(function(i, el) {
+        if (windowTop > $(el).offset().top - this.percentageOfHeight(85)) {
             stepToShow = $(el).data('step');
         }
     }.bind(this));
@@ -49,26 +49,33 @@ function setStep() {
 
 function highlightStates(currentStep) {
     switch (currentStep) {
-        case 1:
-        $('.c4').addClass('c3');
-        $('.c3').removeClass('c4');
-        break
-
         case 2:
-        $('.c3').addClass('c4');
-        $('.c4').removeClass('c3');
-        console.log('yuh');
+        $('.ball__fixed').css('opacity', '0');
+        $('.young__fixed').css('opacity', '1');
+        $('.arrow__fixed').css('opacity', '0');
+        $('.image__fixed').css('width', '230px');
+        $('.image__fixed').css('opacity', '0');
         break
 
         case 3:
-        $('.c4').addClass('c3');
-        $('.c3').removeClass('c4');
+        $('.image__fixed').css('width', '400px');
+        $('.arrow__fixed').css('width', '200px');
+        $('.arrow__fixed').css('opacity', '0');
+        $('.ball__fixed').css('opacity', '0');
+        $('.young__fixed').css('opacity', '0');
+        $('.intro1').css('opacity', '0');
+            $('.image__fixed').css('opacity', '1');
         break
 
-        case 4:
-        $('.c5').addClass('c6');
-        $('.c6').removeClass('c5');
+        case 5:
+        $('.image__fixed').css('width', '230px');
+        $('.arrow__fixed').css('opacity', '0');
         break
+
+        default:
+        $('.ball__fixed').css('opacity', '0');
+        $('.young__fixed').css('opacity', '0');
+        $('.image__fixed').css('opacity', '1');
     }
 }
 
