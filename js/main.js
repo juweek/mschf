@@ -70,13 +70,14 @@ function highlightStates(currentStep) {
         $('.young__fixed').css('opacity', '0');
         $('.arrow__fixed').css('opacity', '0');
         $('.image__fixed').css('opacity', '1');
+        $('.ball__fixed').css('opacity', '0');
+        $('.notes__fixed').css('opacity', '0');
         $('.image__fixed').css('width', '700px');
         $('.young__fixed').css('width', '700px');
         break
 
         case 3:
         $('.arrow__fixed').css('opacity', '0');
-        $('.ball__fixed').css('opacity', '0');
         $('.young__fixed').css('opacity', '1');
         $('.intro1').css('opacity', '0');
         $('.image__fixed').css('opacity', '0');
