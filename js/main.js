@@ -49,22 +49,42 @@ function setStep() {
 
 function highlightStates(currentStep) {
     switch (currentStep) {
-        case 2:
+
+        case 0:
+        $('.image__fixed').css('opacity', '1');
         $('.ball__fixed').css('opacity', '0');
-        $('.young__fixed').css('opacity', '1');
+        $('.notes__fixed').css('opacity', '0');
+
+        break
+
+        case 1:
+        $('.image__fixed').css('opacity', '1');
+        $('.young__fixed').css('opacity', '0');
+        $('.ball__fixed').css('opacity', '1');
+        $('.notes__fixed').css('opacity', '1');
+        $('.image__fixed').css('width', '250px');
+        $('.young__fixed').css('width', '250px');
+        break
+
+        case 2:
+        $('.young__fixed').css('opacity', '0');
         $('.arrow__fixed').css('opacity', '0');
-        $('.image__fixed').css('width', '230px');
-        $('.image__fixed').css('opacity', '0');
+        $('.image__fixed').css('opacity', '1');
+        $('.image__fixed').css('width', '700px');
+        $('.young__fixed').css('width', '700px');
         break
 
         case 3:
-        $('.image__fixed').css('width', '400px');
-        $('.arrow__fixed').css('width', '200px');
         $('.arrow__fixed').css('opacity', '0');
         $('.ball__fixed').css('opacity', '0');
-        $('.young__fixed').css('opacity', '0');
+        $('.young__fixed').css('opacity', '1');
         $('.intro1').css('opacity', '0');
-            $('.image__fixed').css('opacity', '1');
+        $('.image__fixed').css('opacity', '0');
+        break
+
+        case 4:
+        $('.image__fixed').css('opacity', '1');
+        $('.young__fixed').css('opacity', '1');
         break
 
         case 5:
@@ -74,8 +94,9 @@ function highlightStates(currentStep) {
 
         default:
         $('.ball__fixed').css('opacity', '0');
+        $('.notes__fixed').css('opacity', '0');
         $('.young__fixed').css('opacity', '0');
-        $('.image__fixed').css('opacity', '1');
+        $('.image__fixed').css('opacity', '0');
     }
 }
 
