@@ -54,6 +54,8 @@ function highlightStates(currentStep) {
         $('.image__fixed').css('opacity', '1');
         $('.ball__fixed').css('opacity', '0');
         $('.notes__fixed').css('opacity', '0');
+        $('.young__fixed').css('opacity', '0');
+        $('.city__fixed').css('opacity', '1');
 
         break
 
@@ -62,19 +64,16 @@ function highlightStates(currentStep) {
         $('.young__fixed').css('opacity', '0');
         $('.ball__fixed').css('opacity', '1');
         $('.notes__fixed').css('opacity', '1');
-        $('.image__fixed').css('width', '250px');
-        $('.young__fixed').css('width', '250px');
         $('.cloud__fixed').css('opacity', '0');
+        $('.city__fixed').css('opacity', '0');
         break
 
         case 2:
-        $('.young__fixed').css('opacity', '0');
+        $('.young__fixed').css('opacity', '1');
         $('.arrow__fixed').css('opacity', '0');
-        $('.image__fixed').css('opacity', '1');
+        $('.image__fixed').css('opacity', '0');
         $('.ball__fixed').css('opacity', '0');
         $('.notes__fixed').css('opacity', '0');
-        $('.image__fixed').css('width', '700px');
-        $('.young__fixed').css('width', '700px');
         $('.cloud__fixed').css('opacity', '1');
         $('.rain_cloud__fixed').css('opacity', '0');
         $('.raindrop__fixed').css('opacity', '0');
@@ -110,6 +109,7 @@ function highlightStates(currentStep) {
         $('.notes__fixed').css('opacity', '0');
         $('.young__fixed').css('opacity', '0');
         $('.image__fixed').css('opacity', '0');
+        $('.city__fixed').css('opacity', '0');
     }
 }
 

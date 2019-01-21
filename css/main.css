@@ -10,8 +10,6 @@
     font-weight: bold;
 }
 
-
-
 html {
     box-sizing: border-box;
 }
@@ -25,8 +23,8 @@ body {
 }
 
 .body__text-container h2 {
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 20px;
+    line-height: 24px;
     font-family: 'Proza Libre', Arial, sans-serif;
     text-align: left;
     z-index: 100;
@@ -58,7 +56,7 @@ body {
 }
 
 .body__content-intro h1 {
-    font-size: 64px;
+    font-size: 54px;
     text-decoration: underline;
     z-index: 10;
     position: relative;
@@ -138,7 +136,7 @@ body {
 .image__fixed {
     position: absolute;
     width: 250px;
-    transition: width 2s, opacity .8s ease-in-out;
+    transition: width 2s, opacity .4s ease-in-out;
     opacity: 0;
 }
 
@@ -206,7 +204,45 @@ body {
     width: 20px;
     opacity: 0;
     transition: opacity .8s ease-in-out;
-    animation: raindrop .8s linear infinite;
+    animation: raindrop .9s linear infinite;
+}
+
+.cloud__fixed {
+    position: absolute;
+    top: 500px;
+    width: 600px;
+    opacity: 0;
+}
+
+.cloud1{
+    animation-delay: -.45s;
+}
+
+@keyframes move {
+    from { margin-left: 0px; }
+    to   { margin-left: 60px; }
+}
+
+.city1 {
+    animation-delay: -.7s;
+    animation: move 1.9s linear infinite alternate;
+    width: 450px;
+}
+
+.city2 {
+    animation: move 1.4s linear infinite alternate;
+    margin-top: 20px;
+}
+
+.city__fixed{
+    position: absolute;
+    width: 350px;
+    opacity: 0;
+    transition: opacity .9s ease-in-out;
+}
+
+.cloud1{
+    animation-delay: -.45s;
 }
 
 .rain1{
