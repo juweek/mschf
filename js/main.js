@@ -64,6 +64,7 @@ function highlightStates(currentStep) {
         $('.notes__fixed').css('opacity', '1');
         $('.image__fixed').css('width', '250px');
         $('.young__fixed').css('width', '250px');
+        $('.cloud__fixed').css('opacity', '0');
         break
 
         case 2:
@@ -74,18 +75,29 @@ function highlightStates(currentStep) {
         $('.notes__fixed').css('opacity', '0');
         $('.image__fixed').css('width', '700px');
         $('.young__fixed').css('width', '700px');
+        $('.cloud__fixed').css('opacity', '1');
+        $('.rain_cloud__fixed').css('opacity', '0');
+        $('.raindrop__fixed').css('opacity', '0');
         break
 
         case 3:
         $('.arrow__fixed').css('opacity', '0');
-        $('.young__fixed').css('opacity', '1');
+        $('.young__fixed').css('opacity', '0');
         $('.intro1').css('opacity', '0');
         $('.image__fixed').css('opacity', '0');
+        $('.cloud__fixed').css('opacity', '0');
+        $('.tools__fixed').css('opacity', '1');
+        $('.rain_cloud__fixed').css('opacity', '0');
+        $('.raindrop__fixed').css('opacity', '0');
         break
 
         case 4:
-        $('.image__fixed').css('opacity', '1');
-        $('.young__fixed').css('opacity', '1');
+        $('.image__fixed').css('opacity', '0');
+        $('.young__fixed').css('opacity', '0');
+        $('.tools__fixed').css('opacity', '0');
+        $('.cloud__fixed').css('opacity', '0');
+        $('.rain_cloud__fixed').css('opacity', '1');
+        $('.raindrop__fixed').css('opacity', '1');
         break
 
         case 5:

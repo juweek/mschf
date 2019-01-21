@@ -1,13 +1,13 @@
 @font-face {
-  font-family: 'Cabin-Bold';
-  src: url('../fonts/Cabin-Bold.otf');
-  font-weight: bold;
+    font-family: 'Proza Libre';
+    src: url('../fonts/ProzaLibre-Regular.ttf');
+    font-weight: 400;
 }
 
 @font-face {
-  font-family: 'NHaasGrotesk';
-  src: url('../fonts/NHaasGroteskBd.ttf');
-  font-weight: bold;
+    font-family: 'NHaasGrotesk';
+    src: url('../fonts/NHaasGroteskBd.ttf');
+    font-weight: bold;
 }
 
 
@@ -25,13 +25,14 @@ body {
 }
 
 .body__text-container h2 {
-    font-size: 24px;
-    line-height: 28px;
-    font-family: 'Saira', Arial, sans-serif;
+    font-size: 22px;
+    line-height: 26px;
+    font-family: 'Proza Libre', Arial, sans-serif;
     text-align: left;
     z-index: 100;
     position: relative;
-    margin-top: 400px;
+    margin-top: 460px;
+    font-weight: 400;
     background-color: #F1F0EC;
 }
 
@@ -159,6 +160,14 @@ body {
     transition: opacity 1s ease-in-out;
     animation-delay: -1.2s;
 }
+.cloud__fixed {
+    position: absolute;
+    left: -250px;
+    top: -200px;
+    width: 400px;
+    opacity: 0;
+    animation: rotate 30s linear infinite;
+}
 
 .arrow__fixed {
     position: absolute;
@@ -176,16 +185,70 @@ body {
     transition: opacity .8s ease-in-out;
 }
 
-@keyframes slideout {
-  from {
-    stroke-dasharray: 12px;
-    stroke-dashoffset: 0px;
-  }
+.tools__fixed{
+    position: absolute;
+    width: 450px;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    animation:  young_rotate 2s linear infinite alternate;
+}
 
-  to {
-    stroke-dasharray: 12px;
-    stroke-dashoffset: 24px;
-  }
+.rain_cloud__fixed{
+    position: absolute;
+    width: 350px;
+    left: -200px;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+}
+
+.raindrop__fixed{
+    position: absolute;
+    width: 20px;
+    opacity: 0;
+    transition: opacity .8s ease-in-out;
+    animation: raindrop .8s linear infinite;
+}
+
+.rain1{
+    left: -120px;
+    animation-delay: -.45s;
+}
+.rain2{
+    left: -100px;
+    animation-delay: -.15s;
+}
+.rain3{
+    left: -80px;
+    animation-delay: -.6s;
+}
+.rain4{
+    left: -60px;
+    animation-delay: -.3s;
+}
+.rain5{
+    left: -40px;
+}
+
+@keyframes raindrop {
+    from {
+        top: 40%;
+    }
+
+    to   {
+        top: 100%;
+    }
+}
+
+@keyframes slideout {
+    from {
+        stroke-dasharray: 12px;
+        stroke-dashoffset: 0px;
+    }
+
+    to {
+        stroke-dasharray: 12px;
+        stroke-dashoffset: 24px;
+    }
 }
 
 .arrow__fixed path {
