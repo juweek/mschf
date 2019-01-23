@@ -75,12 +75,10 @@ body {
 
 @keyframes orbit {
     0% {
-        top: -20%;
-        left: -10%;
+        transform: translate(-10%, -20%);
     }
     100%   {
-        top: 30%;
-        left: 200px;
+        transform: translate(200px, 30%);
     }
 }
 
@@ -137,7 +135,7 @@ body {
     position: absolute;
     width: 250px;
     transition: width 2s, opacity .4s ease-in-out;
-    opacity: 0;
+    display: none;
 }
 
 .ball__fixed {
@@ -150,6 +148,24 @@ body {
     transition: opacity 1s ease-in-out;
 }
 .notes__fixed {
+    position: absolute;
+    left: 20px;
+    width: 120px;
+    animation:  young_rotate .6s linear infinite alternate, orbit 2.4s linear infinite alternate, z_orbit 4.8s linear infinite;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    animation-delay: -1.2s;
+}
+.art__fixed {
+    position: absolute;
+    right: 20px;
+    width: 120px;
+    animation: rotate 2.7s linear infinite, orbit 2.4s linear infinite alternate,
+    z_orbit 4.8s linear infinite;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
+.laptop__fixed {
     position: absolute;
     left: 20px;
     width: 120px;
@@ -179,7 +195,7 @@ body {
 .young__fixed {
     position: absolute;
     width: 250px;
-    opacity: 0;
+    display: none;
     transition: opacity .8s ease-in-out;
 }
 
@@ -219,8 +235,8 @@ body {
 }
 
 @keyframes move {
-    from { margin-left: 0px; }
-    to   { margin-left: 60px; }
+    from { transform: translateX(0px); }
+    to   { transform: translateX(200px); }
 }
 
 .city1 {
@@ -238,7 +254,8 @@ body {
     position: absolute;
     width: 350px;
     opacity: 0;
-    transition: opacity .9s ease-in-out;
+    transition-delay: 4s;
+    transition: opacity 2.4s ease-in-out;
 }
 
 .cloud1{
@@ -267,11 +284,11 @@ body {
 
 @keyframes raindrop {
     from {
-        top: 40%;
+        transform: translateY(40%);
     }
 
     to   {
-        top: 100%;
+        transform: translateY(100%);
     }
 }
 
