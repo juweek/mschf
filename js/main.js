@@ -68,6 +68,8 @@ function highlightStates(currentStep) {
         $('.cloud__fixed').css('opacity', '0');
         $('.city__fixed').css('opacity', '0');
         $('.art__fixed').css('opacity', '0');
+        $('.art__fixed').css('display', 'none');
+        $('.laptop__fixed').css('display', 'none');
         $('.laptop__fixed').css('opacity', '0');
         break
 
@@ -76,6 +78,8 @@ function highlightStates(currentStep) {
         $('.image__fixed').css('opacity', '1');
         $('.notes__fixed').css('opacity', '0');
         $('.art__fixed').css('opacity', '1');
+        $('.art__fixed').css('display', 'block');
+        $('.laptop__fixed').css('display', 'block');
         $('.laptop__fixed').css('opacity', '1');
         $('.young__fixed').css('opacity', '0');
         $('.young__fixed').css('display', 'none');
@@ -95,7 +99,9 @@ function highlightStates(currentStep) {
         $('.rain_cloud__fixed').css('opacity', '0');
         $('.raindrop__fixed').css('opacity', '0');
         $('.art__fixed').css('opacity', '0');
+        $('.art__fixed').css('display', 'none');
         $('.laptop__fixed').css('opacity', '0');
+        $('.laptop__fixed').css('display', 'none');
         break
 
         case 3:

@@ -46,6 +46,12 @@ body {
     top: 180px;
 }
 
+@media screen and (max-width: 620px) {
+    .body__image  {
+        margin-left: 40px;
+    }
+}
+
 .body__content {
     display: flex;
     flex-direction: row;
@@ -163,6 +169,7 @@ body {
     animation: rotate 2.7s linear infinite, orbit 2.4s linear infinite alternate,
     z_orbit 4.8s linear infinite;
     opacity: 0;
+    display: none;
     transition: opacity .5s ease-in-out;
 }
 .laptop__fixed {
@@ -171,16 +178,9 @@ body {
     width: 120px;
     animation:  young_rotate .6s linear infinite alternate, orbit 2.4s linear infinite alternate, z_orbit 4.8s linear infinite;
     opacity: 0;
+    display: none;
     transition: opacity 1s ease-in-out;
     animation-delay: -1.2s;
-}
-.cloud__fixed {
-    position: absolute;
-    left: -250px;
-    top: -200px;
-    width: 400px;
-    opacity: 0;
-    animation: rotate 30s linear infinite;
 }
 
 .arrow__fixed {
@@ -225,9 +225,10 @@ body {
 
 .cloud__fixed {
     position: absolute;
-    top: 500px;
-    width: 600px;
+    top: 0px;
+    width: 150px;
     opacity: 0;
+    animation: rotate 20s linear infinite;
 }
 
 .cloud1{
@@ -241,12 +242,12 @@ body {
 
 .city1 {
     animation-delay: -.7s;
-    animation: move 1.9s linear infinite alternate;
+    animation: move 3.9s linear infinite alternate;
     width: 450px;
 }
 
 .city2 {
-    animation: move 1.4s linear infinite alternate;
+    animation: move 5.4s linear infinite alternate;
     margin-top: 20px;
 }
 
@@ -308,4 +309,9 @@ body {
     stroke-dasharray: 192px;
     stroke-dashoffset: -192px;
     animation: slideout .5s linear 0s infinite;
+}
+
+.slidecontainer {
+    position: absolute;
+    left: 300px;
 }
