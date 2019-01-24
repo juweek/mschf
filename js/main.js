@@ -103,7 +103,6 @@ function highlightStates(currentStep) {
         case 2:
         $('.young__fixed').css('display', 'block');
         $('.young__fixed').css('opacity', '1');
-        $('.arrow__fixed').css('opacity', '0');
         $('.image__fixed').css('opacity', '0');
         $('.image__fixed').css('display', 'none');
         $('.ball__fixed').css('opacity', '0');
@@ -118,7 +117,7 @@ function highlightStates(currentStep) {
         break
 
         case 3:
-        $('.arrow__fixed').css('opacity', '0');
+        $('.workcloud__fixed').css('opacity', '0');
         $('.young__fixed').css('opacity', '0');
         $('.intro1').css('opacity', '0');
         $('.image__fixed').css('opacity', '0');
@@ -135,11 +134,15 @@ function highlightStates(currentStep) {
         $('.cloud__fixed').css('opacity', '0');
         $('.rain_cloud__fixed').css('opacity', '1');
         $('.raindrop__fixed').css('opacity', '1');
+        $('.workcloud__fixed').css('opacity', '0');
+        $('.workcloud__fixed').css('display', 'none');
         break
 
         case 5:
-        $('.image__fixed').css('width', '230px');
-        $('.arrow__fixed').css('opacity', '0');
+        $('.rain_cloud__fixed').css('opacity', '0');
+        $('.raindrop__fixed').css('opacity', '0');
+        $('.workcloud__fixed').css('opacity', '1');
+        $('.workcloud__fixed').css('display', 'block');
         break
 
         default:

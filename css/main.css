@@ -183,12 +183,12 @@ body {
     animation-delay: -1.2s;
 }
 
-.arrow__fixed {
+.workcloud__fixed {
     position: absolute;
     left: 20px;
-    width: 50px;
-    transition: width 1s ease-in-out;
+    width: 400px;
     opacity: 0;
+    display: none;
     transition: opacity .6s ease-in-out;
 }
 
@@ -304,12 +304,6 @@ body {
         stroke-dasharray: 12px;
         stroke-dashoffset: 24px;
     }
-}
-
-.arrow__fixed path {
-    stroke-dasharray: 192px;
-    stroke-dashoffset: -192px;
-    animation: slideout .5s linear 0s infinite;
 }
 
 .slidecontainer {
