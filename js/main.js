@@ -10,6 +10,7 @@ function getSteps() {
     $('.body__text-step').each(function(i, el) {
         steps.push($(el).attr('data-step'));
     }.bind(this));
+
 }
 
 function bindings() {
@@ -18,7 +19,15 @@ function bindings() {
     }.bind(this));
 
     $(document).on('input', '#myRange', function() {
-        console.log($(this).val());
+        var num = 50 / $(this).val();
+        var bruh = -.7;
+        $('.raindrop__fixed').each(function(i, el) {
+            setTimeout( function(){
+                $(el).css('animation', 'raindrop ' + num + 's linear infinite');
+                $(el).css('animation-delay', bruh + 's');
+                bruh = bruh - .4;
+            },200);
+        }.bind(this));
     });
 }
 

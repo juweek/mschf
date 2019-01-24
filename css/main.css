@@ -212,6 +212,7 @@ body {
     width: 350px;
     left: -200px;
     opacity: 0;
+    z-index: 2;
     transition: opacity .8s ease-in-out;
 }
 
@@ -220,7 +221,7 @@ body {
     width: 20px;
     opacity: 0;
     transition: opacity .8s ease-in-out;
-    animation: raindrop .9s linear infinite;
+    animation: raindrop 1.8s linear infinite;
 }
 
 .cloud__fixed {
@@ -285,11 +286,11 @@ body {
 
 @keyframes raindrop {
     from {
-        transform: translateY(40%);
+        transform: translate(40px, 60px);
     }
 
     to   {
-        transform: translateY(100%);
+        transform: translate(-40px, 200px);
     }
 }
 
