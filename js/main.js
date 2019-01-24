@@ -16,6 +16,10 @@ function bindings() {
     $(window).scroll(function() {
         this.onScroll();
     }.bind(this));
+
+    $(document).on('input', '#myRange', function() {
+        console.log($(this).val());
+    });
 }
 
 function onScroll() {
