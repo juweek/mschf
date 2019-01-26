@@ -144,6 +144,15 @@ body {
     display: none;
 }
 
+.sun__fixed {
+    position: absolute;
+    width: 80px;
+    left: -60px;
+    animation: rotate 5s linear infinite;
+    transition: opacity .4s ease-in-out;
+    display: none;
+}
+
 .ball__fixed {
     position: absolute;
     right: 20px;
