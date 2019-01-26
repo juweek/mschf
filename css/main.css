@@ -81,10 +81,10 @@ body {
 
 @keyframes orbit {
     0% {
-        transform: translate(-10%, -20%);
+        transform: translate(0px, -100px);
     }
     100%   {
-        transform: translate(200px, 30%);
+        transform: translate(200px, 0px);
     }
 }
 
@@ -155,7 +155,7 @@ body {
 
 .ball__fixed {
     position: absolute;
-    right: 20px;
+    left: 20px;
     width: 80px;
     animation: rotate 2.7s linear infinite, orbit 2.4s linear infinite alternate,
     z_orbit 4.8s linear infinite;
@@ -174,7 +174,7 @@ body {
 }
 .art__fixed {
     position: absolute;
-    right: 20px;
+    left: 20px;
     width: 120px;
     animation: rotate 2.7s linear infinite, orbit 2.4s linear infinite alternate,
     z_orbit 4.8s linear infinite;
@@ -199,7 +199,21 @@ body {
     width: 400px;
     opacity: 0;
     display: none;
+    transition: opacity .3s ease-in-out;
+}
+
+.workcloud__fixed svg {
+    position: absolute;
+}
+
+.workcloud__img {
+    position: absolute;
+    width: 80%;
+    display:block;
+    margin:40px;
+    margin-top: 65px;
     transition: opacity .6s ease-in-out;
+    opacity: 0;
 }
 
 .young__fixed {
@@ -268,7 +282,7 @@ body {
     width: 350px;
     opacity: 0;
     transition-delay: .4s;
-    transition: opacity 2.4s ease-in-out;
+    transition: opacity 1s ease-in-out;
 }
 
 .cloud1{

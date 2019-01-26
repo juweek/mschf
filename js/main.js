@@ -95,10 +95,8 @@ function highlightStates(currentStep) {
 
         case 1.5:
         $('.ball__fixed').css('opacity', '0');
-        $('.ball__fixed').css('display', 'none');
         $('.image__fixed').css('opacity', '1');
         $('.notes__fixed').css('opacity', '0');
-        $('.notes__fixed').css('display', 'none');
         $('.art__fixed').css('opacity', '1');
         $('.art__fixed').css('display', 'block');
         $('.laptop__fixed').css('display', 'block');
