@@ -156,10 +156,11 @@ body {
 .ball__fixed {
     position: absolute;
     right: 20px;
-    width: 120px;
+    width: 80px;
     animation: rotate 2.7s linear infinite, orbit 2.4s linear infinite alternate,
     z_orbit 4.8s linear infinite;
     opacity: 0;
+    display: none;
     transition: opacity 1s ease-in-out;
 }
 .notes__fixed {
@@ -212,6 +213,7 @@ body {
     position: absolute;
     width: 450px;
     opacity: 0;
+    display: none;
     transition: opacity .8s ease-in-out;
     animation:  young_rotate 2s linear infinite alternate;
 }
@@ -265,7 +267,7 @@ body {
     position: absolute;
     width: 350px;
     opacity: 0;
-    transition-delay: 4s;
+    transition-delay: .4s;
     transition: opacity 2.4s ease-in-out;
 }
 

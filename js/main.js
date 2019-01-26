@@ -67,7 +67,9 @@ function highlightStates(currentStep) {
         $('.image__fixed').css('opacity', '1');
         $('.image__fixed').css('display', 'block');
         $('.ball__fixed').css('opacity', '0');
+        $('.ball__fixed').css('display', 'none');
         $('.notes__fixed').css('opacity', '0');
+        $('.notes__fixed').css('display', 'none');
         $('.young__fixed').css('opacity', '0');
         $('.city__fixed').css('opacity', '1');
         $('.sun__fixed').css('opacity', '1');
@@ -80,7 +82,9 @@ function highlightStates(currentStep) {
         $('.image__fixed').css('opacity', '1');
         $('.young__fixed').css('opacity', '0');
         $('.ball__fixed').css('opacity', '1');
+        $('.ball__fixed').css('display', 'block');
         $('.notes__fixed').css('opacity', '1');
+        $('.notes__fixed').css('display', 'block');
         $('.cloud__fixed').css('opacity', '0');
         $('.city__fixed').css('opacity', '0');
         $('.art__fixed').css('opacity', '0');
@@ -91,8 +95,10 @@ function highlightStates(currentStep) {
 
         case 1.5:
         $('.ball__fixed').css('opacity', '0');
+        $('.ball__fixed').css('display', 'none');
         $('.image__fixed').css('opacity', '1');
         $('.notes__fixed').css('opacity', '0');
+        $('.notes__fixed').css('display', 'none');
         $('.art__fixed').css('opacity', '1');
         $('.art__fixed').css('display', 'block');
         $('.laptop__fixed').css('display', 'block');
@@ -126,6 +132,7 @@ function highlightStates(currentStep) {
         $('.image__fixed').css('opacity', '0');
         $('.cloud__fixed').css('opacity', '0');
         $('.tools__fixed').css('opacity', '1');
+        $('.tools__fixed').css('display', 'block');
         $('.rain_cloud__fixed').css('opacity', '0');
         $('.raindrop__fixed').css('opacity', '0');
         break
@@ -134,6 +141,7 @@ function highlightStates(currentStep) {
         $('.image__fixed').css('opacity', '0');
         $('.young__fixed').css('opacity', '0');
         $('.tools__fixed').css('opacity', '0');
+        $('.tools__fixed').css('display', 'none');
         $('.cloud__fixed').css('opacity', '0');
         $('.rain_cloud__fixed').css('opacity', '1');
         $('.raindrop__fixed').css('opacity', '1');
@@ -146,6 +154,8 @@ function highlightStates(currentStep) {
         $('.raindrop__fixed').css('opacity', '0');
         $('.workcloud__fixed').css('opacity', '1');
         $('.workcloud__fixed').css('display', 'block');
+        $('.tools__fixed').css('opacity', '0');
+        $('.tools__fixed').css('display', 'none');
         break
 
         default:
@@ -154,6 +164,8 @@ function highlightStates(currentStep) {
         $('.young__fixed').css('opacity', '0');
         $('.image__fixed').css('opacity', '0');
         $('.city__fixed').css('opacity', '0');
+        $('.sun__fixed').css('opacity', '0');
+        $('.sun__fixed').css('display', 'none');
     }
 }
 
