@@ -33,7 +33,6 @@ function bindings() {
 
 function onScroll() {
     this.updateValues();
-    this.fixMap();
     this.setStep();
 }
 
@@ -64,106 +63,55 @@ function highlightStates(currentStep) {
     switch (currentStep) {
 
         case 0:
-        $('.image__fixed').css('opacity', '1');
-        $('.image__fixed').css('display', 'block');
-        $('.ball__fixed').css('opacity', '0');
-        $('.ball__fixed').css('display', 'none');
-        $('.notes__fixed').css('opacity', '0');
-        $('.notes__fixed').css('display', 'none');
-        $('.young__fixed').css('opacity', '0');
-        $('.city__fixed').css('opacity', '1');
-        $('.sun__fixed').css('opacity', '1');
-        $('.sun__fixed').css('display', 'block');
+        $('.scene__0').addClass('image__shown');
+        $('.scene__1').addClass('image__shown');
+        $('.scene__2').removeClass('image__shown');
         break
 
         case 1:
-        $('.sun__fixed').css('opacity', '0');
-        $('.sun__fixed').css('display', 'none');
-        $('.image__fixed').css('opacity', '1');
-        $('.young__fixed').css('opacity', '0');
-        $('.ball__fixed').css('opacity', '1');
-        $('.ball__fixed').css('display', 'block');
-        $('.notes__fixed').css('opacity', '1');
-        $('.notes__fixed').css('display', 'block');
-        $('.cloud__fixed').css('opacity', '0');
-        $('.city__fixed').css('opacity', '0');
-        $('.art__fixed').css('opacity', '0');
-        $('.art__fixed').css('display', 'none');
-        $('.laptop__fixed').css('display', 'none');
-        $('.laptop__fixed').css('opacity', '0');
+        $('.scene__2').addClass('image__shown');
+        $('.scene__3').removeClass('image__shown');
+        $('.scene__1').removeClass('image__shown');
         break
 
         case 1.5:
-        $('.ball__fixed').css('opacity', '0');
-        $('.image__fixed').css('opacity', '1');
-        $('.notes__fixed').css('opacity', '0');
-        $('.art__fixed').css('opacity', '1');
-        $('.art__fixed').css('display', 'block');
-        $('.laptop__fixed').css('display', 'block');
-        $('.laptop__fixed').css('opacity', '1');
-        $('.young__fixed').css('opacity', '0');
-        $('.young__fixed').css('display', 'none');
-        $('.cloud__fixed').css('opacity', '0');
-        $('.image__fixed').css('display', 'block');
+        $('.scene__0').addClass('image__shown');
+        $('.scene__3').addClass('image__shown');
+        $('.scene__2').removeClass('image__shown');
+        $('.scene__4').removeClass('image__shown');
         break
 
         case 2:
-        $('.young__fixed').css('display', 'block');
-        $('.young__fixed').css('opacity', '1');
-        $('.image__fixed').css('opacity', '0');
-        $('.image__fixed').css('display', 'none');
-        $('.ball__fixed').css('opacity', '0');
-        $('.notes__fixed').css('opacity', '0');
-        $('.cloud__fixed').css('opacity', '1');
-        $('.rain_cloud__fixed').css('opacity', '0');
-        $('.raindrop__fixed').css('opacity', '0');
-        $('.art__fixed').css('opacity', '0');
-        $('.art__fixed').css('display', 'none');
-        $('.laptop__fixed').css('opacity', '0');
-        $('.laptop__fixed').css('display', 'none');
+        $('.scene__4').addClass('image__shown');
+        $('.scene__3').removeClass('image__shown');
+        $('.scene__5').removeClass('image__shown');
+        $('.scene__0').removeClass('image__shown');
         break
 
         case 3:
-        $('.workcloud__fixed').css('opacity', '0');
-        $('.young__fixed').css('opacity', '0');
-        $('.intro1').css('opacity', '0');
-        $('.image__fixed').css('opacity', '0');
-        $('.cloud__fixed').css('opacity', '0');
-        $('.tools__fixed').css('opacity', '1');
-        $('.tools__fixed').css('display', 'block');
-        $('.rain_cloud__fixed').css('opacity', '0');
-        $('.raindrop__fixed').css('opacity', '0');
+        $('.scene__7').addClass('image__shown');
+        $('.scene__4').removeClass('image__shown');
+        $('.scene__6').removeClass('image__shown');
+        $('.scene__5').removeClass('image__shown');
         break
 
         case 4:
-        $('.image__fixed').css('opacity', '0');
-        $('.young__fixed').css('opacity', '0');
-        $('.tools__fixed').css('opacity', '0');
-        $('.tools__fixed').css('display', 'none');
-        $('.cloud__fixed').css('opacity', '0');
-        $('.rain_cloud__fixed').css('opacity', '1');
-        $('.raindrop__fixed').css('opacity', '1');
-        $('.workcloud__fixed').css('opacity', '0');
-        $('.workcloud__fixed').css('display', 'none');
+        $('.scene__5').addClass('image__shown');
+        $('.scene__0').removeClass('image__shown');
+        $('.scene__4').removeClass('image__shown');
+        $('.scene__6').removeClass('image__shown');
         break
 
         case 5:
-        $('.rain_cloud__fixed').css('opacity', '0');
-        $('.raindrop__fixed').css('opacity', '0');
-        $('.workcloud__fixed').css('opacity', '1');
-        $('.workcloud__fixed').css('display', 'block');
-        $('.tools__fixed').css('opacity', '0');
-        $('.tools__fixed').css('display', 'none');
+        $('.scene__6').addClass('image__shown');
+        $('.scene__7').removeClass('image__shown');
+        $('.scene__5').removeClass('image__shown');
         break
 
         default:
-        $('.ball__fixed').css('opacity', '0');
-        $('.notes__fixed').css('opacity', '0');
+        $('.scene__0').removeClass('image__shown');
+        $('.scene__1').removeClass('image__shown');
         $('.young__fixed').css('opacity', '0');
-        $('.image__fixed').css('opacity', '0');
-        $('.city__fixed').css('opacity', '0');
-        $('.sun__fixed').css('opacity', '0');
-        $('.sun__fixed').css('display', 'none');
     }
 }
 

@@ -124,19 +124,6 @@ body {
     to   { transform: rotate(10deg); }
 }
 
-.intro1 {
-    animation: hide .1s linear infinite alternate;
-}
-
-.intro2 {
-    animation: hide .3s linear infinite alternate;
-    display: none;
-}
-
-.intro3 {
-    animation: hide .5s linear infinite alternate;
-}
-
 .image__fixed {
     position: absolute;
     width: 250px;
@@ -169,6 +156,7 @@ body {
     width: 120px;
     animation:  young_rotate .6s linear infinite alternate, orbit 2.4s linear infinite alternate, z_orbit 4.8s linear infinite;
     opacity: 0;
+    display: none;
     transition: opacity 1s ease-in-out;
     animation-delay: -1.2s;
 }
@@ -209,7 +197,7 @@ body {
 .workcloud__img {
     position: absolute;
     width: 80%;
-    display:block;
+    display: block;
     margin:40px;
     margin-top: 65px;
     transition: opacity .6s ease-in-out;
@@ -236,15 +224,14 @@ body {
     position: absolute;
     width: 350px;
     left: -200px;
-    opacity: 0;
     z-index: 2;
+    opacity: 0;
     transition: opacity .8s ease-in-out;
 }
 
 .raindrop__fixed{
     position: absolute;
     width: 20px;
-    opacity: 0;
     transition: opacity .8s ease-in-out;
     animation: raindrop 1.8s linear infinite;
 }
@@ -334,4 +321,9 @@ body {
 .slidecontainer {
     position: absolute;
     left: 300px;
+}
+
+.image__shown {
+    display: block;
+    opacity: 1;
 }
