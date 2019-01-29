@@ -79,6 +79,7 @@ function highlightStates(currentStep) {
         $('.scene__3').addClass('image__shown');
         $('.scene__2').removeClass('image__shown');
         $('.scene__4').removeClass('image__shown');
+        $('.scene__5').removeClass('image__shown');
         break
 
         case 2:
@@ -93,6 +94,8 @@ function highlightStates(currentStep) {
         $('.scene__4').removeClass('image__shown');
         $('.scene__6').removeClass('image__shown');
         $('.scene__5').removeClass('image__shown');
+
+        $('.cloud__fixed').css('opacity', '0');
         break
 
         case 4:
@@ -100,6 +103,7 @@ function highlightStates(currentStep) {
         $('.scene__0').removeClass('image__shown');
         $('.scene__4').removeClass('image__shown');
         $('.scene__6').removeClass('image__shown');
+        $('.scene__3').removeClass('image__shown');
         break
 
         case 5:

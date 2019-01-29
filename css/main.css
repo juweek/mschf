@@ -22,14 +22,14 @@ body {
     font-family: 'NHaasGrotesk';
 }
 
-.body__text-container h2 {
-    font-size: 20px;
-    line-height: 24px;
+.body__text-container p {
+    font-size: 1.3em;
+    line-height: 1.5em;
     font-family: 'Proza Libre', Arial, sans-serif;
     text-align: left;
     z-index: 100;
     position: relative;
-    margin-top: 460px;
+    margin-top: 65vh;
     font-weight: 400;
     background-color: #F1F0EC;
 }
@@ -43,7 +43,7 @@ body {
     position: fixed;
     min-height: 30%;
     margin-left: calc(40% - (640px / 2));
-    top: 180px;
+    top: 25vh;
 }
 
 @media screen and (max-width: 620px) {
@@ -126,15 +126,15 @@ body {
 
 .image__fixed {
     position: absolute;
-    width: 250px;
+    width: 30vh;
     transition: width 2s, opacity .4s ease-in-out;
     display: none;
 }
 
 .sun__fixed {
     position: absolute;
-    width: 80px;
-    left: -60px;
+    width: 10vh;
+    left: -10px;
     animation: rotate 5s linear infinite;
     transition: opacity .4s ease-in-out;
     display: none;
@@ -143,7 +143,7 @@ body {
 .ball__fixed {
     position: absolute;
     left: 20px;
-    width: 80px;
+    width: 10vh;
     animation: rotate 2.7s linear infinite, orbit 2.4s linear infinite alternate,
     z_orbit 4.8s linear infinite;
     opacity: 0;
@@ -153,7 +153,7 @@ body {
 .notes__fixed {
     position: absolute;
     left: 20px;
-    width: 120px;
+    width: 15vh;
     animation:  young_rotate .6s linear infinite alternate, orbit 2.4s linear infinite alternate, z_orbit 4.8s linear infinite;
     opacity: 0;
     display: none;
@@ -163,7 +163,7 @@ body {
 .art__fixed {
     position: absolute;
     left: 20px;
-    width: 120px;
+    width: 15vh;
     animation: rotate 2.7s linear infinite, orbit 2.4s linear infinite alternate,
     z_orbit 4.8s linear infinite;
     opacity: 0;
@@ -173,7 +173,7 @@ body {
 .laptop__fixed {
     position: absolute;
     left: 20px;
-    width: 120px;
+    width: 15vh;
     animation:  young_rotate .6s linear infinite alternate, orbit 2.4s linear infinite alternate, z_orbit 4.8s linear infinite;
     opacity: 0;
     display: none;
@@ -184,7 +184,7 @@ body {
 .workcloud__fixed {
     position: absolute;
     left: 20px;
-    width: 400px;
+    width: 40vh;
     opacity: 0;
     display: none;
     transition: opacity .3s ease-in-out;
@@ -213,8 +213,9 @@ body {
 
 .tools__fixed{
     position: absolute;
-    width: 450px;
+    width: 45vh;
     opacity: 0;
+    left: -10vh;
     display: none;
     transition: opacity .8s ease-in-out;
     animation:  young_rotate 2s linear infinite alternate;
@@ -222,8 +223,7 @@ body {
 
 .rain_cloud__fixed{
     position: absolute;
-    width: 350px;
-    left: -200px;
+    width: 35vh;
     z-index: 2;
     opacity: 0;
     transition: opacity .8s ease-in-out;
@@ -231,7 +231,8 @@ body {
 
 .raindrop__fixed{
     position: absolute;
-    width: 20px;
+    width: 2vh;
+    top: 5vh;
     transition: opacity .8s ease-in-out;
     animation: raindrop 1.8s linear infinite;
 }
@@ -266,10 +267,10 @@ body {
 
 .city__fixed{
     position: absolute;
-    width: 350px;
     opacity: 0;
     transition-delay: .4s;
     transition: opacity 1s ease-in-out;
+    width: 40vh;
 }
 
 .cloud1{
@@ -277,23 +278,26 @@ body {
 }
 
 .rain1{
-    left: -120px;
+    left: 10vh;
     animation-delay: -.45s;
 }
 .rain2{
-    left: -100px;
+    left: 12vh;
     animation-delay: -.15s;
 }
 .rain3{
-    left: -80px;
+    left: 14vh;
     animation-delay: -.6s;
 }
 .rain4{
-    left: -60px;
+    left: 18vh;
     animation-delay: -.3s;
 }
 .rain5{
-    left: -40px;
+    left: 20vh;
+}
+.rain6{
+    left: 8vh;
 }
 
 @keyframes raindrop {
@@ -320,10 +324,14 @@ body {
 
 .slidecontainer {
     position: absolute;
-    left: 300px;
+    top:-10vh
 }
 
 .image__shown {
     display: block;
     opacity: 1;
+}
+
+.image__hidden {
+    opacity: 0;
 }
