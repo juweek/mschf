@@ -84,7 +84,7 @@ body {
         transform: translate(0px, -100px);
     }
     100%   {
-        transform: translate(200px, 0px);
+        transform: translate(220px, 0px);
     }
 }
 
@@ -144,7 +144,7 @@ body {
     position: absolute;
     left: 20px;
     width: 10vh;
-    animation: rotate 2.7s linear infinite, orbit 2.4s linear infinite alternate,
+    animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate,
     z_orbit 4.8s linear infinite;
     opacity: 0;
     display: none;
@@ -154,31 +154,32 @@ body {
     position: absolute;
     left: 20px;
     width: 15vh;
-    animation:  young_rotate .6s linear infinite alternate, orbit 2.4s linear infinite alternate, z_orbit 4.8s linear infinite;
+    animation:  young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4.8s linear infinite;
     opacity: 0;
     display: none;
     transition: opacity 1s ease-in-out;
-    animation-delay: -1.2s;
+    animation-delay: -1s;
 }
 .art__fixed {
     position: absolute;
     left: 20px;
     width: 15vh;
-    animation: rotate 2.7s linear infinite, orbit 2.4s linear infinite alternate,
+    animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate,
     z_orbit 4.8s linear infinite;
     opacity: 0;
     display: none;
     transition: opacity .5s ease-in-out;
+    animation-delay: -2s;
 }
 .laptop__fixed {
     position: absolute;
     left: 20px;
     width: 15vh;
-    animation:  young_rotate .6s linear infinite alternate, orbit 2.4s linear infinite alternate, z_orbit 4.8s linear infinite;
+    animation:  young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4.8s linear infinite;
     opacity: 0;
     display: none;
     transition: opacity 1s ease-in-out;
-    animation-delay: -1.2s;
+    animation-delay: -3s;
 }
 
 .workcloud__fixed {
@@ -330,6 +331,11 @@ body {
 .image__shown {
     display: block;
     opacity: 1;
+}
+
+.half__shown {
+    display: block;
+    opacity: .3;
 }
 
 .image__hidden {

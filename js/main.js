@@ -4,6 +4,7 @@ bindings();
 
 
 function init() {
+    this.onScroll();
 }
 
 function getSteps() {
@@ -72,14 +73,16 @@ function highlightStates(currentStep) {
         $('.scene__2').addClass('image__shown');
         $('.scene__3').removeClass('image__shown');
         $('.scene__1').removeClass('image__shown');
+        $('.ball__fixed, .notes__fixed').removeClass('half__shown');
         break
 
         case 1.5:
         $('.scene__0').addClass('image__shown');
-        $('.scene__3').addClass('image__shown');
-        $('.scene__2').removeClass('image__shown');
+        $('.ball__fixed, .notes__fixed').addClass('half__shown');
+        //$('.scene__2').removeClass('image__shown');
         $('.scene__4').removeClass('image__shown');
         $('.scene__5').removeClass('image__shown');
+        $('.scene__2').addClass('image__shown');
         break
 
         case 2:
@@ -104,6 +107,8 @@ function highlightStates(currentStep) {
         $('.scene__4').removeClass('image__shown');
         $('.scene__6').removeClass('image__shown');
         $('.scene__3').removeClass('image__shown');
+        $('.scene__2').removeClass('image__shown');
+        $('.scene__2').removeClass('half__shown');
         break
 
         case 5:
