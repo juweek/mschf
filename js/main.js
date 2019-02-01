@@ -29,6 +29,7 @@ function bindings() {
                 bruh = bruh - .4;
             },200);
         }.bind(this));
+        $('.waves__fixed').css('animation', 'move ' + num + 's linear infinite alternate');
     });
 }
 
@@ -70,16 +71,16 @@ function highlightStates(currentStep) {
         break
 
         case 1:
-        $('.scene__2').addClass('image__shown');
+        $('.scene__6').addClass('image__shown');
         $('.scene__3').removeClass('image__shown');
         $('.scene__1').removeClass('image__shown');
         $('.ball__fixed, .notes__fixed').removeClass('half__shown');
         break
 
         case 1.5:
-        $('.scene__0').addClass('image__shown');
+        $('.scene__0').removeClass('image__shown');
         $('.ball__fixed, .notes__fixed').addClass('half__shown');
-        //$('.scene__2').removeClass('image__shown');
+        $('.scene__6').removeClass('image__shown');
         $('.scene__4').removeClass('image__shown');
         $('.scene__5').removeClass('image__shown');
         $('.scene__2').addClass('image__shown');
@@ -115,6 +116,11 @@ function highlightStates(currentStep) {
         $('.scene__6').addClass('image__shown');
         $('.scene__7').removeClass('image__shown');
         $('.scene__5').removeClass('image__shown');
+        break
+
+        case 6:
+        $('.scene__8').addClass('image__shown');
+        $('.scene__6').removeClass('image__shown');
         break
 
         default:

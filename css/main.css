@@ -70,7 +70,7 @@ body {
 }
 
 .body__content-intro-image {
-    width: 240px;
+    width: 340px;
     margin-top: 100px;
 }
 
@@ -137,12 +137,14 @@ body {
     width: 30vh;
     transition: width 2s, opacity .4s ease-in-out;
     display: none;
+    left: -10vh;
 }
 
 .sun__fixed {
     position: absolute;
-    width: 10vh;
-    left: -10px;
+    width: 20vh;
+    left: 30vh;
+    top: -10vh;
     animation: rotate 5s linear infinite;
     transition: opacity .4s ease-in-out;
     display: none;
@@ -246,7 +248,7 @@ body {
 
 .rain_cloud__fixed{
     position: absolute;
-    width: 35vh;
+    width: 30vh;
     z-index: 2;
     opacity: 0;
     transition: opacity .8s ease-in-out;
@@ -258,6 +260,14 @@ body {
     top: 5vh;
     transition: opacity .8s ease-in-out;
     animation: raindrop 1.8s linear infinite;
+}
+
+.waves__fixed {
+    position: absolute;
+    top: 30vh;
+    width: 40vh;
+    left: -20vh;
+    animation: move 2s linear infinite alternate;
 }
 
 .cloud__fixed {
@@ -286,6 +296,7 @@ body {
 .city2 {
     animation: move 5.4s linear infinite alternate;
     margin-top: 20px;
+    top: 15vh;
 }
 
 .city__fixed{
@@ -294,6 +305,7 @@ body {
     transition-delay: .4s;
     transition: opacity 1s ease-in-out;
     width: 40vh;
+    left: 20vh;
 }
 
 .cloud1{
