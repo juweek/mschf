@@ -1,28 +1,24 @@
 @font-face {
-    font-family: 'Proza Libre';
-    src: url('../fonts/ProzaLibre-Regular.ttf');
-    font-weight: 400;
-}
-
+  font-family: 'Proza Libre';
+  src: url("../fonts/ProzaLibre-Regular.ttf");
+  font-weight: 400; }
 @font-face {
-    font-family: 'NHaasGrotesk';
-    src: url('../fonts/NHaasGroteskBd.ttf');
-    font-weight: bold;
-}
-
+  font-family: 'NHaasGrotesk';
+  src: url("../fonts/NHaasGroteskBd.ttf");
+  font-weight: bold; }
 html {
-    box-sizing: border-box;
-}
+  box-sizing: border-box; }
 
 body {
-    max-width: 640px;
-    margin: 0 auto;
-    background-color: #F1F0EC;
-    color: #333;
-    font-family: 'NHaasGrotesk';
-}
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: #F1F0EC;
+  color: #333;
+  font-family: 'NHaasGrotesk'; }
 
-.body__text-container p {
+.body__text-container {
+  margin-top: 00px; }
+  .body__text-container p {
     font-size: 1.3em;
     line-height: 1.5em;
     font-family: 'Proza Libre', Arial, sans-serif;
@@ -31,390 +27,322 @@ body {
     position: relative;
     margin-top: 65vh;
     font-weight: 400;
-    background-color: #F1F0EC;
-}
-
-.body__text-container {
-    margin-top: 00px;
-}
+    background-color: #F1F0EC; }
 
 .body__image {
-    max-width: 30%;
-    position: fixed;
-    min-height: 30%;
-    margin-left: calc(40% - (640px / 2));
-    top: 25vh;
-}
+  max-width: 30%;
+  position: fixed;
+  min-height: 30%;
+  margin-left: calc(40% - (640px / 2));
+  top: 25vh; }
 
 @media screen and (max-width: 620px) {
-    .body__image  {
-        margin-left: 40px;
-    }
-}
-
+  .body__image {
+    margin-left: 40px; } }
 .body__content {
-    display: flex;
-    flex-direction: row;
-}
+  display: flex;
+  flex-direction: row; }
 
 .body__content-intro {
-    text-align: center;
-}
-
-.body__content-intro h1 {
+  text-align: center; }
+  .body__content-intro h1 {
     font-size: 54px;
     text-decoration: underline;
     z-index: 10;
     position: relative;
-    background-color: #F1F0EC;
-}
+    background-color: #F1F0EC; }
 
 .body__content-intro-image {
-    width: 340px;
-    margin-top: 100px;
-}
+  width: 340px;
+  margin-top: 100px; }
 
 @keyframes hide {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}
-
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
 @keyframes orbit {
-    0% {
-        transform: translate(0px, -100px);
-    }
-    100%   {
-        transform: translate(220px, 0px);
-    }
-}
-
+  0% {
+    transform: translate(0px, -100px); }
+  100% {
+    transform: translate(220px, 0px); } }
 @keyframes z_orbit {
-    0% {
-        z-index: 2;
-    }
-    40% {
-        z-index: 2;
-    }
-    50% {
-        z-index: -3;
-    }
-    60% {
-        z-index: -3;
-    }
-    90% {
-        z-index: -3;
-    }
-    100% {
-        z-index: 2;
-    }
-}
-
+  0% {
+    z-index: 2; }
+  40% {
+    z-index: 2; }
+  50% {
+    z-index: -3; }
+  60% {
+    z-index: -3; }
+  90% {
+    z-index: -3; }
+  100% {
+    z-index: 2; } }
 @keyframes rotate {
-    from {
-        transform: rotate(0deg);
-    }
-
-    to   {
-        transform: rotate(360deg);
-    }
-}
-
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
 @keyframes young_rotate {
-    from { transform: rotate(-10deg); }
-    to   { transform: rotate(10deg); }
-}
-
+  from {
+    transform: rotate(-10deg); }
+  to {
+    transform: rotate(10deg); } }
 @keyframes quick_rotate {
-    0% { transform: rotate(0deg); }
-    5%   { transform: rotate(10deg); }
-    10%   { transform: rotate(-10deg); }
-    15%   { transform: rotate(0deg); }
-    100%   { transform: rotate(0deg); }
-}
-
+  0% {
+    transform: rotate(0deg); }
+  5% {
+    transform: rotate(10deg); }
+  10% {
+    transform: rotate(-10deg); }
+  15% {
+    transform: rotate(0deg); }
+  100% {
+    transform: rotate(0deg); } }
 .image__fixed {
-    position: absolute;
-    width: 30vh;
-    transition: width 2s, opacity .4s ease-in-out;
-    display: none;
-    left: -10vh;
-}
+  position: absolute;
+  width: 30vh;
+  transition: width 2s, opacity .4s ease-in-out;
+  display: none;
+  left: -10vh; }
 
 .sun__fixed {
-    position: absolute;
-    width: 20vh;
-    left: 30vh;
-    top: -10vh;
-    animation: rotate 5s linear infinite;
-    transition: opacity .4s ease-in-out;
-    display: none;
-}
+  position: absolute;
+  width: 20vh;
+  left: 30vh;
+  top: -10vh;
+  animation: rotate 5s linear infinite;
+  transition: opacity .4s ease-in-out;
+  display: none; }
 
 .ball__fixed {
-    position: absolute;
-    left: 20px;
-    width: 10vh;
-    animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate,
-    z_orbit 4.8s linear infinite;
-    opacity: 0;
-    display: none;
-    transition: opacity .3s ease-in-out;
-}
+  position: absolute;
+  left: 20px;
+  width: 10vh;
+  animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4.8s linear infinite;
+  opacity: 0;
+  display: none;
+  transition: opacity .3s ease-in-out; }
+
 .notes__fixed {
-    position: absolute;
-    left: 20px;
-    width: 15vh;
-    animation:  young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4.8s linear infinite;
-    opacity: 0;
-    display: none;
-    transition: opacity .3s ease-in-out;
-    animation-delay: -1s;
-}
+  position: absolute;
+  left: 20px;
+  width: 15vh;
+  animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4.8s linear infinite;
+  opacity: 0;
+  display: none;
+  transition: opacity .3s ease-in-out;
+  animation-delay: -1s; }
+
 .art__fixed {
-    position: absolute;
-    left: 20px;
-    width: 15vh;
-    animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate,
-    z_orbit 4.8s linear infinite;
-    opacity: 0;
-    display: none;
-    transition: opacity .5s ease-in-out;
-    animation-delay: -2s;
-}
+  position: absolute;
+  left: 20px;
+  width: 15vh;
+  animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4.8s linear infinite;
+  opacity: 0;
+  display: none;
+  transition: opacity .5s ease-in-out;
+  animation-delay: -2s; }
+
 .laptop__fixed {
-    position: absolute;
-    left: 20px;
-    width: 15vh;
-    animation:  young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4.8s linear infinite;
-    opacity: 0;
-    display: none;
-    transition: opacity 1s ease-in-out;
-    animation-delay: -3s;
-}
+  position: absolute;
+  left: 20px;
+  width: 15vh;
+  animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4.8s linear infinite;
+  opacity: 0;
+  display: none;
+  transition: opacity 1s ease-in-out;
+  animation-delay: -3s; }
 
 .workcloud__fixed {
-    position: absolute;
-    width: 22vw;
-    opacity: 0;
-    display: none;
-    transition: opacity .3s ease-in-out;
-}
+  position: absolute;
+  width: 22vw;
+  opacity: 0;
+  display: none;
+  transition: opacity .3s ease-in-out; }
 
 .phone_1 {
-    animation: quick_rotate 3s linear infinite;
-    left: -200px;
-}
+  animation: quick_rotate 3s linear infinite;
+  left: -200px; }
+
 .phone_2 {
-    left: 00px;
-    animation: quick_rotate 3s linear infinite;
-    animation-delay: -2s;
-}
+  left: 00px;
+  animation: quick_rotate 3s linear infinite;
+  animation-delay: -2s; }
+
 .phone_3 {
-    left: 200px;
-    animation: quick_rotate 3s linear infinite;
-    animation-delay: -1s;
-}
+  left: 200px;
+  animation: quick_rotate 3s linear infinite;
+  animation-delay: -1s; }
 
 .workcloud__fixed svg {
-    position: absolute;
-}
+  position: absolute; }
 
 .workcloud__img {
-    position: absolute;
-    width: 80%;
-    display: block;
-    margin:40px;
-    margin-top: 65px;
-    transition: opacity .6s ease-in-out;
-    opacity: 0;
-}
+  position: absolute;
+  width: 80%;
+  display: block;
+  margin: 40px;
+  margin-top: 65px;
+  transition: opacity .6s ease-in-out;
+  opacity: 0; }
 
 .young__fixed {
-    position: absolute;
-    width: 250px;
-    display: none;
-    transition: opacity .8s ease-in-out;
-}
+  position: absolute;
+  width: 250px;
+  display: none;
+  transition: opacity .8s ease-in-out; }
 
-.tools__fixed{
-    position: absolute;
-    width: 45vh;
-    opacity: 0;
-    left: -10vh;
-    display: none;
-    transition: opacity .8s ease-in-out;
-    animation:  young_rotate 2s linear infinite alternate;
-}
+.tools__fixed {
+  position: absolute;
+  width: 45vh;
+  opacity: 0;
+  left: -10vh;
+  display: none;
+  transition: opacity .8s ease-in-out;
+  animation: young_rotate 2s linear infinite alternate; }
 
-.rain_cloud__fixed{
-    position: absolute;
-    width: 30vh;
-    z-index: 2;
-    opacity: 0;
-    transition: opacity .8s ease-in-out;
-}
+.rain_cloud__fixed {
+  position: absolute;
+  width: 30vh;
+  z-index: 2;
+  opacity: 0;
+  transition: opacity .8s ease-in-out; }
 
-.raindrop__fixed{
-    position: absolute;
-    width: 2vh;
-    top: 5vh;
-    transition: opacity .8s ease-in-out;
-    animation: raindrop 1.8s linear infinite;
-}
+.raindrop__fixed {
+  position: absolute;
+  width: 2vh;
+  top: 5vh;
+  transition: opacity .8s ease-in-out;
+  animation: raindrop 1.8s linear infinite; }
 
 .waves__fixed {
-    position: absolute;
-    top: 30vh;
-    width: 40vh;
-    left: -20vh;
-    animation: move 2s linear infinite alternate;
-}
+  position: absolute;
+  top: 30vh;
+  width: 40vh;
+  left: -20vh;
+  animation: move 2s linear infinite alternate; }
 
 .cloud__fixed {
-    position: absolute;
-    top: 0px;
-    width: 150px;
-    opacity: 0;
-    animation: rotate 20s linear infinite;
-}
+  position: absolute;
+  top: 0px;
+  width: 150px;
+  opacity: 0;
+  animation: rotate 20s linear infinite; }
 
-.cloud1{
-    animation-delay: -.45s;
-}
+.cloud1 {
+  animation-delay: -.45s; }
 
 @keyframes move {
-    from { transform: translateX(0px); }
-    to   { transform: translateX(200px); }
-}
-
+  from {
+    transform: translateX(0px); }
+  to {
+    transform: translateX(200px); } }
 .city1 {
-    animation-delay: -.7s;
-    animation: move 3.9s linear infinite alternate;
-    width: 450px;
-}
+  animation-delay: -.7s;
+  animation: move 3.9s linear infinite alternate;
+  width: 450px; }
 
 .city2 {
-    animation: move 5.4s linear infinite alternate;
-    margin-top: 20px;
-    top: 15vh;
-}
+  animation: move 5.4s linear infinite alternate;
+  margin-top: 20px;
+  top: 15vh; }
 
-.city__fixed{
-    position: absolute;
-    opacity: 0;
-    transition-delay: .4s;
-    transition: opacity 1s ease-in-out;
-    width: 40vh;
-    left: 20vh;
-}
+.city__fixed {
+  position: absolute;
+  opacity: 0;
+  transition-delay: .4s;
+  transition: opacity 1s ease-in-out;
+  width: 40vh;
+  left: 20vh; }
 
-.cloud1{
-    animation-delay: -.45s;
-}
+.cloud1 {
+  animation-delay: -.45s; }
 
-.rain1{
-    left: 10vh;
-    animation-delay: -.45s;
-}
-.rain2{
-    left: 12vh;
-    animation-delay: -.15s;
-}
-.rain3{
-    left: 14vh;
-    animation-delay: -.6s;
-}
-.rain4{
-    left: 18vh;
-    animation-delay: -.3s;
-}
-.rain5{
-    left: 20vh;
-}
-.rain6{
-    left: 8vh;
-}
+.rain1 {
+  left: 10vh;
+  animation-delay: -.45s; }
+
+.rain2 {
+  left: 12vh;
+  animation-delay: -.15s; }
+
+.rain3 {
+  left: 14vh;
+  animation-delay: -.6s; }
+
+.rain4 {
+  left: 18vh;
+  animation-delay: -.3s; }
+
+.rain5 {
+  left: 20vh; }
+
+.rain6 {
+  left: 8vh; }
 
 @keyframes raindrop {
-    from {
-        transform: translate(40px, 60px);
-    }
-
-    to   {
-        transform: translate(-40px, 200px);
-    }
-}
-
+  from {
+    transform: translate(40px, 60px); }
+  to {
+    transform: translate(-40px, 200px); } }
 @keyframes slideout {
-    from {
-        stroke-dasharray: 12px;
-        stroke-dashoffset: 0px;
-    }
-
-    to {
-        stroke-dasharray: 12px;
-        stroke-dashoffset: 24px;
-    }
-}
-
+  from {
+    stroke-dasharray: 12px;
+    stroke-dashoffset: 0px; }
+  to {
+    stroke-dasharray: 12px;
+    stroke-dashoffset: 24px; } }
 .slidecontainer {
-    position: absolute;
-    top:-10vh
-}
+  position: absolute;
+  top: -10vh; }
 
 input[type=range] {
-  -webkit-appearance: none; /* Hides the slider so that custom slider can be made */
-  width: 200%; /* Specific width is required for Firefox. */
-  background: transparent; /* Otherwise white in Chrome */
-}
-
-input[type=range]::-webkit-slider-thumb {
   -webkit-appearance: none;
-}
-
-input[type=range]:focus {
-  outline: none; /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
-}
-
-input[type=range]::-ms-track {
-  width: 100%;
-  cursor: pointer;
-
-  /* Hides the slider so custom styles can be added */
+  /* Hides the slider so that custom slider can be made */
+  width: 200%;
+  /* Specific width is required for Firefox. */
   background: transparent;
-  border-color: transparent;
-  color: transparent;
-}
-
-input[type=range]::-webkit-slider-thumb {
-  -webkit-appearance: none;
-  border: 1px solid #333333;
-  height: 36px;
-  width: 16px;
-  border-radius: 3px;
-  background: #F1F0EC;
-  cursor: pointer;
-  margin-top: -14px; /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
-}
-
-input[type=range]::-webkit-slider-runnable-track {
-  width: 100%;
-  height: 12px;
-  cursor: pointer;
-  background: #F1F0EC;
-  border: 1px solid #333333;
-}
+  /* Otherwise white in Chrome */ }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; }
+  input[type=range]:focus {
+    outline: none;
+    /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */ }
+  input[type=range]::-ms-track {
+    width: 100%;
+    cursor: pointer;
+    /* Hides the slider so custom styles can be added */
+    background: transparent;
+    border-color: transparent;
+    color: transparent; }
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #333333;
+    height: 36px;
+    width: 16px;
+    border-radius: 3px;
+    background: #F1F0EC;
+    cursor: pointer;
+    margin-top: -14px;
+    /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */ }
+  input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 12px;
+    cursor: pointer;
+    background: #F1F0EC;
+    border: 1px solid #333333; }
 
 .image__shown {
-    display: block;
-    opacity: 1;
-}
+  display: block;
+  opacity: 1; }
 
 .half__shown {
-    display: block;
-    opacity: .3;
-}
+  display: block;
+  opacity: .3; }
 
 .image__hidden {
-    opacity: 0;
-}
+  opacity: 0; }
+
+/*# sourceMappingURL=main.css.map */
