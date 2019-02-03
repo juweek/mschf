@@ -115,11 +115,11 @@ body {
 }
 
 .body__content-intro-image {
-    max-width: 40vh;
+    max-width: 60vh;
     margin-top: 100px;
 
     @media screen and (min-width: $tablet) {
-        max-width: 60vh;
+        //max-width: 60vh;
         margin: 0 auto;
     }
 }
@@ -197,22 +197,47 @@ body {
 
 @keyframes quick_rotate {
     0% {
+        background-image: url('../img/hand_1.png');
         transform: rotate(0deg);
     }
 
-    5% {
+    4% {
         transform: rotate(10deg);
     }
 
-    10% {
+    6% {
         transform: rotate(-10deg);
     }
 
-    15% {
+    8% {
+        background-image: url('../img/hand_1.png');
+    }
+    9% {
+        background-image: url('../img/hand_2.png');
         transform: rotate(0deg);
     }
+    50% {
+        background-image: url('../img/hand_2.png');
+        transform: rotate(0deg);
+    }
+    54% {
+        transform: rotate(10deg);
+    }
 
+    56% {
+        transform: rotate(-10deg);
+    }
+
+    58% {
+        background-image: url('../img/hand_2.png');
+        transform: rotate(0deg);
+    }
+    59% {
+        background-image: url('../img/hand_1.png');
+        transform: rotate(0deg);
+    }
     100% {
+        background-image: url('../img/hand_1.png');
         transform: rotate(0deg);
     }
 }
@@ -222,6 +247,7 @@ body {
     width: 30vh;
     transition: width 2s, opacity .4s ease-in-out;
     display: none;
+    left: 10vh;
 }
 
 @media screen and (min-width: $mobile) {
@@ -232,14 +258,14 @@ body {
 
 @media screen and (min-width: $tablet) {
     .image__fixed {
-        width: 30vh;
+        width: 25vh;
     }
 }
 
 .sun__fixed {
     position: absolute;
-    width: 20vh;
-    left: 30vh;
+    width: 12vh;
+    left: 40vh;
     top: -10vh;
     animation: rotate 5s linear infinite;
     transition: opacity .4s ease-in-out;
@@ -249,7 +275,7 @@ body {
 .ball__fixed {
     position: absolute;
     left: 20px;
-    width: 10vh;
+    width: 15vh;
     animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4.8s linear infinite;
     opacity: 0;
     display: none;
@@ -296,21 +322,29 @@ body {
     width: 22vw;
     opacity: 0;
     display: none;
-    transition: opacity .3s ease-in-out;
+    transition: opacity .1s ease-in-out;
 }
 
 @media screen and (min-width: $mobile) {
     .phone_1 {
         position: absolute;
-        animation: quick_rotate 3s linear infinite;
+        animation: quick_rotate 6s linear infinite;
         left: 000px;
+        width: 30vw;
+        background-image: url('../img/hand_1.png');
+        height: 0;
+        padding-top: 190%;
+        background-size: 30vw;
     }
 }
 
 @media screen and (min-width: $tablet) {
     .phone_1 {
-        animation: quick_rotate 3s linear infinite;
+        animation: quick_rotate 6s linear infinite;
         left: 000px;
+        width: 35vh;
+        padding-top: 120%;
+        background-size: 35vh;
     }
 }
 
@@ -318,16 +352,24 @@ body {
     .phone_2 {
         position: absolute;
         left: 100px;
-        animation: quick_rotate 3s linear infinite;
+        animation: quick_rotate 6s linear infinite;
         animation-delay: -2s;
+        width: 30vw;
+        background-image: url('../img/hand_1.png');
+        height: 0;
+        padding-top: 190%;
+        background-size: 30vw;
     }
 }
 
 @media screen and (min-width: $tablet) {
     .phone_2 {
         left: 200px;
-        animation: quick_rotate 3s linear infinite;
+        animation: quick_rotate 6s linear infinite;
         animation-delay: -2s;
+        width: 35vh;
+        padding-top: 120%;
+        background-size: 35vh;
     }
 }
 
@@ -335,16 +377,24 @@ body {
     .phone_3 {
         position: absolute;
         left: 200px;
-        animation: quick_rotate 3s linear infinite;
+        animation: quick_rotate 6s linear infinite;
         animation-delay: -1s;
+        width: 30vw;
+        background-image: url('../img/hand_1.png');
+        height: 0;
+        padding-top: 190%;
+        background-size: 35vw;
     }
 }
 
 @media screen and (min-width: $tablet) {
     .phone_3 {
+        width: 35vh;
         left: 400px;
-        animation: quick_rotate 3s linear infinite;
+        animation: quick_rotate 6s linear infinite;
         animation-delay: -1s;
+        padding-top: 120%;
+        background-size: 35vh;
     }
 }
 
@@ -413,11 +463,11 @@ body {
 
 @keyframes move {
     from {
-        transform: translateX(0px);
+        transform: translateX(10vh);
     }
 
     to {
-        transform: translateX(200px);
+        transform: translateX(30vh);
     }
 }
 
@@ -431,7 +481,7 @@ body {
 }
 
 .city2 {
-    animation: move 5.4s linear infinite alternate;
+    animation: move 3.1s linear infinite alternate;
     margin-top: 20px;
     max-width: 100%;
 }
@@ -440,7 +490,7 @@ body {
     position: absolute;
     opacity: 0;
     transition-delay: .4s;
-    transition: opacity 1s ease-in-out;
+    transition: opacity .7s ease-in-out;
 }
 
 @media screen and (min-width: $mobile) {
