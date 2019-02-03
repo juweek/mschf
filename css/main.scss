@@ -276,7 +276,8 @@ body {
     position: absolute;
     left: 20px;
     width: 15vh;
-    animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4.8s linear infinite;
+    animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    -webkit-animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear;
     opacity: 0;
     display: none;
     transition: opacity .3s ease-in-out;
@@ -286,7 +287,8 @@ body {
     position: absolute;
     left: 20px;
     width: 15vh;
-    animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4.8s linear infinite;
+    animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    -webkit-animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
     opacity: 0;
     display: none;
     transition: opacity .3s ease-in-out;
@@ -297,7 +299,8 @@ body {
     position: absolute;
     left: 20px;
     width: 15vh;
-    animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4.8s linear infinite;
+    animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    -webkit-animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
     opacity: 0;
     display: none;
     transition: opacity .5s ease-in-out;
@@ -308,7 +311,8 @@ body {
     position: absolute;
     left: 20px;
     width: 15vh;
-    animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4.8s linear infinite;
+    animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    -webkit-animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
     opacity: 0;
     display: none;
     transition: opacity 1s ease-in-out;
@@ -425,12 +429,35 @@ body {
     animation: young_rotate 2s linear infinite alternate;
 }
 
-.rain_cloud__fixed {
-    position: absolute;
-    width: 30vh;
-    z-index: 2;
-    opacity: 0;
-    transition: opacity .8s ease-in-out;
+@media screen and (min-width: $mobile) {
+    .rain_cloud__fixed {
+        position: absolute;
+        width: 30vh;
+        z-index: 2;
+        opacity: 0;
+        transition: opacity .8s ease-in-out;
+        left: 0vh;
+
+        .cloud {
+            display: block;
+            width: 100%;
+            position: absolute;
+            left: 8vh
+        }
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .rain_cloud__fixed {
+        width: 30vh;
+        left: 20vh;
+        position: relative;
+    }
+
+    .cloud {
+        position: absolute;
+        left: 10vh
+    }
 }
 
 .raindrop__fixed {
@@ -445,6 +472,11 @@ body {
     position: absolute;
     top: 30vh;
     width: 40vh;
+    left: -30vh;
+    animation: move 2s linear infinite alternate;
+}
+
+.waves2 {
     left: 0vh;
     animation: move 2s linear infinite alternate;
 }
@@ -564,10 +596,18 @@ body {
     }
 }
 
+@media screen and (min-width: $mobile) {
+    .slidecontainer {
+        position: absolute;
+        top: -10vh;
+        left: 5vh;
+    }
+}
 
-.slidecontainer {
-    position: absolute;
-    top: -10vh;
+@media screen and (min-width: $tablet) {
+    .slidecontainer {
+        top: -10vh;
+    }
 }
 
 input[type=range] {
