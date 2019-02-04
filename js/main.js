@@ -85,6 +85,7 @@ function highlightStates(currentStep) {
         $('.scene__4').removeClass('image__shown');
         $('.scene__5').removeClass('image__shown');
         $('.scene__2').addClass('image__shown');
+        $('.scene__9').removeClass('image__shown');
         break
 
         case 2:
@@ -110,12 +111,16 @@ function highlightStates(currentStep) {
         $('.scene__6').removeClass('image__shown');
         $('.scene__3').removeClass('image__shown');
         $('.scene__2').removeClass('image__shown');
+        $('.scene__9').removeClass('image__shown');
         break
 
         case 5:
-        $('.scene__6').addClass('image__shown');
+        $('.scene__5').removeClass('image__shown');
+        $('.scene__2').removeClass('image__shown');
+        $('.scene__9').addClass('image__shown');
         $('.scene__7').removeClass('image__shown');
         $('.scene__5').removeClass('image__shown');
+
         break
 
         case 6:

@@ -274,6 +274,55 @@ body {
     animation-delay: -1s;
     padding-top: 120%;
     background-size: 35vh; } }
+@media screen and (min-width: 320px) {
+  .phone_4 {
+    position: absolute;
+    left: 000px;
+    width: 30vw;
+    background-image: url("../img/hand_6.png");
+    height: 0;
+    padding-top: 190%;
+    background-size: 30vw; } }
+@media screen and (min-width: 740px) {
+  .phone_4 {
+    left: 000px;
+    width: 35vh;
+    padding-top: 120%;
+    background-size: 35vh; } }
+@media screen and (min-width: 320px) {
+  .phone_5 {
+    position: absolute;
+    left: 100px;
+    animation-delay: -2s;
+    width: 30vw;
+    background-image: url("../img/hand_6.png");
+    height: 0;
+    padding-top: 190%;
+    background-size: 30vw; } }
+@media screen and (min-width: 740px) {
+  .phone_5 {
+    left: 200px;
+    animation-delay: -2s;
+    width: 35vh;
+    padding-top: 120%;
+    background-size: 35vh; } }
+@media screen and (min-width: 320px) {
+  .phone_6 {
+    position: absolute;
+    left: 200px;
+    animation-delay: -1s;
+    width: 30vw;
+    background-image: url("../img/hand_6.png");
+    height: 0;
+    padding-top: 190%;
+    background-size: 30vw; } }
+@media screen and (min-width: 740px) {
+  .phone_6 {
+    width: 35vh;
+    left: 400px;
+    animation-delay: -1s;
+    padding-top: 120%;
+    background-size: 35vh; } }
 .workcloud__img {
   position: absolute;
   width: 80%;
