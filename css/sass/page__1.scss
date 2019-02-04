@@ -1,0 +1,21 @@
+@import 'vars';
+
+.image__fixed {
+    position: absolute;
+    width: 30vh;
+    transition: width 2s, opacity .4s ease-in-out;
+    display: none;
+    left: 10vh;
+}
+
+@media screen and (min-width: $mobile) {
+    .image__fixed {
+        width: 20vh;
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .image__fixed {
+        width: 25vh;
+    }
+}

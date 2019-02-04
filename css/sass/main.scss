@@ -1,0 +1,185 @@
+$mobile: 320px;
+$tablet: 740px;
+$desktop: 980px;
+$wide: 1300px;
+
+@font-face {
+    font-family: 'Proza Libre';
+    src: url('../fonts/ProzaLibre-Regular.ttf');
+    font-weight: 400;
+}
+
+
+@font-face {
+    font-family: 'NHaasGrotesk';
+    src: url('../fonts/NHaasGroteskBd.ttf');
+    font-weight: bold;
+}
+
+
+/* ----------------- */
+
+@keyframes hide {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+@keyframes orbit {
+    0% {
+        transform: translate(0px, -100px);
+    }
+
+    100% {
+        transform: translate(220px, 0px);
+    }
+}
+
+
+@keyframes z_orbit {
+    0% {
+        z-index: 2;
+    }
+
+    40% {
+        z-index: 2;
+    }
+
+    50% {
+        z-index: -3;
+    }
+
+    60% {
+        z-index: -3;
+    }
+
+    90% {
+        z-index: -3;
+    }
+
+    100% {
+        z-index: 2;
+    }
+}
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+
+@keyframes young_rotate {
+    from {
+        transform: rotate(-10deg);
+    }
+
+    to {
+        transform: rotate(10deg);
+    }
+}
+
+
+@keyframes quick_rotate {
+    0% {
+        background-image: url('../img/hand_1.png');
+        transform: rotate(0deg);
+    }
+
+    4% {
+        transform: rotate(10deg);
+    }
+
+    6% {
+        transform: rotate(-10deg);
+    }
+
+    8% {
+        background-image: url('../img/hand_1.png');
+    }
+    9% {
+        background-image: url('../img/hand_2.png');
+        transform: rotate(0deg);
+    }
+    50% {
+        background-image: url('../img/hand_2.png');
+        transform: rotate(0deg);
+    }
+    54% {
+        transform: rotate(10deg);
+    }
+
+    56% {
+        transform: rotate(-10deg);
+    }
+
+    58% {
+        background-image: url('../img/hand_2.png');
+        transform: rotate(0deg);
+    }
+    59% {
+        background-image: url('../img/hand_1.png');
+        transform: rotate(0deg);
+    }
+    100% {
+        background-image: url('../img/hand_1.png');
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes move {
+    from {
+        transform: translateX(10vh);
+    }
+
+    to {
+        transform: translateX(20vh);
+    }
+}
+
+@keyframes raindrop {
+    from {
+        transform: translate(40px, 60px);
+    }
+
+    to {
+        transform: translate(-40px, 200px);
+    }
+}
+
+
+@keyframes slideout {
+    from {
+        stroke-dasharray: 12px;
+        stroke-dashoffset: 0px;
+    }
+
+    to {
+        stroke-dasharray: 12px;
+        stroke-dashoffset: 24px;
+    }
+}
+
+.image__shown {
+    display: block;
+    opacity: 1;
+}
+
+.half__shown {
+    display: block;
+    opacity: .3;
+}
+
+.image__hidden {
+    opacity: 0;
+}

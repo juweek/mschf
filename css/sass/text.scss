@@ -1,0 +1,65 @@
+@import 'vars';
+
+.comic__main--text--intro {
+    text-align: center;
+    z-index: 10;
+    position: relative;
+    background-color: #F1F0EC;
+
+    @media screen and (min-width: $mobile) {
+        h1 {
+            font-size: 24px;
+            line-height: 32px;
+            margin: 0 auto;
+        }
+    }
+
+    @media screen and (min-width: $tablet) {
+        h1 {
+            font-size: 44px;
+            line-height: 48px;
+            margin: 0 auto;
+        }
+    }
+
+    @media screen and (min-width: $desktop) {
+        h1 {
+            font-size: 54px;
+            line-height: 60px;
+            margin: 0 auto;
+        }
+    }
+}
+
+.comic__main--text {
+    margin: 0 auto;
+    margin-top: 00px;
+
+    @media screen and (min-width: $tablet) {
+        p {
+            font-size: 28px;
+            line-height: 32px;
+            margin: 0 auto;
+        }
+    }
+
+    @media screen and (min-width: $desktop) {
+        p {
+            font-size: 20px;
+            line-height: 30px;
+            max-width: 50vw;
+            margin: 0 auto;
+        }
+    }
+
+    p {
+        font-family: 'Proza Libre', Arial, sans-serif;
+        text-align: left;
+        z-index: 100;
+        position: relative;
+        margin: 0 auto;
+        margin-top: 65vh;
+        font-weight: 400;
+        background-color: #F1F0EC;
+    }
+}

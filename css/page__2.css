@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'Proza Libre';
+  src: url("../fonts/ProzaLibre-Regular.ttf");
+  font-weight: 400; }
+@font-face {
+  font-family: 'NHaasGrotesk';
+  src: url("../fonts/NHaasGroteskBd.ttf");
+  font-weight: bold; }
+.ball__fixed {
+  position: absolute;
+  left: 20px;
+  width: 15vh;
+  animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+  -webkit-animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear;
+  opacity: 0;
+  display: none;
+  transition: opacity .3s ease-in-out; }
+
+.notes__fixed {
+  position: absolute;
+  left: 20px;
+  width: 15vh;
+  animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+  -webkit-animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+  opacity: 0;
+  display: none;
+  transition: opacity .3s ease-in-out;
+  animation-delay: -1s; }
+
+.art__fixed {
+  position: absolute;
+  left: 20px;
+  width: 15vh;
+  animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+  -webkit-animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+  opacity: 0;
+  display: none;
+  transition: opacity .5s ease-in-out;
+  animation-delay: -2s; }
+
+.laptop__fixed {
+  position: absolute;
+  left: 20px;
+  width: 15vh;
+  animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+  -webkit-animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+  opacity: 0;
+  display: none;
+  transition: opacity 1s ease-in-out;
+  animation-delay: -3s; }
+
+/*# sourceMappingURL=page__2.css.map */

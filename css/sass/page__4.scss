@@ -1,0 +1,11 @@
+@import 'vars';
+
+.tools__fixed {
+    position: absolute;
+    width: 45vh;
+    opacity: 0;
+    left: -10vh;
+    display: none;
+    transition: opacity .8s ease-in-out;
+    animation: young_rotate 2s linear infinite alternate;
+}

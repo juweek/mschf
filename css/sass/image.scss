@@ -1,0 +1,26 @@
+@import 'vars';
+
+.comic__main--image {
+    max-width: 30%;
+    position: fixed;
+    min-height: 30%;
+    margin-left: calc(40% - (640px / 2));
+    top: 25vh;
+}
+
+@media screen and (max-width: 620px) {
+    .comic__main--image {
+        margin-left: 0px;
+    }
+}
+
+
+.comic__main--text--intro img {
+    max-width: 60vh;
+    margin-top: 100px;
+
+    @media screen and (min-width: $tablet) {
+        //max-width: 60vh;
+        margin: 0 auto;
+    }
+}

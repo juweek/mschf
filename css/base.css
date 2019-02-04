@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box; }
+
+body {
+  margin: 0 auto;
+  background-color: #F1F0EC;
+  color: #333;
+  font-family: 'NHaasGrotesk'; }
+
+.comic__main {
+  display: flex;
+  flex-direction: row;
+  max-width: 80vw;
+  margin: 0 auto; }
+
+/*# sourceMappingURL=base.css.map */

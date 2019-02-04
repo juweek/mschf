@@ -1,0 +1,145 @@
+@import 'vars';
+
+@media screen and (min-width: $mobile) {
+    .rain_cloud__fixed {
+        position: absolute;
+        width: 30vh;
+        z-index: 2;
+        opacity: 0;
+        transition: opacity .8s ease-in-out;
+        left: 0vh;
+
+        .cloud {
+            display: block;
+            width: 100%;
+            position: absolute;
+            left: 8vh
+        }
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .rain_cloud__fixed {
+        width: 30vh;
+        left: 20vh;
+        position: relative;
+    }
+
+    .cloud {
+        position: absolute;
+        left: 10vh
+    }
+}
+
+.raindrop__fixed {
+    position: absolute;
+    width: 2vh;
+    top: 5vh;
+    transition: opacity .8s ease-in-out;
+    animation: raindrop 1.8s linear infinite;
+}
+
+.waves__fixed {
+    position: absolute;
+    top: 30vh;
+    width: 40vh;
+    left: -30vh;
+    animation: move 2s linear infinite alternate;
+}
+
+.waves2 {
+    left: 0vh;
+    animation: move 2s linear infinite alternate;
+}
+
+.cloud__fixed {
+    position: absolute;
+    top: 0px;
+    width: 150px;
+    opacity: 0;
+    animation: rotate 20s linear infinite;
+}
+
+.rain1 {
+    left: 10vh;
+    animation-delay: -.45s;
+}
+
+.rain2 {
+    left: 12vh;
+    animation-delay: -.15s;
+}
+
+.rain3 {
+    left: 14vh;
+    animation-delay: -.6s;
+}
+
+.rain4 {
+    left: 18vh;
+    animation-delay: -.3s;
+}
+
+.rain5 {
+    left: 20vh;
+}
+
+.rain6 {
+    left: 8vh;
+}
+
+@media screen and (min-width: $mobile) {
+    .slidecontainer {
+        position: absolute;
+        top: -10vh;
+        left: 5vh;
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .slidecontainer {
+        top: -10vh;
+    }
+}
+
+input[type=range] {
+    -webkit-appearance: none;
+    /* Hides the slider so that custom slider can be made */
+    width: 200%;
+    /* Specific width is required for Firefox. */
+    background: transparent;
+    /* Otherwise white in Chrome */
+    &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+    }
+    &:focus {
+        outline: none;
+        /* Removes the blue border. You should probably do some kind of focus styling for accessibility reasons though. */
+    }
+    &::-ms-track {
+        width: 100%;
+        cursor: pointer;
+        /* Hides the slider so custom styles can be added */
+        background: transparent;
+        border-color: transparent;
+        color: transparent;
+    }
+    &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        border: 1px solid #333333;
+        height: 36px;
+        width: 16px;
+        border-radius: 3px;
+        background: #F1F0EC;
+        cursor: pointer;
+        margin-top: -14px;
+        /* You need to specify a margin in Chrome, but in Firefox and IE it is automatic */
+    }
+    &::-webkit-slider-runnable-track {
+        width: 100%;
+        height: 12px;
+        cursor: pointer;
+        background: #F1F0EC;
+        border: 1px solid #333333;
+    }
+}

@@ -8,7 +8,7 @@ function init() {
 }
 
 function getSteps() {
-    $('.body__text-step').each(function(i, el) {
+    $('.comic__main--text--step').each(function(i, el) {
         steps.push($(el).attr('data-step'));
     }.bind(this));
 
@@ -44,7 +44,7 @@ function updateValues() {
 }
 
 function fixMap() {
-    if (windowTop > $('.body__text-start').offset().top - this.percentageOfHeight(5)) {
+    if (windowTop > $('.comic__main--text--start').offset().top - this.percentageOfHeight(5)) {
         $('.intro2').css('display', 'block');
     } else {
         $('.intro2').css('display', 'none');
@@ -53,7 +53,7 @@ function fixMap() {
 
 function setStep() {
     var stepToShow = null;
-    $('.body__text-step').each(function(i, el) {
+    $('.comic__main--text--step').each(function(i, el) {
         if (windowTop > $(el).offset().top - this.percentageOfHeight(85)) {
             stepToShow = $(el).data('step');
         }
@@ -65,72 +65,72 @@ function highlightStates(currentStep) {
     switch (currentStep) {
 
         case 0:
-        $('.scene__0').addClass('image__shown');
-        $('.scene__1').addClass('image__shown');
-        $('.scene__2').removeClass('image__shown');
-        $('.scene__6').removeClass('image__shown');
+        $('.page__1').addClass('image__shown');
+        $('.page__0').addClass('image__shown');
+        $('.page__6').removeClass('image__shown');
+        $('.page__2').removeClass('image__shown');
         break
 
         case 1:
-        $('.scene__6').addClass('image__shown');
+        $('.page__2').addClass('image__shown');
         $('.scene__3').removeClass('image__shown');
-        $('.scene__1').removeClass('image__shown');
-        $('.scene__2').removeClass('image__shown');
-        $('.scene__0').addClass('image__shown');
+        $('.page__0').removeClass('image__shown');
+        $('.page__6').removeClass('image__shown');
+        $('.page__1').addClass('image__shown');
         break
 
         case 1.5:
-        $('.scene__0').removeClass('image__shown');
-        $('.scene__6').removeClass('image__shown');
-        $('.scene__4').removeClass('image__shown');
-        $('.scene__5').removeClass('image__shown');
-        $('.scene__2').addClass('image__shown');
-        $('.scene__9').removeClass('image__shown');
+        $('.page__1').removeClass('image__shown');
+        $('.page__2').removeClass('image__shown');
+        $('.page__3').removeClass('image__shown');
+        $('.page__5').removeClass('image__shown');
+        $('.page__6').addClass('image__shown');
+        $('.page__8').removeClass('image__shown');
         break
 
         case 2:
-        $('.scene__4').addClass('image__shown');
+        $('.page__3').addClass('image__shown');
         $('.scene__3').removeClass('image__shown');
-        $('.scene__5').removeClass('image__shown');
-        $('.scene__0').removeClass('image__shown');
+        $('.page__5').removeClass('image__shown');
+        $('.page__1').removeClass('image__shown');
         break
 
         case 3:
-        $('.scene__7').addClass('image__shown');
-        $('.scene__4').removeClass('image__shown');
-        $('.scene__6').removeClass('image__shown');
-        $('.scene__5').removeClass('image__shown');
+        $('.page__4').addClass('image__shown');
+        $('.page__3').removeClass('image__shown');
+        $('.page__2').removeClass('image__shown');
+        $('.page__5').removeClass('image__shown');
 
         $('.cloud__fixed').css('opacity', '0');
         break
 
         case 4:
-        $('.scene__5').addClass('image__shown');
-        $('.scene__0').removeClass('image__shown');
-        $('.scene__4').removeClass('image__shown');
-        $('.scene__6').removeClass('image__shown');
+        $('.page__5').addClass('image__shown');
+        $('.page__1').removeClass('image__shown');
+        $('.page__3').removeClass('image__shown');
+        $('.page__2').removeClass('image__shown');
         $('.scene__3').removeClass('image__shown');
-        $('.scene__2').removeClass('image__shown');
-        $('.scene__9').removeClass('image__shown');
+        $('.page__6').removeClass('image__shown');
+        $('.page__8').removeClass('image__shown');
         break
 
         case 5:
-        $('.scene__5').removeClass('image__shown');
-        $('.scene__2').removeClass('image__shown');
-        $('.scene__9').addClass('image__shown');
-        $('.scene__7').removeClass('image__shown');
-        $('.scene__5').removeClass('image__shown');
+        $('.page__5').removeClass('image__shown');
+        $('.page__6').removeClass('image__shown');
+        $('.page__8').addClass('image__shown');
+        $('.page__4').removeClass('image__shown');
+        $('.page__5').removeClass('image__shown');
 
         break
 
         case 6:
-        $('.scene__8').addClass('image__shown');
-        $('.scene__6').removeClass('image__shown');
+        $('.page__7').addClass('image__shown');
+        $('.page__2').removeClass('image__shown');
         break
 
         default:
-        $('.scene__0').removeClass('image__shown');
-        $('.scene__1').removeClass('image__shown');
+        $('.page__1').removeClass('image__shown');
+        $('.page__0').removeClass('image__shown');
         $('.young__fixed').css('opacity', '0');
     }
 }

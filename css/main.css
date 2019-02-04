@@ -16,9 +16,9 @@ body {
   color: #333;
   font-family: 'NHaasGrotesk'; }
 
-.body__text-container {
+.comic__main--text {
   margin-top: 00px; }
-  .body__text-container p {
+  .comic__main--text p {
     font-size: 1.3em;
     line-height: 1.5em;
     font-family: 'Proza Libre', Arial, sans-serif;
@@ -29,7 +29,7 @@ body {
     font-weight: 400;
     background-color: #F1F0EC; }
 
-.body__image {
+.comic__main--image {
   max-width: 30%;
   position: fixed;
   min-height: 30%;
@@ -37,22 +37,22 @@ body {
   top: 25vh; }
 
 @media screen and (max-width: 620px) {
-  .body__image {
+  .comic__main--image {
     margin-left: 40px; } }
-.body__content {
+.comic__main {
   display: flex;
   flex-direction: row; }
 
-.body__content-intro {
+.comic__main--text--intro {
   text-align: center; }
-  .body__content-intro h1 {
+  .comic__main--text--intro h1 {
     font-size: 54px;
     text-decoration: underline;
     z-index: 10;
     position: relative;
     background-color: #F1F0EC; }
 
-.body__content-intro-image {
+.comic__main--text--intro--image {
   width: 340px;
   margin-top: 100px; }
 
@@ -249,7 +249,7 @@ body {
   margin-top: 20px;
   top: 15vh; }
 
-.city__fixed {
+.city {
   position: absolute;
   opacity: 0;
   transition-delay: .4s;

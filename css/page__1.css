@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Proza Libre';
+  src: url("../fonts/ProzaLibre-Regular.ttf");
+  font-weight: 400; }
+@font-face {
+  font-family: 'NHaasGrotesk';
+  src: url("../fonts/NHaasGroteskBd.ttf");
+  font-weight: bold; }
+.image__fixed {
+  position: absolute;
+  width: 30vh;
+  transition: width 2s, opacity .4s ease-in-out;
+  display: none;
+  left: 10vh; }
+
+@media screen and (min-width: 320px) {
+  .image__fixed {
+    width: 20vh; } }
+@media screen and (min-width: 740px) {
+  .image__fixed {
+    width: 25vh; } }
+
+/*# sourceMappingURL=page__1.css.map */
