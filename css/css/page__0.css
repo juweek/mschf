@@ -44,9 +44,9 @@
 
 @media screen and (min-width: 319px) {
   .city {
-    width: 40vh;
-    left: -10vh;
-    top: 25vh; } }
+    width: 70vh;
+    left: -20vh;
+    top: 30vh; } }
 @media screen and (min-width: 660px) {
   .city {
     width: 40vh;
@@ -59,7 +59,7 @@
     top: 0vh; } }
 @media screen and (min-width: 319px) {
   .sun__fixed {
-    width: 12vh;
+    width: 16vh;
     left: 0vh;
     top: -20vh; } }
 @media screen and (min-width: 740px) {

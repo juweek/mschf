@@ -14,13 +14,7 @@
     }
 }
 
-
 .comic__main--text--intro img {
     max-width: 70vh;
-    margin-top: 100px;
-
-    @media screen and (min-width: $tablet) {
-        //max-width: 60vh;
-        margin: 0 auto;
-    }
+    margin-top: 0px;
 }
