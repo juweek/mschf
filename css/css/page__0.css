@@ -11,28 +11,37 @@
   width: 12vh;
   left: 40vh;
   top: -10vh;
-  -webkit-animation: rotate 5s linear infinite, sun_orbit 2s linear infinite;
-  -moz-animation: rotate 5s linear infinite, sun_orbit 2s linear infinite;
-  -o-animation: rotate 5s linear infinite, sun_orbit 2s linear infinite;
-  animation: rotate 5s linear infinite, sun_orbit 2s linear infinite;
+  -moz-animation: rotate 5s linear 0.01s infinite, sun_orbit 2s linear 0.01s infinite;
+  -o-animation: rotate 5s linear 0.01s infinite, sun_orbit 2s linear 0.01s infinite;
+  animation: rotate 5s linear  0.01s infinite, sun_orbit 2s linear 0.01s infinite;
+  -webkit-animation-name: rotate, sun_orbit;
+  -webkit-animation-duration: 5s, 2s;
+  -webkit-animation-iteration-count: infinite, infinite;
   transition: opacity .4s ease-in-out;
-  display: none; }
+  display: none;
+  pointer-events: none; }
 
 .city1 {
   animation-delay: -.7s;
-  -webkit-animation: move 2.9s linear infinite alternate;
   -moz-animation: move 2.9s linear infinite alternate;
   -o-animation: move 2.9s linear infinite alternate;
   animation: move 2.9s linear infinite alternate;
+  -webkit-animation-name: move;
+  -webkit-animation-duration: 2.9s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
   max-width: 100%;
   position: relative;
   top: 10vh; }
 
 .city2 {
-  -webkit-animation: move 2.1s linear infinite alternate;
   -moz-animation: move 2.1s linear infinite alternate;
   -o-animation: move 2.1s linear infinite alternate;
   animation: move 2.1s linear infinite alternate;
+  -webkit-animation-name: move;
+  -webkit-animation-duration: 2.1s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
   margin-top: 20px;
   max-width: 100%; }
 
@@ -40,7 +49,8 @@
   position: absolute;
   opacity: 0;
   transition-delay: .4s;
-  transition: opacity .7s ease-in-out; }
+  transition: opacity .7s ease-in-out;
+  pointer-events: none; }
 
 @media screen and (min-width: 319px) {
   .city {

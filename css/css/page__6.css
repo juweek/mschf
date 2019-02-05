@@ -16,6 +16,9 @@
   top: 0; }
 
 .phone {
+  pointer-events: none; }
+
+.workcloud__fixed.image-shown .phone {
   -webkit-animation: quick_rotate 6s linear infinite;
   -moz-animation: quick_rotate 6s linear infinite;
   -o-animation: quick_rotate 6s linear infinite;

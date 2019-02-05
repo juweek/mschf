@@ -15,6 +15,7 @@
   -webkit-animation: young_rotate 2s linear infinite alternate;
   -moz-animation: young_rotate 2s linear infinite alternate;
   -o-animation: young_rotate 2s linear infinite alternate;
-  animation: young_rotate 2s linear infinite alternate; }
+  animation: young_rotate 2s linear infinite alternate;
+  pointer-events: none; }
 
 /*# sourceMappingURL=page__7.css.map */

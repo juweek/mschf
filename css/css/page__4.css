@@ -13,9 +13,13 @@
   left: 0vh;
   display: none;
   transition: opacity .8s ease-in-out;
-  -webkit-animation: young_rotate 2s linear infinite alternate;
   -moz-animation: young_rotate 2s linear infinite alternate;
   -o-animation: young_rotate 2s linear infinite alternate;
-  animation: young_rotate 2s linear infinite alternate; }
+  animation: young_rotate 2s linear infinite alternate;
+  -webkit-animation-name: young_rotate;
+  -webkit-animation-duration: 2s;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+  pointer-events: none; }
 
 /*# sourceMappingURL=page__4.css.map */
