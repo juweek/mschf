@@ -42,32 +42,32 @@
     transform: rotate(10deg); } }
 @keyframes quick_rotate {
   0% {
-    background-image: url("../img/hand_1.png");
+    background-image: url("../css/img/hand_1.png");
     transform: rotate(0deg); }
   4% {
     transform: rotate(10deg); }
   6% {
     transform: rotate(-10deg); }
   8% {
-    background-image: url("../img/hand_1.png"); }
+    background-image: url("../css/img/hand_1.png"); }
   9% {
-    background-image: url("../img/hand_2.png");
+    background-image: url("../css/img/hand_2.png");
     transform: rotate(0deg); }
   50% {
-    background-image: url("../img/hand_2.png");
+    background-image: url("../css/img/hand_2.png");
     transform: rotate(0deg); }
   54% {
     transform: rotate(10deg); }
   56% {
     transform: rotate(-10deg); }
   58% {
-    background-image: url("../img/hand_2.png");
+    background-image: url("../css/img/hand_2.png");
     transform: rotate(0deg); }
   59% {
-    background-image: url("../img/hand_1.png");
+    background-image: url("../css/img/hand_1.png");
     transform: rotate(0deg); }
   100% {
-    background-image: url("../img/hand_1.png");
+    background-image: url("../css/img/hand_1.png");
     transform: rotate(0deg); } }
 @keyframes move {
   from {

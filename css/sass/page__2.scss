@@ -2,10 +2,12 @@
 
 .ball__fixed {
     position: absolute;
-    left: 20px;
+    left: 0vh;
     width: 15vh;
+    -webkit-animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    -moz-animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    -o-animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
     animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
-    -webkit-animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear;
     opacity: 0;
     display: none;
     transition: opacity .3s ease-in-out;
@@ -13,10 +15,12 @@
 
 .notes__fixed {
     position: absolute;
-    left: 20px;
+    left: 0vh;
     width: 15vh;
-    animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
     -webkit-animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    -moz-animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    -o-animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
     opacity: 0;
     display: none;
     transition: opacity .3s ease-in-out;
@@ -25,10 +29,12 @@
 
 .art__fixed {
     position: absolute;
-    left: 20px;
+    left: 0vh;
     width: 15vh;
-    animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
     -webkit-animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    -moz-animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    -o-animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
     opacity: 0;
     display: none;
     transition: opacity .5s ease-in-out;
@@ -37,12 +43,21 @@
 
 .laptop__fixed {
     position: absolute;
-    left: 20px;
+    left: 0vh;
     width: 15vh;
-    animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
     -webkit-animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    -moz-animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    -o-animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
+    animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
     opacity: 0;
     display: none;
     transition: opacity 1s ease-in-out;
     animation-delay: -3s;
+}
+
+.globe {
+    width: 30vh;
+    left: 25vh;
+    position: relative;
+    top: 10vh;
 }

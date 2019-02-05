@@ -5,7 +5,10 @@
     width: 12vh;
     left: 40vh;
     top: -10vh;
-    animation: rotate 5s linear infinite;
+    -webkit-animation: rotate 5s linear infinite, sun_orbit 2s linear infinite;
+    -moz-animation: rotate 5s linear infinite, sun_orbit 2s linear infinite;
+    -o-animation: rotate 5s linear infinite, sun_orbit 2s linear infinite;
+    animation: rotate 5s linear infinite, sun_orbit 2s linear infinite;
     transition: opacity .4s ease-in-out;
     display: none;
 }
@@ -13,6 +16,9 @@
 
 .city1 {
     animation-delay: -.7s;
+    -webkit-animation: move 2.9s linear infinite alternate;
+    -moz-animation: move 2.9s linear infinite alternate;
+    -o-animation: move 2.9s linear infinite alternate;
     animation: move 2.9s linear infinite alternate;
     max-width: 100%;
     position: relative;
@@ -20,6 +26,9 @@
 }
 
 .city2 {
+    -webkit-animation: move 2.1s linear infinite alternate;
+    -moz-animation: move 2.1s linear infinite alternate;
+    -o-animation: move 2.1s linear infinite alternate;
     animation: move 2.1s linear infinite alternate;
     margin-top: 20px;
     max-width: 100%;
@@ -45,5 +54,25 @@
         width: 40vh;
         left: 25vh;
         top: 0vh;
+    }
+}
+
+@keyframes sun_orbit {
+    0% {
+        opacity: 1;
+        transform: translate(0px, 0px);
+    }
+    85% {
+        opacity: 1;
+    }
+    95% {
+        transform: translate(40vh, 15vh);
+    }
+    96% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        transform: translate(0px, 0px);
     }
 }

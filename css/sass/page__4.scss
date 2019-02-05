@@ -7,5 +7,8 @@
     left: -10vh;
     display: none;
     transition: opacity .8s ease-in-out;
+    -webkit-animation: young_rotate 2s linear infinite alternate;
+    -moz-animation: young_rotate 2s linear infinite alternate;
+    -o-animation: young_rotate 2s linear infinite alternate;
     animation: young_rotate 2s linear infinite alternate;
 }

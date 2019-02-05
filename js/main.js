@@ -64,22 +64,23 @@ function setStep() {
 function highlightStates(currentStep) {
     switch (currentStep) {
 
-        case 0:
+        case 'intro':
         $('.page__1').addClass('image__shown');
         $('.page__0').addClass('image__shown');
         $('.page__6').removeClass('image__shown');
         $('.page__2').removeClass('image__shown');
         break
 
-        case 1:
+        case 'skills':
         $('.page__2').addClass('image__shown');
         $('.scene__3').removeClass('image__shown');
         $('.page__0').removeClass('image__shown');
         $('.page__6').removeClass('image__shown');
         $('.page__1').addClass('image__shown');
+        $('.page__5').removeClass('image__shown');
         break
 
-        case 1.5:
+        case 'proposal':
         $('.page__1').removeClass('image__shown');
         $('.page__2').removeClass('image__shown');
         $('.page__3').removeClass('image__shown');
@@ -88,23 +89,15 @@ function highlightStates(currentStep) {
         $('.page__8').removeClass('image__shown');
         break
 
-        case 2:
-        $('.page__3').addClass('image__shown');
-        $('.scene__3').removeClass('image__shown');
-        $('.page__5').removeClass('image__shown');
-        $('.page__1').removeClass('image__shown');
-        break
-
-        case 3:
+        case 'tools':
         $('.page__4').addClass('image__shown');
         $('.page__3').removeClass('image__shown');
         $('.page__2').removeClass('image__shown');
         $('.page__5').removeClass('image__shown');
-
         $('.cloud__fixed').css('opacity', '0');
         break
 
-        case 4:
+        case 'cloud':
         $('.page__5').addClass('image__shown');
         $('.page__1').removeClass('image__shown');
         $('.page__3').removeClass('image__shown');
@@ -114,7 +107,7 @@ function highlightStates(currentStep) {
         $('.page__8').removeClass('image__shown');
         break
 
-        case 5:
+        case 'portfolio':
         $('.page__5').removeClass('image__shown');
         $('.page__6').removeClass('image__shown');
         $('.page__8').addClass('image__shown');
@@ -123,7 +116,7 @@ function highlightStates(currentStep) {
 
         break
 
-        case 6:
+        case 'timeline':
         $('.page__7').addClass('image__shown');
         $('.page__2').removeClass('image__shown');
         break

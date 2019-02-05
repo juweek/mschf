@@ -9,8 +9,7 @@
 .comic__main--text--intro {
   text-align: center;
   z-index: 10;
-  position: relative;
-  background-color: #F1F0EC; }
+  position: relative; }
   @media screen and (min-width: 320px) {
     .comic__main--text--intro h1 {
       font-size: 24px;
@@ -50,5 +49,9 @@
     margin-top: 65vh;
     font-weight: 400;
     background-color: #F1F0EC; }
+
+.comic__main--text--step {
+  box-shadow: 4px 4px 1px #999999;
+  padding: 10px; }
 
 /*# sourceMappingURL=text.css.map */

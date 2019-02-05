@@ -8,12 +8,13 @@
   font-weight: bold; }
 @media screen and (min-width: 320px) {
   .rain_cloud__fixed {
-    position: absolute;
     width: 30vh;
     z-index: 2;
     opacity: 0;
     transition: opacity .8s ease-in-out;
-    left: 0vh; }
+    left: 0vh;
+    position: absolute;
+    top: 0vh; }
     .rain_cloud__fixed .cloud {
       display: block;
       width: 100%;
@@ -23,7 +24,8 @@
   .rain_cloud__fixed {
     width: 30vh;
     left: 20vh;
-    position: relative; }
+    position: absolute;
+    top: 0vh; }
 
   .cloud {
     position: absolute;
@@ -33,6 +35,9 @@
   width: 2vh;
   top: 5vh;
   transition: opacity .8s ease-in-out;
+  -webkit-animation: raindrop 1.8s linear infinite;
+  -moz-animation: raindrop 1.8s linear infinite;
+  -o-animation: raindrop 1.8s linear infinite;
   animation: raindrop 1.8s linear infinite; }
 
 .waves__fixed {
@@ -40,18 +45,17 @@
   top: 30vh;
   width: 40vh;
   left: -30vh;
+  -webkit-animation: move 2s linear infinite alternate;
+  -moz-animation: move 2s linear infinite alternate;
+  -o-animation: move 2s linear infinite alternate;
   animation: move 2s linear infinite alternate; }
 
 .waves2 {
   left: 0vh;
+  -webkit-animation: move 2s linear infinite alternate;
+  -moz-animation: move 2s linear infinite alternate;
+  -o-animation: move 2s linear infinite alternate;
   animation: move 2s linear infinite alternate; }
-
-.cloud__fixed {
-  position: absolute;
-  top: 0px;
-  width: 150px;
-  opacity: 0;
-  animation: rotate 20s linear infinite; }
 
 .rain1 {
   left: 10vh;

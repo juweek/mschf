@@ -8,11 +8,15 @@
     opacity: 0;
     display: none;
     transition: opacity .1s ease-in-out;
+    top: 0;
 }
 
 @media screen and (min-width: $mobile) {
     .phone_1 {
         position: absolute;
+        -webkit-animation: quick_rotate 6s linear infinite;
+        -moz-animation: quick_rotate 6s linear infinite;
+        -o-animation: quick_rotate 6s linear infinite;
         animation: quick_rotate 6s linear infinite;
         left: 000px;
         width: 30vw;
@@ -25,6 +29,9 @@
 
 @media screen and (min-width: $tablet) {
     .phone_1 {
+        -webkit-animation: quick_rotate 6s linear infinite;
+        -moz-animation: quick_rotate 6s linear infinite;
+        -o-animation: quick_rotate 6s linear infinite;
         animation: quick_rotate 6s linear infinite;
         left: 000px;
         width: 35vh;
@@ -37,6 +44,9 @@
     .phone_2 {
         position: absolute;
         left: 100px;
+        -webkit-animation: quick_rotate 6s linear infinite;
+        -moz-animation: quick_rotate 6s linear infinite;
+        -o-animation: quick_rotate 6s linear infinite;
         animation: quick_rotate 6s linear infinite;
         animation-delay: -2s;
         width: 30vw;
@@ -50,6 +60,9 @@
 @media screen and (min-width: $tablet) {
     .phone_2 {
         left: 200px;
+        -webkit-animation: quick_rotate 6s linear infinite;
+        -moz-animation: quick_rotate 6s linear infinite;
+        -o-animation: quick_rotate 6s linear infinite;
         animation: quick_rotate 6s linear infinite;
         animation-delay: -2s;
         width: 35vh;
@@ -62,6 +75,9 @@
     .phone_3 {
         position: absolute;
         left: 200px;
+        -webkit-animation: quick_rotate 6s linear infinite;
+        -moz-animation: quick_rotate 6s linear infinite;
+        -o-animation: quick_rotate 6s linear infinite;
         animation: quick_rotate 6s linear infinite;
         animation-delay: -1s;
         width: 30vw;
@@ -76,6 +92,9 @@
     .phone_3 {
         width: 35vh;
         left: 400px;
+        -webkit-animation: quick_rotate 6s linear infinite;
+        -moz-animation: quick_rotate 6s linear infinite;
+        -o-animation: quick_rotate 6s linear infinite;
         animation: quick_rotate 6s linear infinite;
         animation-delay: -1s;
         padding-top: 120%;
