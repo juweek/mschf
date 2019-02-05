@@ -42,16 +42,31 @@
   transition-delay: .4s;
   transition: opacity .7s ease-in-out; }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
   .city {
-    width: 30vh;
-    left: 0vh;
-    top: 20vh; } }
+    width: 40vh;
+    left: -10vh;
+    top: 25vh; } }
+@media screen and (min-width: 660px) {
+  .city {
+    width: 40vh;
+    left: 30vh;
+    top: 0vh; } }
 @media screen and (min-width: 740px) {
   .city {
     width: 40vh;
     left: 25vh;
     top: 0vh; } }
+@media screen and (min-width: 319px) {
+  .sun__fixed {
+    width: 12vh;
+    left: 0vh;
+    top: -20vh; } }
+@media screen and (min-width: 740px) {
+  .sun__fixed {
+    width: 12vh;
+    left: 40vh;
+    top: -10vh; } }
 @keyframes sun_orbit {
   0% {
     opacity: 1;

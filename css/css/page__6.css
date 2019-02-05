@@ -12,11 +12,10 @@
   flex-direction: column;
   width: 22vw;
   opacity: 0;
-  display: none;
-  transition: opacity .1s ease-in-out;
+  transition: opacity .6s ease-in-out;
   top: 0; }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
   .phone_1 {
     position: absolute;
     -webkit-animation: quick_rotate 6s linear infinite;
@@ -39,7 +38,7 @@
     width: 35vh;
     padding-top: 120%;
     background-size: 35vh; } }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
   .phone_2 {
     position: absolute;
     left: 100px;
@@ -64,7 +63,7 @@
     width: 35vh;
     padding-top: 120%;
     background-size: 35vh; } }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
   .phone_3 {
     position: absolute;
     left: 200px;

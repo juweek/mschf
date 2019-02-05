@@ -6,11 +6,10 @@
   font-family: 'NHaasGrotesk';
   src: url("../fonts/NHaasGroteskBd.ttf");
   font-weight: bold; }
-.tools__fixed {
+.timeline__fixed {
   position: absolute;
   width: 45vh;
   opacity: 0;
-  left: 0vh;
   display: none;
   transition: opacity .8s ease-in-out;
   -webkit-animation: young_rotate 2s linear infinite alternate;
@@ -18,4 +17,4 @@
   -o-animation: young_rotate 2s linear infinite alternate;
   animation: young_rotate 2s linear infinite alternate; }
 
-/*# sourceMappingURL=page__4.css.map */
+/*# sourceMappingURL=page__7.css.map */

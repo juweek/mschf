@@ -95,6 +95,7 @@ function highlightStates(currentStep) {
         $('.page__2').removeClass('image__shown');
         $('.page__5').removeClass('image__shown');
         $('.cloud__fixed').css('opacity', '0');
+        $('.page__7').removeClass('image__shown');
         break
 
         case 'cloud':
@@ -119,9 +120,11 @@ function highlightStates(currentStep) {
         case 'timeline':
         $('.page__7').addClass('image__shown');
         $('.page__2').removeClass('image__shown');
+        $('.page__5').removeClass('image__shown');
         break
 
         default:
+        $('.page__7').removeClass('image__shown');
         $('.page__1').removeClass('image__shown');
         $('.page__0').removeClass('image__shown');
         $('.young__fixed').css('opacity', '0');

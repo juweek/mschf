@@ -13,9 +13,14 @@
   display: none;
   left: 10vh; }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
   .image__fixed {
-    width: 20vh; } }
+    width: 25vh;
+    left: 0vh; } }
+@media screen and (min-width: 660px) {
+  .image__fixed {
+    width: 25vh;
+    left: 10vh; } }
 @media screen and (min-width: 740px) {
   .image__fixed {
     width: 25vh; } }

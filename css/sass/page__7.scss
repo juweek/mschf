@@ -1,10 +1,9 @@
 @import 'vars';
 
-.tools__fixed {
+.timeline__fixed {
     position: absolute;
     width: 45vh;
     opacity: 0;
-    left: 0vh;
     display: none;
     transition: opacity .8s ease-in-out;
     -webkit-animation: young_rotate 2s linear infinite alternate;

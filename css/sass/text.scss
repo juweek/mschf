@@ -4,6 +4,11 @@
     text-align: center;
     z-index: 10;
     position: relative;
+    min-height: 80vh;
+    background-color: #fff;
+    margin-top: 0px;
+    padding-top: 40px;
+    border-bottom: 1px solid #333;
 
     @media screen and (min-width: $mobile) {
         h1 {
@@ -36,7 +41,7 @@
 
     @media screen and (min-width: $tablet) {
         p {
-            font-size: 28px;
+            font-size: 22px;
             line-height: 32px;
             margin: 0 auto;
         }
@@ -59,7 +64,8 @@
         margin: 0 auto;
         margin-top: 65vh;
         font-weight: 400;
-        background-color: #F1F0EC;
+        background: rgba(241,240,236, 0.9);
+        border-radius: 5px;
     }
 }
 

@@ -6,7 +6,7 @@
   font-family: 'NHaasGrotesk';
   src: url("../fonts/NHaasGroteskBd.ttf");
   font-weight: bold; }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
   .rain_cloud__fixed {
     width: 30vh;
     z-index: 2;
@@ -79,7 +79,7 @@
 .rain6 {
   left: 8vh; }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
   .slidecontainer {
     position: absolute;
     top: -10vh;

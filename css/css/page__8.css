@@ -6,7 +6,7 @@
   font-family: 'NHaasGrotesk';
   src: url("../fonts/NHaasGroteskBd.ttf");
   font-weight: bold; }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
   .phone_4 {
     position: absolute;
     left: 000px;
@@ -21,7 +21,7 @@
     width: 35vh;
     padding-top: 120%;
     background-size: 35vh; } }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
   .phone_5 {
     position: absolute;
     left: 100px;
@@ -38,7 +38,7 @@
     width: 35vh;
     padding-top: 120%;
     background-size: 35vh; } }
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 319px) {
   .phone_6 {
     position: absolute;
     left: 200px;
