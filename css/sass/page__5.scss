@@ -3,7 +3,7 @@
 @media screen and (min-width: $mobile) {
     .rain_cloud__fixed {
         width: 30vh;
-        z-index: 2;
+        z-index: 30;
         opacity: 0;
         transition: opacity .8s ease-in-out;
         left: 0vh;
