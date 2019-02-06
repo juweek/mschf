@@ -18,6 +18,8 @@
     margin-left: 0px; } }
 .comic__main--text--intro img {
   max-width: 70vh;
-  margin-top: 0px; }
+  margin-top: 0px;
+  position: absolute;
+  bottom: 0px; }
 
 /*# sourceMappingURL=image.css.map */
