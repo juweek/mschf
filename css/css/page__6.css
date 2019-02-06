@@ -18,11 +18,11 @@
 .phone {
   pointer-events: none; }
 
-.workcloud__fixed.image-shown .phone {
-  -webkit-animation: quick_rotate 6s linear infinite;
-  -moz-animation: quick_rotate 6s linear infinite;
-  -o-animation: quick_rotate 6s linear infinite;
-  animation: quick_rotate 6s linear infinite; }
+.phone {
+  -webkit-animation: proposal__flicker 6s linear infinite;
+  -moz-animation: proposal__flicker 6s linear infinite;
+  -o-animation: proposal__flicker 6s linear infinite;
+  animation: proposal__flicker 6s linear infinite; }
 
 @media screen and (min-width: 319px) {
   .phone {

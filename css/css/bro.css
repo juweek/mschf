@@ -40,7 +40,7 @@
     transform: rotate(-10deg); }
   to {
     transform: rotate(10deg); } }
-@keyframes quick_rotate {
+@keyframes proposal__flicker {
   0% {
     background-image: url("../css/img/hand_1.png");
     transform: rotate(0deg); }

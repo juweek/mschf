@@ -190,7 +190,7 @@ $wide: 1300px;
 
 /* ----------------- */
 
-@-webkit-keyframes quick_rotate {
+@-webkit-keyframes proposal__flicker {
     0% {
         background-image: url('../img/hand_1.png');
         -webkit-transform: rotate(0deg); }
@@ -220,7 +220,7 @@ $wide: 1300px;
         background-image: url('../img/hand_1.png');
         -webkit-transform: rotate(0deg); }
 }
-@-moz-keyframes quick_rotate {
+@-moz-keyframes proposal__flicker {
     0% {
         background-image: url('../img/hand_1.png');
         transform: rotate(0deg); }
@@ -250,7 +250,7 @@ $wide: 1300px;
         background-image: url('../img/hand_1.png');
         transform: rotate(0deg); }
 }
-@-o-keyframes quick_rotate {
+@-o-keyframes proposal__flicker {
     0% {
         background-image: url('../img/hand_1.png');
         transform: rotate(0deg); }
@@ -280,7 +280,7 @@ $wide: 1300px;
         background-image: url('../img/hand_1.png');
         transform: rotate(0deg); }
 }
-@keyframes quick_rotate {
+@keyframes proposal__flicker {
     0% {
         background-image: url('../img/hand_1.png');
         transform: rotate(0deg); }
@@ -308,6 +308,130 @@ $wide: 1300px;
         transform: rotate(0deg); }
     100% {
         background-image: url('../img/hand_1.png');
+        transform: rotate(0deg); }
+}
+
+/* ----------------- */
+
+
+@-webkit-keyframes portfolio__flicker {
+    0% {
+        background-image: url('../img/hand_4.png');
+        -webkit-transform: rotate(0deg); }
+    4% {
+        -webkit-transform: rotate(10deg); }
+    6% {
+        -webkit-transform: rotate(-10deg); }
+    8% {
+        background-image: url('../img/hand_4.png'); }
+    9% {
+        background-image: url('../img/hand_5.png');
+        -webkit-transform: rotate(0deg); }
+    50% {
+        background-image: url('../img/hand_5.png');
+        -webkit-transform: rotate(0deg); }
+    54% {
+        -webkit-transform: rotate(10deg); }
+    56% {
+        -webkit-transform: rotate(-10deg); }
+    58% {
+        background-image: url('../img/hand_5.png');
+        -webkit-transform: rotate(0deg); }
+    59% {
+        background-image: url('../img/hand_4.png');
+        -webkit-transform: rotate(0deg); }
+    100% {
+        background-image: url('../img/hand_4.png');
+        -webkit-transform: rotate(0deg); }
+}
+@-moz-keyframes portfolio__flicker {
+    0% {
+        background-image: url('../img/hand_4.png');
+        transform: rotate(0deg); }
+    4% {
+        transform: rotate(10deg); }
+    6% {
+        transform: rotate(-10deg); }
+    8% {
+        background-image: url('../img/hand_4.png'); }
+    9% {
+        background-image: url('../img/hand_5.png');
+        transform: rotate(0deg); }
+    50% {
+        background-image: url('../img/hand_5.png');
+        transform: rotate(0deg); }
+    54% {
+        transform: rotate(10deg); }
+    56% {
+        transform: rotate(-10deg); }
+    58% {
+        background-image: url('../img/hand_5.png');
+        transform: rotate(0deg); }
+    59% {
+        background-image: url('../img/hand_4.png');
+        transform: rotate(0deg); }
+    100% {
+        background-image: url('../img/hand_4.png');
+        transform: rotate(0deg); }
+}
+@-o-keyframes portfolio__flicker {
+    0% {
+        background-image: url('../img/hand_4.png');
+        transform: rotate(0deg); }
+    4% {
+        transform: rotate(10deg); }
+    6% {
+        transform: rotate(-10deg); }
+    8% {
+        background-image: url('../img/hand_4.png'); }
+    9% {
+        background-image: url('../img/hand_5.png');
+        transform: rotate(0deg); }
+    50% {
+        background-image: url('../img/hand_5.png');
+        transform: rotate(0deg); }
+    54% {
+        transform: rotate(10deg); }
+    56% {
+        transform: rotate(-10deg); }
+    58% {
+        background-image: url('../img/hand_5.png');
+        transform: rotate(0deg); }
+    59% {
+        background-image: url('../img/hand_4.png');
+        transform: rotate(0deg); }
+    100% {
+        background-image: url('../img/hand_4.png');
+        transform: rotate(0deg); }
+}
+@keyframes portfolio__flicker {
+    0% {
+        background-image: url('../img/hand_4.png');
+        transform: rotate(0deg); }
+    4% {
+        transform: rotate(10deg); }
+    6% {
+        transform: rotate(-10deg); }
+    8% {
+        background-image: url('../img/hand_4.png'); }
+    9% {
+        background-image: url('../img/hand_5.png');
+        transform: rotate(0deg); }
+    50% {
+        background-image: url('../img/hand_5.png');
+        transform: rotate(0deg); }
+    54% {
+        transform: rotate(10deg); }
+    56% {
+        transform: rotate(-10deg); }
+    58% {
+        background-image: url('../img/hand_4.png');
+        transform: rotate(0deg); }
+    59% {
+        background-image: url('../img/hand_4.png');
+        transform: rotate(0deg); }
+    100% {
+        background-image: url('../img/hand_4.png');
         transform: rotate(0deg); }
 }
 

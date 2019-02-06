@@ -96,6 +96,7 @@ function highlightStates(currentStep) {
         $('.page__5').removeClass('image__shown');
         $('.cloud__fixed').css('opacity', '0');
         $('.page__7').removeClass('image__shown');
+        $('.page__8').removeClass('image__shown');
         break
 
         case 'cloud':
@@ -106,6 +107,7 @@ function highlightStates(currentStep) {
         $('.scene__3').removeClass('image__shown');
         $('.page__6').removeClass('image__shown');
         $('.page__8').removeClass('image__shown');
+        $('.page__7').removeClass('image__shown');
         break
 
         case 'portfolio':
@@ -121,6 +123,7 @@ function highlightStates(currentStep) {
         $('.page__7').addClass('image__shown');
         $('.page__2').removeClass('image__shown');
         $('.page__5').removeClass('image__shown');
+        $('.page__4').removeClass('image__shown');
         break
 
         default:

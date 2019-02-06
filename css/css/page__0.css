@@ -11,11 +11,11 @@
   width: 12vh;
   left: 40vh;
   top: -10vh;
-  -moz-animation: rotate 5s linear 0.01s infinite, sun_orbit 2s linear 0.01s infinite;
-  -o-animation: rotate 5s linear 0.01s infinite, sun_orbit 2s linear 0.01s infinite;
-  animation: rotate 5s linear  0.01s infinite, sun_orbit 2s linear 0.01s infinite;
-  -webkit-animation-name: rotate, sun_orbit;
-  -webkit-animation-duration: 5s, 2s;
+  -moz-animation: sun_orbit 2s linear 0.01s infinite;
+  -o-animation: sun_orbit 2s linear 0.01s infinite;
+  animation: sun_orbit 2s linear 0.01s infinite;
+  -webkit-animation-name: sun_orbit;
+  -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite, infinite;
   transition: opacity .4s ease-in-out;
   display: none;
@@ -77,10 +77,23 @@
     width: 12vh;
     left: 40vh;
     top: -10vh; } }
-@keyframes sun_orbit {
+@-webkit-keyframes sun_orbit {
   0% {
     opacity: 1;
-    transform: translate(0px, 0px); }
+    -webkit-transform: rotate(0deg) translate(0px, 0px); }
+  85% {
+    opacity: 1; }
+  95% {
+    -webkit-transform: translate(40vh, 15vh); }
+  96% {
+    opacity: 0; }
+  100% {
+    opacity: 0;
+    -webkit-transform: rotate(360deg) translate(0px, 0px); } }
+@-moz-keyframes sun_orbit {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg) translate(0px, 0px); }
   85% {
     opacity: 1; }
   95% {
@@ -89,6 +102,32 @@
     opacity: 0; }
   100% {
     opacity: 0;
-    transform: translate(0px, 0px); } }
+    transform: rotate(360deg) translate(0px, 0px); } }
+@-o-keyframes sun_orbit {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg) translate(0px, 0px); }
+  85% {
+    opacity: 1; }
+  95% {
+    transform: translate(40vh, 15vh); }
+  96% {
+    opacity: 0; }
+  100% {
+    opacity: 0;
+    transform: rotate(360deg) translate(0px, 0px); } }
+@keyframes sun_orbit {
+  0% {
+    opacity: 1;
+    transform: rotate(0deg) translate(0px, 0px); }
+  85% {
+    opacity: 1; }
+  95% {
+    transform: translate(40vh, 15vh); }
+  96% {
+    opacity: 0; }
+  100% {
+    opacity: 0;
+    transform: rotate(360deg) translate(0px, 0px); } }
 
 /*# sourceMappingURL=page__0.css.map */

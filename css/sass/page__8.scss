@@ -1,11 +1,20 @@
 @import 'vars';
 
+.portfolio_phone {
+    pointer-events: none;
+}
+
+.portfolio_phone {
+        -webkit-animation: portfolio__flicker 6s linear infinite;
+        -moz-animation: portfolio__flicker 6s linear infinite;
+        -o-animation: portfolio__flicker 6s linear infinite;
+        animation: portfolio__flicker 6s linear infinite;
+}
+
 @media screen and (min-width: $mobile) {
-    .phone_4 {
+    .portfolio_phone {
         position: absolute;
-        left: 000px;
         width: 30vw;
-        background-image: url('../img/hand_4.png');
         height: 0;
         padding-top: 190%;
         background-size: 30vw;
@@ -13,8 +22,15 @@
 }
 
 @media screen and (min-width: $tablet) {
-    .phone_4 {
-        left: 000px;
+    .portfolio_phone {
+        width: 35vh;
+        padding-top: 120%;
+        background-size: 35vh;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .portfolio_phone {
         width: 35vh;
         padding-top: 120%;
         background-size: 35vh;
@@ -22,15 +38,17 @@
 }
 
 @media screen and (min-width: $mobile) {
+    .phone_4 {
+        left: 000px;
+        background-image: url('../img/hand_4.png');
+    }
+}
+
+@media screen and (min-width: $mobile) {
     .phone_5 {
-        position: absolute;
         left: 100px;
         animation-delay: -2s;
-        width: 30vw;
         background-image: url('../img/hand_5.png');
-        height: 0;
-        padding-top: 190%;
-        background-size: 30vw;
     }
 }
 
@@ -38,31 +56,20 @@
     .phone_5 {
         left: 200px;
         animation-delay: -2s;
-        width: 35vh;
-        padding-top: 120%;
-        background-size: 35vh;
     }
 }
 
 @media screen and (min-width: $mobile) {
     .phone_6 {
-        position: absolute;
         left: 200px;
         animation-delay: -1s;
-        width: 30vw;
         background-image: url('../img/hand_6.png');
-        height: 0;
-        padding-top: 190%;
-        background-size: 30vw;
     }
 }
 
 @media screen and (min-width: $tablet) {
     .phone_6 {
-        width: 35vh;
         left: 400px;
         animation-delay: -1s;
-        padding-top: 120%;
-        background-size: 35vh;
     }
 }
