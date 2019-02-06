@@ -57,7 +57,8 @@
     margin-top: 65vh;
     font-weight: 400;
     background: rgba(241, 240, 236, 0.9);
-    border-radius: 5px; }
+    border-top: 1px solid #dedede;
+    border-left: 1px solid #dedede; }
 
 .comic__main--text--step {
   box-shadow: 4px 4px 1px #999999;

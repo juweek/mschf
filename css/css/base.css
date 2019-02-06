@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'Proza Libre';
+  src: url("../fonts/ProzaLibre-Regular.ttf");
+  font-weight: 400; }
+@font-face {
+  font-family: 'NHaasGrotesk';
+  src: url("../fonts/NHaasGroteskBd.ttf");
+  font-weight: bold; }
 html {
   box-sizing: border-box; }
 
@@ -10,7 +18,11 @@ body {
 .comic__main {
   display: flex;
   flex-direction: row;
-  max-width: 80vw;
+  max-width: 90vw;
   margin: 0 auto; }
+
+@media screen and (min-width: 740px) {
+  .comic__main {
+    max-width: 80vw; } }
 
 /*# sourceMappingURL=base.css.map */

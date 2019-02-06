@@ -1,3 +1,5 @@
+@import 'vars';
+
 html {
     box-sizing: border-box;
 }
@@ -12,10 +14,12 @@ body {
 .comic__main {
     display: flex;
     flex-direction: row;
-    max-width: 80vw;
+    max-width: 90vw;
     margin: 0 auto;
 }
 
-.comic__main--text--intro {
-
+@media screen and (min-width: $tablet) {
+    .comic__main {
+        max-width: 80vw;
+    }
 }

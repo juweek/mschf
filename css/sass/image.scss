@@ -14,9 +14,19 @@
     }
 }
 
-.comic__main--text--intro img {
-    max-width: 70vh;
-    margin-top: 0px;
-    position: absolute;
-    bottom: 0px;
+@media screen and (min-width: $mobile) {
+    .comic__main--text--intro img {
+        max-width: 90vw;
+        margin-top: 0px;
+        position: absolute;
+        bottom: 0px;
+        left: 5vw;
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .comic__main--text--intro img {
+        max-width: 70vh;
+        left: 30vw;
+    }
 }

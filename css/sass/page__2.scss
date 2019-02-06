@@ -3,7 +3,7 @@
 .ball__fixed {
     position: absolute;
     left: 0vh;
-    width: 15vh;
+    width: 12vh;
 
     -moz-animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
     -o-animation: rotate 2.7s linear infinite, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
@@ -22,7 +22,7 @@
 .notes__fixed {
     position: absolute;
     left: 0vh;
-    width: 15vh;
+    width: 13vh;
 
     -moz-animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;
     -o-animation: young_rotate .6s linear infinite alternate, orbit 2s linear infinite alternate, z_orbit 4s linear infinite;

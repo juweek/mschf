@@ -16,10 +16,16 @@
 @media screen and (max-width: 620px) {
   .comic__main--image {
     margin-left: 0px; } }
-.comic__main--text--intro img {
-  max-width: 70vh;
-  margin-top: 0px;
-  position: absolute;
-  bottom: 0px; }
+@media screen and (min-width: 319px) {
+  .comic__main--text--intro img {
+    max-width: 90vw;
+    margin-top: 0px;
+    position: absolute;
+    bottom: 0px;
+    left: 5vw; } }
+@media screen and (min-width: 740px) {
+  .comic__main--text--intro img {
+    max-width: 70vh;
+    left: 30vw; } }
 
 /*# sourceMappingURL=image.css.map */
