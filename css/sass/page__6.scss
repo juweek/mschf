@@ -14,12 +14,14 @@
     pointer-events: none;
 }
 
+/*
 .phone {
         -webkit-animation: proposal__flicker 9s linear infinite;
         -moz-animation: proposal__flicker 9s linear infinite;
         -o-animation: proposal__flicker 9s linear infinite;
         animation: proposal__flicker 9s linear infinite;
 }
+*/
 
 @media screen and (min-width: $mobile) {
     .phone {
@@ -55,7 +57,7 @@
 .phone_2 {
     animation-delay: -4s;
     left: 100px;
-    background-image: url('../img/hand_1.png');
+    background-image: url('../img/hand_2.png');
 }
 
 @media screen and (min-width: $tablet) {
@@ -67,7 +69,7 @@
 .phone_3 {
     animation-delay: -8s;
     left: 200px;
-    background-image: url('../img/hand_1.png');
+    background-image: url('../img/hand_3.png');
 }
 
 @media screen and (min-width: $tablet) {

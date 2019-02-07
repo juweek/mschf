@@ -21,6 +21,14 @@
   display: none;
   pointer-events: none; }
 
+.sun_wrapper {
+  -moz-animation: rotate 6s linear 0.01s infinite;
+  -o-animation: rotate 6s linear 0.01s infinite;
+  animation: rotate 6s linear 0.01s infinite;
+  -webkit-animation-name: rotate;
+  -webkit-animation-duration: 6s;
+  -webkit-animation-iteration-count: infinite, infinite; }
+
 .city1 {
   animation-delay: -.7s;
   -moz-animation: move 2.9s linear infinite alternate;
