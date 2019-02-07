@@ -15,8 +15,8 @@
 
 @media screen and (min-width: 319px) {
   .image__fixed {
-    width: 25vh;
-    left: 0vh; } }
+    width: 20vh;
+    left: 25vw; } }
 @media screen and (min-width: 660px) {
   .image__fixed {
     width: 25vh;
@@ -24,5 +24,8 @@
 @media screen and (min-width: 740px) {
   .image__fixed {
     width: 25vh; } }
+@media screen and (min-width: 1300px) {
+  .image__fixed {
+    width: 15vh; } }
 
 /*# sourceMappingURL=page__1.css.map */

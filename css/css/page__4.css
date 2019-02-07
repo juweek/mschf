@@ -7,25 +7,24 @@
   src: url("../fonts/NHaasGroteskBd.ttf");
   font-weight: bold; }
 .tools__fixed {
-  -moz-animation: young_rotate 4s linear infinite alternate;
-  -o-animation: young_rotate 4s linear infinite alternate;
-  animation: young_rotate 4s linear infinite alternate;
-  -webkit-animation-name: young_rotate;
-  -webkit-animation-duration: 4s;
-  -webkit-animation-direction: alternate;
-  -webkit-animation-iteration-count: infinite;
   pointer-events: none; }
 
 @media screen and (min-width: 319px) {
   .tools__fixed {
     position: absolute;
-    width: 45vh;
+    width: 90vw;
     opacity: 0;
+    top: 0vh;
     left: 0vh;
     display: none;
     transition: opacity .8s ease-in-out; } }
 @media screen and (min-width: 980px) {
   .tools__fixed {
-    width: 75vh; } }
+    top: -10vh;
+    width: 50vh;
+    left: 20vh; } }
+@media screen and (min-width: 1300px) {
+  .tools__fixed {
+    width: 30vh; } }
 
 /*# sourceMappingURL=page__4.css.map */

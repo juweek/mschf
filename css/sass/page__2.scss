@@ -107,9 +107,29 @@
     animation-delay: -3s;
 }
 
-.globe {
-    width: 80vh;
-    left: 10vh;
-    position: relative;
-    top: 10vh;
+@media screen and (min-width: $mobile) {
+    .globe {
+        width: 90vw;
+        left: 35vw;
+        position: relative;
+        top: 10vh;
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .globe {
+        width: 60vh;
+        left: 20vh;
+        position: relative;
+        top: 10vh;
+    }
+}
+
+@media screen and (min-width: $wide) {
+    .globe {
+        width: 15vw;
+        left: 25vw;
+        position: relative;
+        top: 10vh;
+    }
 }

@@ -10,8 +10,8 @@
 
 @media screen and (min-width: $mobile) {
     .image__fixed {
-        width: 25vh;
-        left: 0vh;
+        width: 20vh;
+        left: 25vw;
     }
 }
 
@@ -25,5 +25,11 @@
 @media screen and (min-width: $tablet) {
     .image__fixed {
         width: 25vh;
+    }
+}
+
+@media screen and (min-width: $wide) {
+    .image__fixed {
+        width: 15vh;
     }
 }
