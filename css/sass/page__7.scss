@@ -17,3 +17,17 @@
         top: -20vh;
     }
 }
+
+@media screen and (min-width: $desktop) {
+    .timeline__fixed {
+        width: 80vh;
+        top: -20vh;
+    }
+}
+
+@media screen and (min-width: $wide) {
+    .timeline__fixed {
+        width: 30vh;
+        top: -20vh;
+    }
+}

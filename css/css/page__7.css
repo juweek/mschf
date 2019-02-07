@@ -18,5 +18,13 @@
   .timeline__fixed {
     width: 70vh;
     top: -20vh; } }
+@media screen and (min-width: 980px) {
+  .timeline__fixed {
+    width: 80vh;
+    top: -20vh; } }
+@media screen and (min-width: 1300px) {
+  .timeline__fixed {
+    width: 30vh;
+    top: -20vh; } }
 
 /*# sourceMappingURL=page__7.css.map */
