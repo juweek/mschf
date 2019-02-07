@@ -29,3 +29,33 @@
         width: 30vh;
     }
 }
+
+.process__fixed {
+    pointer-events: none;
+}
+
+@media screen and (min-width: $mobile) {
+    .process__fixed {
+        position: absolute;
+        width: 80vw;
+        opacity: 0;
+        top: 0vh;
+        left: 0vh;
+        display: none;
+        transition: opacity .8s ease-in-out;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .process__fixed {
+        top: -10vh;
+        width: 80vh;
+        left: 10vh;
+    }
+}
+
+@media screen and (min-width: $wide) {
+    .process__fixed {
+        width: 30vh;
+    }
+}

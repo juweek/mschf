@@ -4,7 +4,7 @@
     text-align: center;
     position: relative;
     min-height: 98vh;
-    background-color: #F5DFA8;
+    background-color: #fff;
     margin-top: 0px;
     padding-top: 30px;
     border-bottom: 1px solid #333;
@@ -42,6 +42,14 @@
 .comic__main--text {
     margin: 0 auto;
     margin-top: 00px;
+
+    a {
+        color: #333;
+
+        &:visited {
+            color: #333;
+        }
+    }
 
     @media screen and (min-width: $tablet) {
         p {
