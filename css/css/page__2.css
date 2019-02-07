@@ -6,6 +6,28 @@
   font-family: 'NHaasGrotesk';
   src: url("../fonts/NHaasGroteskBd.ttf");
   font-weight: bold; }
+.ball__fixed-container,
+.art__fixed-container,
+.laptop__fixed-container,
+.notes__fixed-container {
+  position: relative;
+  z-index: 0;
+  -moz-animation: z_orbit 4s linear infinite;
+  -o-animation: z_orbit 4s linear infinite;
+  animation: z_orbit 4s linear 0.01s infinite;
+  -webkit-animation-name: z_orbit;
+  -webkit-animation-duration: 4s;
+  -webkit-animation-iteration-count: infinite; }
+
+.notes__fixed-container {
+  animation-delay: -1s; }
+
+.art__fixed-container {
+  animation-delay: -2s; }
+
+.laptop__fixed-container {
+  animation-delay: -3s; }
+
 .ball__fixed {
   position: absolute;
   left: 0vh;

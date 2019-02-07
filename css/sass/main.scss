@@ -48,25 +48,25 @@ $wide: 1300px;
 
 @-webkit-keyframes orbit {
     0% {
-        -webkit-transform: translate(0px, -100px); }
+        -webkit-transform: translate(0px, -80px); }
         100% {
         -webkit-transform: translate(220px, 0px); }
 }
 @-moz-keyframes orbit {
     0% {
-        transform: translate(0px, -100px); }
+        transform: translate(0px, -80px); }
         100% {
         transform: translate(220px, 0px); }
 }
 @-o-keyframes orbit {
     0% {
-        transform: translate(0px, -100px); }
+        transform: translate(0px, -80px); }
         100% {
         transform: translate(220px, 0px); }
 }
 @keyframes orbit {
     0% {
-        transform: translate(0px, -100px); }
+        transform: translate(0px, -80px); }
         100% {
         transform: translate(220px, 0px); }
 }
@@ -76,13 +76,11 @@ $wide: 1300px;
 @-webkit-keyframes z_orbit {
     0% {
         z-index: 10; }
-    40% {
+    45% {
         z-index: 10; }
     50% {
         z-index: -10; }
-    60% {
-        z-index: -10; }
-    90% {
+    95% {
         z-index: -10; }
     100% {
         z-index: 10;
@@ -91,13 +89,11 @@ $wide: 1300px;
 @-moz-keyframes z_orbit {
     0% {
         z-index: 10; }
-    40% {
+    45% {
         z-index: 10; }
     50% {
         z-index: -10; }
-    60% {
-        z-index: -10; }
-    90% {
+    95% {
         z-index: -10; }
     100% {
         z-index: 10;
@@ -106,13 +102,11 @@ $wide: 1300px;
 @-o-keyframes z_orbit {
     0% {
         z-index: 10; }
-    40% {
+    45% {
         z-index: 10; }
     50% {
         z-index: -10; }
-    60% {
-        z-index: -10; }
-    90% {
+    95% {
         z-index: -10; }
     100% {
         z-index: 10;
@@ -121,13 +115,11 @@ $wide: 1300px;
 @keyframes z_orbit {
     0% {
         z-index: 10; }
-    40% {
+    45% {
         z-index: 10; }
     50% {
         z-index: -10; }
-    60% {
-        z-index: -10; }
-    90% {
+    95% {
         z-index: -10; }
     100% {
         z-index: 10;
