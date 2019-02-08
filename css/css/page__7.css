@@ -29,8 +29,8 @@
     top: -20vh; } }
 @media screen and (min-width: 1300px) {
   .timeline-img__fixed {
-    width: 30vh;
-    top: -20vh; } }
+    width: 50vh;
+    top: 0vh; } }
 @media screen and (min-width: 319px) {
   .timeline-text__fixed {
     background-color: #F1F0EC;
@@ -72,7 +72,7 @@
     position: absolute;
     transition: opacity .5s ease-in-out;
     pointer-events: none;
-    top: -20vh;
+    top: -10vh;
     left: 20vh; } }
 
 /*# sourceMappingURL=page__7.css.map */

@@ -55,6 +55,9 @@
 @media screen and (min-width: 740px) {
   .phone_2 {
     left: 200px; } }
+@media screen and (min-width: 1300px) {
+  .phone_2 {
+    left: 300px; } }
 .phone_3 {
   animation-delay: -8s;
   left: 200px;
@@ -63,5 +66,8 @@
 @media screen and (min-width: 740px) {
   .phone_3 {
     left: 400px; } }
+@media screen and (min-width: 1300px) {
+  .phone_3 {
+    left: 600px; } }
 
 /*# sourceMappingURL=page__6.css.map */

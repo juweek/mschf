@@ -105,9 +105,9 @@
     top: 10vh; } }
 @media screen and (min-width: 1300px) {
   .globe {
-    width: 15vw;
-    left: 25vw;
+    width: 20vw;
+    left: 10vw;
     position: relative;
-    top: 10vh; } }
+    top: 0vh; } }
 
 /*# sourceMappingURL=page__2.css.map */

@@ -86,6 +86,11 @@
     width: 40vh;
     left: 25vh;
     top: 0vh; } }
+@media screen and (min-width: 1300px) {
+  .city {
+    width: 35vh;
+    left: 10vh;
+    top: 0vh; } }
 @media screen and (min-width: 319px) {
   .sun__fixed {
     width: 12vh;
@@ -96,6 +101,15 @@
     width: 12vh;
     left: 40vh;
     top: -10vh; } }
+@media screen and (min-width: 740px) {
+  .sun__fixed {
+    width: 12vh;
+    left: 20vh;
+    top: -20vh; } }
+@media screen and (min-width: 1300px) {
+  .sun__fixed {
+    width: 8vh;
+    left: 5vh; } }
 @-webkit-keyframes sun_orbit {
   0% {
     opacity: 1;

@@ -111,6 +111,14 @@
     }
 }
 
+@media screen and (min-width: $wide) {
+    .city {
+        width: 35vh;
+        left: 10vh;
+        top: 0vh;
+    }
+}
+
 
 @media screen and (min-width: $mobile) {
     .sun__fixed {
@@ -125,6 +133,21 @@
         width: 12vh;
         left: 40vh;
         top: -10vh;
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .sun__fixed {
+        width: 12vh;
+        left: 20vh;
+        top: -20vh;
+    }
+}
+
+@media screen and (min-width: $wide) {
+    .sun__fixed {
+        width: 8vh;
+        left: 5vh;
     }
 }
 

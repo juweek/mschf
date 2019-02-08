@@ -65,6 +65,11 @@
         left: 200px;
     }
 }
+@media screen and (min-width: $wide) {
+    .phone_2 {
+        left: 300px;
+    }
+}
 
 .phone_3 {
     animation-delay: -8s;
@@ -75,5 +80,11 @@
 @media screen and (min-width: $tablet) {
     .phone_3 {
         left: 400px;
+    }
+}
+
+@media screen and (min-width: $wide) {
+    .phone_3 {
+        left: 600px;
     }
 }

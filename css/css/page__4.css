@@ -28,8 +28,8 @@
     left: 10vh; } }
 @media screen and (min-width: 1300px) {
   .tools-img__fixed {
-    width: 20vh;
-    top: -20vh; } }
+    width: 30vh;
+    top: 0vh; } }
 .process__fixed {
   pointer-events: none; }
 
@@ -49,6 +49,7 @@
     left: 10vh; } }
 @media screen and (min-width: 1300px) {
   .process__fixed {
-    width: 30vh; } }
+    width: 30vh;
+    top: 0vh; } }
 
 /*# sourceMappingURL=page__4.css.map */
