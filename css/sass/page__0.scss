@@ -2,7 +2,7 @@
 
 .sun__fixed {
     position: absolute;
-    width: 12vh;
+    width: 10vh;
     left: 40vh;
     top: -10vh;
 
@@ -20,12 +20,12 @@
 }
 
 .sun_wrapper {
-    -moz-animation: rotate 6s linear 0.01s infinite;
-    -o-animation: rotate 6s linear 0.01s infinite;
-    animation: rotate 6s linear 0.01s infinite;
+    -moz-animation: rotate 4s linear 0.01s infinite;
+    -o-animation: rotate 4s linear 0.01s infinite;
+    animation: rotate 4s linear 0.01s infinite;
 
     -webkit-animation-name: rotate;
-    -webkit-animation-duration: 6s;
+    -webkit-animation-duration: 4s;
     -webkit-animation-iteration-count: infinite, infinite;
 }
 
@@ -114,7 +114,7 @@
 
 @media screen and (min-width: $mobile) {
     .sun__fixed {
-        width: 16vh;
+        width: 12vh;
         left: 0vh;
         top: -20vh;
     }

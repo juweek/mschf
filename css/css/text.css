@@ -14,19 +14,25 @@
   margin-top: 0px;
   padding-top: 30px;
   border-bottom: 1px solid #333; }
+  .comic__main--text--intro a {
+    color: #333333; }
   .comic__main--text--intro h3 {
     position: absolute;
     right: 5vh; }
   @media screen and (min-width: 319px) {
-    .comic__main--text--intro h1 {
-      font-size: 24px;
-      line-height: 32px;
-      margin: 0 auto; } }
+    .comic__main--text--intro {
+      min-height: 80vh; }
+      .comic__main--text--intro h1 {
+        font-size: 24px;
+        line-height: 32px;
+        margin: 0 auto; } }
   @media screen and (min-width: 740px) {
-    .comic__main--text--intro h1 {
-      font-size: 44px;
-      line-height: 48px;
-      margin: 0 auto; } }
+    .comic__main--text--intro {
+      min-height: 98vh; }
+      .comic__main--text--intro h1 {
+        font-size: 44px;
+        line-height: 48px;
+        margin: 0 auto; } }
   @media screen and (min-width: 980px) {
     .comic__main--text--intro h1 {
       font-size: 54px;
@@ -58,6 +64,7 @@
     position: relative;
     margin: 0 auto;
     margin-top: 65vh;
+    margin-bottom: 65vh;
     font-weight: 400;
     background: rgba(241, 240, 236, 0.9);
     border-top: 1px solid #dedede;

@@ -9,12 +9,18 @@
     padding-top: 30px;
     border-bottom: 1px solid #333;
 
+    a {
+        color: #333333;
+    }
+
     h3 {
         position: absolute;
         right: 5vh;
     }
 
     @media screen and (min-width: $mobile) {
+        min-height: 80vh;
+
         h1 {
             font-size: 24px;
             line-height: 32px;
@@ -23,6 +29,7 @@
     }
 
     @media screen and (min-width: $tablet) {
+        min-height: 98vh;
         h1 {
             font-size: 44px;
             line-height: 48px;
@@ -75,6 +82,7 @@
         position: relative;
         margin: 0 auto;
         margin-top: 65vh;
+        margin-bottom: 65vh;
         font-weight: 400;
         background: rgba(241,240,236, 0.9);
         border-top: 1px solid #dedede;

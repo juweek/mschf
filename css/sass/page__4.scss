@@ -2,31 +2,39 @@
 
 .tools__fixed {
     pointer-events: none;
+    opacity: 0;
 }
 
+
 @media screen and (min-width: $mobile) {
-    .tools__fixed {
+    .tools-img__fixed {
+        width: 70vw;
         position: absolute;
-        width: 90vw;
-        opacity: 0;
-        top: 0vh;
-        left: 0vh;
-        display: none;
-        transition: opacity .8s ease-in-out;
+        transition: opacity .5s ease-in-out;
+        pointer-events: none;
+        top: 10vh;
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .tools-img__fixed {
+        width: 40vh;
+        top: -18vh;
     }
 }
 
 @media screen and (min-width: $desktop) {
-    .tools__fixed {
-        top: -10vh;
+    .tools-img__fixed {
         width: 50vh;
-        left: 20vh;
+        top: -10vh;
+        left: 10vh;
     }
 }
 
 @media screen and (min-width: $wide) {
-    .tools__fixed {
-        width: 30vh;
+    .tools-img__fixed {
+        width: 20vh;
+        top: -20vh;
     }
 }
 

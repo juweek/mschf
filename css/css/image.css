@@ -21,12 +21,11 @@
     max-width: 90vw;
     margin-top: 0px;
     position: absolute;
-    bottom: 10vh;
+    bottom: 0vh;
     left: 5vw; } }
 @media screen and (min-width: 740px) {
   .comic__main--text--intro img {
     max-width: 90vh;
-    bottom: 0vh;
     left: 25vw; } }
 
 /*# sourceMappingURL=image.css.map */
