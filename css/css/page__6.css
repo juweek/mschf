@@ -45,12 +45,12 @@
     background-size: 35vh; } }
 .phone_1 {
   left: 000px;
-  background-image: url("../img/hand_1.png"); }
+  background-image: url("../img/hand_4.png"); }
 
 .phone_2 {
   animation-delay: -4s;
   left: 100px;
-  background-image: url("../img/hand_2.png"); }
+  background-image: url("../img/hand_5.png"); }
 
 @media screen and (min-width: 740px) {
   .phone_2 {
@@ -58,7 +58,7 @@
 .phone_3 {
   animation-delay: -8s;
   left: 200px;
-  background-image: url("../img/hand_3.png"); }
+  background-image: url("../img/hand_6.png"); }
 
 @media screen and (min-width: 740px) {
   .phone_3 {
