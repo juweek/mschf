@@ -16,7 +16,7 @@
     position: absolute;
     transition: opacity .5s ease-in-out;
     pointer-events: none;
-    top: 10vh; } }
+    top: 5vh; } }
 @media screen and (min-width: 740px) {
   .tools-img__fixed {
     width: 40vh;

@@ -18,7 +18,7 @@
     position: absolute;
     transition: opacity .5s ease-in-out;
     pointer-events: none;
-    top: 1vh; } }
+    top: 10vh; } }
 @media screen and (min-width: 740px) {
   .timeline-img__fixed {
     width: 70vh;
@@ -74,5 +74,26 @@
     pointer-events: none;
     top: -10vh;
     left: 20vh; } }
+@media screen and (min-width: 319px) {
+  .work_process-text__fixed {
+    width: 90vw;
+    position: absolute;
+    transition: opacity .5s ease-in-out;
+    pointer-events: none;
+    top: 15vh; } }
+@media screen and (min-width: 740px) {
+  .work_process-text__fixed {
+    width: 70vh;
+    top: 0vh; } }
+@media screen and (min-width: 980px) {
+  .work_process-text__fixed {
+    width: 80vh;
+    top: 10vh;
+    left: -5vw; } }
+@media screen and (min-width: 1300px) {
+  .work_process-text__fixed {
+    width: 50vh;
+    top: 10vh;
+    left: -10vw; } }
 
 /*# sourceMappingURL=page__7.css.map */

@@ -92,12 +92,13 @@ function highlightStates(currentStep) {
         case 'tools':
         $('.page__4').addClass('image__shown');
         $('.page__3').removeClass('image__shown');
+        $('.page__10').removeClass('image__shown');
         $('.page__2').removeClass('image__shown');
         $('.page__5').removeClass('image__shown');
-        $('.cloud__fixed').css('opacity', '0');
         $('.page__7').removeClass('image__shown');
         $('.page__8').removeClass('image__shown');
         $('.page__9').removeClass('image__shown');
+        $('.page__10').removeClass('image__shown');
         break
 
         case 'community':
@@ -116,6 +117,12 @@ function highlightStates(currentStep) {
         $('.page__7').removeClass('image__shown');
         break
 
+        case 'process':
+        $('.page__7').removeClass('image__shown');
+        $('.page__10').addClass('image__shown');
+        $('.page__4').removeClass('image__shown');
+        break
+
         case 'portfolio':
         $('.page__5').removeClass('image__shown');
         $('.page__6').removeClass('image__shown');
@@ -129,6 +136,7 @@ function highlightStates(currentStep) {
         $('.page__2').removeClass('image__shown');
         $('.page__5').removeClass('image__shown');
         $('.page__4').removeClass('image__shown');
+        $('.page__10').removeClass('image__shown');
         break
 
         default:

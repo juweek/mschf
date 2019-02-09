@@ -13,7 +13,7 @@
         position: absolute;
         transition: opacity .5s ease-in-out;
         pointer-events: none;
-        top: 1vh;
+        top: 10vh;
     }
 }
 
@@ -37,9 +37,6 @@
         top: 0vh;
     }
 }
-
-
-
 
 
 
@@ -102,3 +99,36 @@
         left: 20vh;
     }
 }
+
+    @media screen and (min-width: $mobile) {
+        .work_process-text__fixed {
+            width: 90vw;
+            position: absolute;
+            transition: opacity .5s ease-in-out;
+            pointer-events: none;
+            top: 15vh;
+        }
+    }
+
+    @media screen and (min-width: $tablet) {
+        .work_process-text__fixed {
+            width: 70vh;
+            top: 0vh;
+        }
+    }
+
+    @media screen and (min-width: $desktop) {
+        .work_process-text__fixed {
+            width: 80vh;
+            top: 10vh;
+            left: -5vw;
+        }
+    }
+
+    @media screen and (min-width: $wide) {
+        .work_process-text__fixed {
+            width: 50vh;
+            top: 10vh;
+            left: -10vw;
+        }
+    }
