@@ -117,7 +117,7 @@
 }
 
 @media screen and (min-width: $mobile) {
-    .globe {
+    .experience__fixed {
         width: 90vw;
         left: 35vw;
         position: relative;
@@ -126,7 +126,7 @@
 }
 
 @media screen and (min-width: $mobileLandscape) {
-    .globe {
+    .experience__fixed {
         width: 40vw;
         left: 20vw;
         top: 20vh;
@@ -134,7 +134,7 @@
 }
 
 @media screen and (min-width: $tablet) {
-    .globe {
+    .experience__fixed {
         width: 60vh;
         left: 20vh;
         position: relative;
@@ -143,7 +143,7 @@
 }
 
 @media screen and (min-width: $wide) {
-    .globe {
+    .experience__fixed {
         width: 20vw;
         left: 10vw;
         position: relative;

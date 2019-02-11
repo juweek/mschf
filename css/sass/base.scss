@@ -20,6 +20,12 @@ body {
 
 @media screen and (min-width: $tablet) {
     .comic__main {
-        max-width: 80vw;
+        max-width: 100%;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .comic__main {
+        max-width: 80%;
     }
 }

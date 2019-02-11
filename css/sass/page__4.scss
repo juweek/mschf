@@ -1,49 +1,105 @@
 @import 'vars';
 
-.tools__fixed {
+.social__fixed {
     pointer-events: none;
     opacity: 0;
 }
 
 
 @media screen and (min-width: $mobile) {
-    .tools-img__fixed {
+    .social-img__fixed {
         width: 70vw;
         position: absolute;
         transition: opacity .5s ease-in-out;
         pointer-events: none;
         top: 5vh;
     }
+
+    .social-y__fixed {
+        position: absolute;
+        top: 30vh;
+        left: 70vw;
+    }
+
+    .social-x__fixed {
+        position: absolute;
+        top: 5vh;
+        left: 15vw;
+        min-width: 300px;
+    }
 }
 
 @media screen and (min-width: $mobileLandscape) {
-    .tools-img__fixed {
+    .social-img__fixed {
         width: 50vw;
         top: 5vh;
         left: 30vw;
     }
+
+    .social-y__fixed {
+        top: 30vh;
+        left: 15vw;
+    }
+
+    .social-x__fixed {
+        top: 0vh;
+        left: 40vw;
+    }
 }
 
 @media screen and (min-width: $tablet) {
-    .tools-img__fixed {
+    .social-img__fixed {
         width: 40vh;
-        top: -18vh;
+        top: 10vh;
+    }
+
+    .social-y__fixed {
+        top: 30vh;
+        left: 20vw;
+    }
+
+    .social-x__fixed {
+        top: 10vh;
+        left: 40vw;
     }
 }
 
 @media screen and (min-width: $desktop) {
-    .tools-img__fixed {
+    .social-img__fixed {
         width: 50vh;
         top: -10vh;
         left: 10vh;
     }
+
+    .social-y__fixed {
+        position: absolute;
+        top: 20vh;
+        left: 0vw;
+    }
+
+    .social-x__fixed {
+        position: absolute;
+        top: -8vh;
+        left: 15vw;
+        min-width: 300px;
+    }
 }
 
 @media screen and (min-width: $wide) {
-    .tools-img__fixed {
+    .social-img__fixed {
         width: 18vw;
         top: 10vh;
         left: 10vw;
+    }
+
+    .social-y__fixed {
+        top: 25vh;
+        left: 5vw;
+    }
+
+    .social-x__fixed {
+        top: 10vh;
+        left: 15vw;
     }
 }
 

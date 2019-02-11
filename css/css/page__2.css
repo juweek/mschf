@@ -101,24 +101,24 @@
   -webkit-animation-delay: -3s; }
 
 @media screen and (min-width: 319px) {
-  .globe {
+  .experience__fixed {
     width: 90vw;
     left: 35vw;
     position: relative;
     top: 10vh; } }
 @media screen and (min-width: 480px) {
-  .globe {
+  .experience__fixed {
     width: 40vw;
     left: 20vw;
     top: 20vh; } }
 @media screen and (min-width: 740px) {
-  .globe {
+  .experience__fixed {
     width: 60vh;
     left: 20vh;
     position: relative;
     top: 10vh; } }
 @media screen and (min-width: 1300px) {
-  .globe {
+  .experience__fixed {
     width: 20vw;
     left: 10vw;
     position: relative;
