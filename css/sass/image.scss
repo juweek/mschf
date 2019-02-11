@@ -24,6 +24,12 @@
     }
 }
 
+@media screen and (min-width: $mobileLandscape) {
+    .comic__main--text--intro img {
+        max-width: 85vw;
+    }
+}
+
 @media screen and (min-width: $tablet) {
     .comic__main--text--intro img {
         max-width: 90vh;

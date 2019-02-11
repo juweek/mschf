@@ -16,6 +16,14 @@
     }
 }
 
+@media screen and (min-width: $mobileLandscape) {
+    .tools-img__fixed {
+        width: 50vw;
+        top: 5vh;
+        left: 30vw;
+    }
+}
+
 @media screen and (min-width: $tablet) {
     .tools-img__fixed {
         width: 40vh;

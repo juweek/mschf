@@ -13,6 +13,7 @@
     -webkit-animation-name: sun_orbit;
     -webkit-animation-duration: 2s;
     -webkit-animation-iteration-count: infinite, infinite;
+    -webkit-animation-delay: 0.01s;
 
     transition: opacity .4s ease-in-out;
     display: none;
@@ -27,6 +28,7 @@
     -webkit-animation-name: rotate;
     -webkit-animation-duration: 4s;
     -webkit-animation-iteration-count: infinite, infinite;
+    -webkit-animation-delay: 0.01s;
 }
 
 
@@ -91,6 +93,14 @@
     .city {
         width: 60vh;
         left: -20vh;
+        top: 20vh;
+    }
+}
+
+@media screen and (min-width: $mobileLandscape) {
+    .city {
+        width: 50vh;
+        left: 5vh;
         top: 20vh;
     }
 }

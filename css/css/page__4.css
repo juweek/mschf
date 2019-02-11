@@ -17,6 +17,11 @@
     transition: opacity .5s ease-in-out;
     pointer-events: none;
     top: 5vh; } }
+@media screen and (min-width: 480px) {
+  .tools-img__fixed {
+    width: 50vw;
+    top: 5vh;
+    left: 30vw; } }
 @media screen and (min-width: 740px) {
   .tools-img__fixed {
     width: 40vh;

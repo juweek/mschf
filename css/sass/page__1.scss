@@ -15,6 +15,13 @@
     }
 }
 
+@media screen and (min-width: $mobileLandscape) {
+    .image__fixed {
+        width: 20vh;
+        left: 13vw;
+    }
+}
+
 @media screen and (min-width: $phablet) {
     .image__fixed {
         width: 25vh;

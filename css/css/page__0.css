@@ -17,6 +17,7 @@
   -webkit-animation-name: sun_orbit;
   -webkit-animation-duration: 2s;
   -webkit-animation-iteration-count: infinite, infinite;
+  -webkit-animation-delay: 0.01s;
   transition: opacity .4s ease-in-out;
   display: none;
   pointer-events: none; }
@@ -27,7 +28,8 @@
   animation: rotate 4s linear 0.01s infinite;
   -webkit-animation-name: rotate;
   -webkit-animation-duration: 4s;
-  -webkit-animation-iteration-count: infinite, infinite; }
+  -webkit-animation-iteration-count: infinite, infinite;
+  -webkit-animation-delay: 0.01s; }
 
 .city1 {
   animation-delay: -.7s;
@@ -75,6 +77,11 @@
   .city {
     width: 60vh;
     left: -20vh;
+    top: 20vh; } }
+@media screen and (min-width: 480px) {
+  .city {
+    width: 50vh;
+    left: 5vh;
     top: 20vh; } }
 @media screen and (min-width: 660px) {
   .city {

@@ -14,15 +14,6 @@
     pointer-events: none;
 }
 
-/*
-.phone {
-        -webkit-animation: proposal__flicker 9s linear infinite;
-        -moz-animation: proposal__flicker 9s linear infinite;
-        -o-animation: proposal__flicker 9s linear infinite;
-        animation: proposal__flicker 9s linear infinite;
-}
-*/
-
 @media screen and (min-width: $mobile) {
     .phone {
         position: absolute;

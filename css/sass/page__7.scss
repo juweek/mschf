@@ -17,6 +17,13 @@
     }
 }
 
+@media screen and (min-width: $mobileLandscape) {
+    .timeline-img__fixed {
+        width: 72vh;
+        top: 10vh;
+    }
+}
+
 @media screen and (min-width: $tablet) {
     .timeline-img__fixed {
         width: 70vh;

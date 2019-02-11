@@ -19,6 +19,10 @@
     transition: opacity .5s ease-in-out;
     pointer-events: none;
     top: 10vh; } }
+@media screen and (min-width: 480px) {
+  .timeline-img__fixed {
+    width: 72vh;
+    top: 10vh; } }
 @media screen and (min-width: 740px) {
   .timeline-img__fixed {
     width: 70vh;

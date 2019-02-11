@@ -20,6 +20,16 @@
       width: 100%;
       position: absolute;
       left: 8vh; } }
+@media screen and (min-width: 480px) {
+  .rain_cloud__fixed {
+    width: 35vw;
+    left: 10vw;
+    position: absolute;
+    top: 0vh; }
+    .rain_cloud__fixed .cloud {
+      display: block;
+      width: 100%;
+      position: absolute; } }
 @media screen and (min-width: 740px) {
   .rain_cloud__fixed {
     width: 30vh;

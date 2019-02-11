@@ -19,6 +19,21 @@
     }
 }
 
+@media screen and (min-width: $mobileLandscape) {
+    .rain_cloud__fixed {
+        width: 35vw;
+        left: 10vw;
+        position: absolute;
+        top: 0vh;
+
+        .cloud {
+            display: block;
+            width: 100%;
+            position: absolute;
+        }
+    }
+}
+
 @media screen and (min-width: $tablet) {
     .rain_cloud__fixed {
         width: 30vh;

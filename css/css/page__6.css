@@ -18,14 +18,6 @@
 .phone {
   pointer-events: none; }
 
-/*
-.phone {
-        -webkit-animation: proposal__flicker 9s linear infinite;
-        -moz-animation: proposal__flicker 9s linear infinite;
-        -o-animation: proposal__flicker 9s linear infinite;
-        animation: proposal__flicker 9s linear infinite;
-}
-*/
 @media screen and (min-width: 319px) {
   .phone {
     position: absolute;

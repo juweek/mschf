@@ -23,6 +23,9 @@
     position: absolute;
     bottom: 0vh;
     left: 5vw; } }
+@media screen and (min-width: 480px) {
+  .comic__main--text--intro img {
+    max-width: 85vw; } }
 @media screen and (min-width: 740px) {
   .comic__main--text--intro img {
     max-width: 90vh;

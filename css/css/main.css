@@ -30,66 +30,66 @@
 /* ----------------- */
 @-webkit-keyframes orbit {
   0% {
-    -webkit-transform: translate(0px, -80px); }
+    -webkit-transform: translate(5vh, -6vh); }
   100% {
-    -webkit-transform: translate(220px, 0px); } }
+    -webkit-transform: translate(35vh, 0vh); } }
 @-moz-keyframes orbit {
   0% {
-    transform: translate(0px, -80px); }
+    transform: translate(5vh, -6vh); }
   100% {
-    transform: translate(220px, 0px); } }
+    transform: translate(35vh, 0vh); } }
 @-o-keyframes orbit {
   0% {
-    transform: translate(0px, -80px); }
+    transform: translate(5vh, -6vh); }
   100% {
-    transform: translate(220px, 0px); } }
+    transform: translate(35vh, 0vh); } }
 @keyframes orbit {
   0% {
-    transform: translate(0px, -80px); }
+    transform: translate(5vh, -6vh); }
   100% {
-    transform: translate(220px, 0px); } }
+    transform: translate(35vh, 0vh); } }
 /* ----------------- */
 @-webkit-keyframes z_orbit {
   0% {
     z-index: 10; }
-  45% {
+  49% {
     z-index: 10; }
   50% {
     z-index: -10; }
-  95% {
+  99% {
     z-index: -10; }
   100% {
     z-index: 10; } }
 @-moz-keyframes z_orbit {
   0% {
     z-index: 10; }
-  45% {
+  49% {
     z-index: 10; }
   50% {
     z-index: -10; }
-  95% {
+  99% {
     z-index: -10; }
   100% {
     z-index: 10; } }
 @-o-keyframes z_orbit {
   0% {
     z-index: 10; }
-  45% {
+  49% {
     z-index: 10; }
   50% {
     z-index: -10; }
-  95% {
+  99% {
     z-index: -10; }
   100% {
     z-index: 10; } }
 @keyframes z_orbit {
   0% {
     z-index: 10; }
-  45% {
+  49% {
     z-index: 10; }
   50% {
     z-index: -10; }
-  95% {
+  99% {
     z-index: -10; }
   100% {
     z-index: 10; } }
