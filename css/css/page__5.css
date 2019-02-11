@@ -43,13 +43,13 @@
 @media screen and (min-width: 1300px) {
   .rain_cloud__fixed {
     width: 30vh;
-    left: 0vh;
+    left: 10vh;
     position: absolute;
     top: 10vh; }
 
   .cloud {
     position: absolute;
-    left: 0vh; } }
+    left: 5vh; } }
 .raindrop__fixed {
   position: absolute;
   width: 1vh;

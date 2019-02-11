@@ -41,11 +41,9 @@
 @media screen and (min-width: $wide) {
     .timeline-img__fixed {
         width: 50vh;
-        top: 0vh;
+        top: 10vh;
     }
 }
-
-
 
 
 @media screen and (min-width: $mobile) {
@@ -134,8 +132,8 @@
 
     @media screen and (min-width: $wide) {
         .work_process-text__fixed {
-            width: 50vh;
-            top: 10vh;
-            left: -10vw;
+            width: 60vh;
+            top: 20vh;
+            left: -5vw;
         }
     }

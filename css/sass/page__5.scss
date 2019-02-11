@@ -51,14 +51,14 @@
 @media screen and (min-width: $wide) {
     .rain_cloud__fixed {
         width: 30vh;
-        left: 0vh;
+        left: 10vh;
         position: absolute;
         top: 10vh;
     }
 
     .cloud {
         position: absolute;
-        left: 0vh
+        left: 5vh
     }
 }
 
