@@ -19,23 +19,26 @@
   .comic__main--text--intro h3 {
     position: absolute;
     right: 5vh; }
-  .comic__main--text--intro h4 {
-    position: absolute;
-    left: 5vh; }
   @media screen and (min-width: 319px) {
     .comic__main--text--intro {
       min-height: 80vh; }
       .comic__main--text--intro h1 {
         font-size: 24px;
         line-height: 32px;
-        margin: 0 auto; } }
+        margin: 0 auto; }
+      .comic__main--text--intro h4 {
+        position: absolute;
+        left: 5vh;
+        opacity: 0; } }
   @media screen and (min-width: 740px) {
     .comic__main--text--intro {
       min-height: 98vh; }
       .comic__main--text--intro h1 {
         font-size: 44px;
         line-height: 48px;
-        margin: 0 auto; } }
+        margin: 0 auto; }
+      .comic__main--text--intro h4 {
+        opacity: 1; } }
   @media screen and (min-width: 980px) {
     .comic__main--text--intro h1 {
       font-size: 54px;
