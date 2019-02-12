@@ -8,7 +8,8 @@
   font-weight: bold; }
 .social__fixed {
   pointer-events: none;
-  opacity: 0; }
+  opacity: 0;
+  transition: opacity .5s ease-in-out; }
 
 @media screen and (min-width: 319px) {
   .social-img__fixed {
@@ -83,7 +84,8 @@
     top: 10vh;
     left: 15vw; } }
 .process__fixed {
-  pointer-events: none; }
+  pointer-events: none;
+  transition: opacity .5s ease-in-out; }
 
 @media screen and (min-width: 319px) {
   .process__fixed {
@@ -92,8 +94,7 @@
     opacity: 0;
     top: 0vh;
     left: 0vh;
-    display: none;
-    transition: opacity .8s ease-in-out; } }
+    display: none; } }
 @media screen and (min-width: 980px) {
   .process__fixed {
     top: -10vh;

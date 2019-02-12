@@ -18,6 +18,11 @@
         right: 5vh;
     }
 
+    h4 {
+        position: absolute;
+        left: 5vh;
+    }
+
     @media screen and (min-width: $mobile) {
         min-height: 80vh;
 
@@ -81,8 +86,8 @@
         z-index: 100;
         position: relative;
         margin: 0 auto;
-        margin-top: 65vh;
-        margin-bottom: 65vh;
+        margin-top: 75vh;
+        margin-bottom: 75vh;
         font-weight: 400;
         background: rgba(241,240,236, 0.9);
         border-top: 1px solid #dedede;
