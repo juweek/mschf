@@ -22,13 +22,15 @@
   .social-y__fixed {
     position: absolute;
     top: 30vh;
-    left: 70vw; }
+    left: 70vw;
+    font-family: 'Neucha'; }
 
   .social-x__fixed {
     position: absolute;
     top: 5vh;
     left: 15vw;
-    min-width: 300px; } }
+    min-width: 300px;
+    font-family: 'Neucha'; } }
 @media screen and (min-width: 480px) {
   .social-img__fixed {
     width: 50vw;

@@ -39,12 +39,13 @@
   .timeline-text__fixed {
     background-color: #F1F0EC;
     width: 100vw;
-    font-size: 14px;
+    font-size: 18px;
     position: absolute;
     transition: opacity .5s ease-in-out;
     pointer-events: none;
     top: -20vh;
-    left: 0vh; }
+    left: 0vh;
+    font-family: 'Neucha'; }
 
   p {
     margin: 8px; }
@@ -89,12 +90,14 @@
   .work_process-x__fixed {
     position: absolute;
     top: 10vh;
-    left: 60vw; }
+    left: 60vw;
+    font-family: 'Neucha'; }
 
   .work_process-y__fixed {
     position: absolute;
     top: 39vh;
-    left: 8vw; } }
+    left: 8vw;
+    font-family: 'Neucha'; } }
 @media screen and (min-width: 480px) {
   .work_process-y__fixed {
     position: absolute;
