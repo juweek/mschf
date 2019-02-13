@@ -45,6 +45,45 @@
     }
 }
 
+@media screen and (min-width: $mobile) {
+    .proposal-img__fixed {
+        width: 90vw;
+        position: absolute;
+        transition: opacity .5s ease-in-out;
+        pointer-events: none;
+        top: 0vh;
+    }
+}
+
+@media screen and (min-width: $mobileLandscape) {
+    .proposal-img__fixed {
+        width: 72vh;
+        top: 10vh;
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .proposal-img__fixed {
+        width: 70vh;
+        top: -10vh;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .proposal-img__fixed {
+        width: 75vh;
+        top: -5vh;
+        left: 5vw;
+    }
+}
+
+@media screen and (min-width: $wide) {
+    .proposal-img__fixed {
+        width: 40vh;
+        top: 10vh;
+    }
+}
+
 
 @media screen and (min-width: $mobile) {
     .timeline-text__fixed {

@@ -36,6 +36,30 @@
     width: 50vh;
     top: 10vh; } }
 @media screen and (min-width: 319px) {
+  .proposal-img__fixed {
+    width: 90vw;
+    position: absolute;
+    transition: opacity .5s ease-in-out;
+    pointer-events: none;
+    top: 0vh; } }
+@media screen and (min-width: 480px) {
+  .proposal-img__fixed {
+    width: 72vh;
+    top: 10vh; } }
+@media screen and (min-width: 740px) {
+  .proposal-img__fixed {
+    width: 70vh;
+    top: -10vh; } }
+@media screen and (min-width: 980px) {
+  .proposal-img__fixed {
+    width: 75vh;
+    top: -5vh;
+    left: 5vw; } }
+@media screen and (min-width: 1300px) {
+  .proposal-img__fixed {
+    width: 40vh;
+    top: 10vh; } }
+@media screen and (min-width: 319px) {
   .timeline-text__fixed {
     background-color: #F1F0EC;
     width: 100vw;
