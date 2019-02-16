@@ -30,7 +30,9 @@
     top: 5vh;
     left: 15vw;
     min-width: 300px;
-    font-family: 'Neucha'; } }
+    font-family: 'Neucha';
+    text-decoration: underline;
+    font-size: 28px; } }
 @media screen and (min-width: 480px) {
   .social-img__fixed {
     width: 50vw;
@@ -69,8 +71,8 @@
 
   .social-x__fixed {
     position: absolute;
-    top: -8vh;
-    left: 15vw;
+    top: -15vh;
+    left: 10vw;
     min-width: 300px; } }
 @media screen and (min-width: 1300px) {
   .social-img__fixed {

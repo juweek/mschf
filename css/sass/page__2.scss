@@ -118,10 +118,32 @@
 
 @media screen and (min-width: $mobile) {
     .experience__fixed {
-        width: 70vw;
-        left: 35vw;
+        width: 67vw;
+        left: 45vw;
         position: relative;
         top: 12vh;
+    }
+
+    .exp-text-code__fixed {
+        left: 80vw;
+        position: absolute;
+        top: 8vh;
+        font-size: 21px;
+        font-family: 'Neucha';
+    }
+    .exp-text-art__fixed {
+        left: 46vw;
+        position: absolute;
+        top: 34vh;
+        font-size: 21px;
+        font-family: 'Neucha';
+    }
+    .exp-text-data__fixed {
+        left: 63vw;
+        position: absolute;
+        top: 26vh;
+        font-size: 21px;
+        font-family: 'Neucha';
     }
 }
 
@@ -145,9 +167,25 @@
 @media screen and (min-width: $desktop) {
     .experience__fixed {
         width: 60vh;
-        left: 25vh;
+        left: 8vh;
         position: absolute;
-        top: 10vh;
+        top: 5vh;
+    }
+
+    .exp-text-code__fixed {
+        left: 25vw;
+        top: 0vh;
+        font-size: 30px;
+    }
+    .exp-text-art__fixed {
+        left: 7vw;
+        top: 42vh;
+        font-size: 30px;
+    }
+    .exp-text-data__fixed {
+        left: 15vw;
+        top: 30vh;
+        font-size: 30px;
     }
 }
 
@@ -157,5 +195,22 @@
         left: 10vw;
         position: relative;
         top: 0vh;
+    }
+
+    .exp-text-code__fixed {
+        left: 20vw;
+        top: -4vh;
+        font-size: 28px;
+        width: 100%
+    }
+    .exp-text-art__fixed {
+        left: 10vw;
+        top: 19vh;
+        font-size: 28px;
+    }
+    .exp-text-data__fixed {
+        left: 15vw;
+        top: 12vh;
+        font-size: 28px;
     }
 }
