@@ -15,8 +15,9 @@
 
 @media screen and (min-width: 319px) {
   .image__fixed {
-    width: 20vh;
-    left: 25vw; } }
+    width: 25vh;
+    left: 25vw;
+    top: -10vh; } }
 @media screen and (min-width: 480px) {
   .image__fixed {
     width: 20vh;

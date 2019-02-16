@@ -102,10 +102,10 @@
 
 @media screen and (min-width: 319px) {
   .experience__fixed {
-    width: 90vw;
+    width: 60vw;
     left: 35vw;
     position: relative;
-    top: 10vh; } }
+    top: 12vh; } }
 @media screen and (min-width: 480px) {
   .experience__fixed {
     width: 40vw;
@@ -116,6 +116,12 @@
     width: 60vh;
     left: 20vh;
     position: relative;
+    top: 10vh; } }
+@media screen and (min-width: 980px) {
+  .experience__fixed {
+    width: 40vh;
+    left: 25vh;
+    position: absolute;
     top: 10vh; } }
 @media screen and (min-width: 1300px) {
   .experience__fixed {

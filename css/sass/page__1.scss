@@ -10,8 +10,9 @@
 
 @media screen and (min-width: $mobile) {
     .image__fixed {
-        width: 20vh;
+        width: 25vh;
         left: 25vw;
+        top: -10vh;
     }
 }
 

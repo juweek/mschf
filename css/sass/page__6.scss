@@ -4,7 +4,7 @@
     position: absolute;
     display: flex;
     flex-direction: column;
-    width: 22vw;
+    width: 15vw;
     opacity: 0;
     transition: opacity .6s ease-in-out;
     top: 0;
@@ -12,70 +12,4 @@
 
 .phone {
     pointer-events: none;
-}
-
-@media screen and (min-width: $mobile) {
-    .phone {
-        position: absolute;
-        width: 32vw;
-        height: 0;
-        padding-top: 190%;
-        background-size: 30vw;
-    }
-}
-
-@media screen and (min-width: $tablet) {
-    .phone {
-        width: 35vh;
-        padding-top: 120%;
-        background-size: 35vh;
-    }
-}
-
-@media screen and (min-width: $desktop) {
-    .phone {
-        width: 35vh;
-        padding-top: 120%;
-        background-size: 35vh;
-    }
-}
-
-.phone_1 {
-    left: 000px;
-    background-image: url('../img/hand_4.png');
-}
-
-.phone_2 {
-    animation-delay: -4s;
-    left: 100px;
-    background-image: url('../img/hand_5.png');
-}
-
-@media screen and (min-width: $tablet) {
-    .phone_2 {
-        left: 200px;
-    }
-}
-@media screen and (min-width: $wide) {
-    .phone_2 {
-        left: 300px;
-    }
-}
-
-.phone_3 {
-    animation-delay: -8s;
-    left: 200px;
-    background-image: url('../img/hand_6.png');
-}
-
-@media screen and (min-width: $tablet) {
-    .phone_3 {
-        left: 400px;
-    }
-}
-
-@media screen and (min-width: $wide) {
-    .phone_3 {
-        left: 600px;
-    }
 }

@@ -31,7 +31,6 @@
     -webkit-animation-delay: 0.01s;
 }
 
-
 .city1 {
     animation-delay: -.7s;
 
@@ -46,7 +45,7 @@
 
     max-width: 100%;
     position: relative;
-    top: 10vh;
+    top: 15vh;
 }
 
 .city2 {
@@ -61,24 +60,8 @@
     -webkit-animation-iteration-count: infinite;
 
 
-    margin-top: 20px;
+    margin-top: 10px;
     max-width: 100%;
-}
-
-.city3 {
-    animation-delay: -.2s;
-
-    -moz-animation: move 2.9s linear infinite alternate;
-    -o-animation: move 2.9s linear infinite alternate;
-    animation: move 2.9s linear infinite alternate;
-
-    -webkit-animation-name: move;
-    -webkit-animation-duration: 2.9s;
-    -webkit-animation-direction: alternate;
-    -webkit-animation-iteration-count: infinite;
-
-    max-width: 100%;
-    top: -15vh;
 }
 
 
@@ -118,6 +101,14 @@
         width: 40vh;
         left: 25vh;
         top: 0vh;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .city {
+        width: 33vw;
+        left: 15vw;
+        bottom: 0vh;
     }
 }
 

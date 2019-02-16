@@ -118,10 +118,10 @@
 
 @media screen and (min-width: $mobile) {
     .experience__fixed {
-        width: 90vw;
+        width: 70vw;
         left: 35vw;
         position: relative;
-        top: 10vh;
+        top: 12vh;
     }
 }
 
@@ -138,6 +138,15 @@
         width: 60vh;
         left: 20vh;
         position: relative;
+        top: 10vh;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .experience__fixed {
+        width: 60vh;
+        left: 25vh;
+        position: absolute;
         top: 10vh;
     }
 }
