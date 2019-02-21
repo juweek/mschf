@@ -93,7 +93,7 @@
         position: absolute;
         transition: opacity .5s ease-in-out;
         pointer-events: none;
-        top: -20vh;
+        top: -16vh;
         left: 0vh;
         font-family: 'Neucha';
     }
@@ -151,25 +151,25 @@
             position: absolute;
             transition: opacity .5s ease-in-out;
             pointer-events: none;
-            top: 15vh;
+            top: 25vh;
         }
 
         .work_process-x__fixed {
             position: absolute;
-            top: 10vh;
-            left: 60vw;
+            top: 46vh;
+            left: 5vw;
             font-family: 'Neucha';
         }
         .work_process-x_2__fixed {
             position: absolute;
-            top: 10vh;
-            left: 60vw;
+            top: 46vh;
+            left: 35vw;
             font-family: 'Neucha';
         }
         .work_process-y__fixed {
             position: absolute;
-            top: 39vh;
-            left: 8vw;
+            top: 20vh;
+            left: 50vw;
             font-family: 'Neucha';
         }
     }

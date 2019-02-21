@@ -27,8 +27,8 @@
 
   .social-label__fixed {
     position: absolute;
-    top: 5vh;
-    left: 15vw;
+    top: -25vh;
+    left: 1vw;
     min-width: 300px;
     font-family: 'Neucha';
     text-decoration: underline;
@@ -36,8 +36,8 @@
 
   .schedule-x__fixed {
     position: absolute;
-    top: 5vh;
-    left: 15vw;
+    top: -25vh;
+    left: 0vw;
     min-width: 300px;
     font-family: 'Neucha';
     text-decoration: underline;

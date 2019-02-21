@@ -17,7 +17,7 @@
     position: absolute;
     transition: opacity .5s ease-in-out;
     pointer-events: none;
-    top: 5vh; }
+    top: 15vh; }
 
   .budget-y__fixed {
     position: absolute;
@@ -27,8 +27,8 @@
 
   .budget-x__fixed {
     position: absolute;
-    top: 5vh;
-    left: 15vw;
+    top: -8vh;
+    left: 0vw;
     min-width: 300px;
     font-family: 'Neucha';
     text-decoration: underline;
