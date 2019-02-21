@@ -23,16 +23,27 @@
         font-family: 'Neucha';
     }
 
-    .social-x__fixed {
+    .social-label__fixed {
         position: absolute;
         top: 5vh;
         left: 15vw;
         min-width: 300px;
         font-family: 'Neucha';
         text-decoration: underline;
-        font-size: 28px;
+        font-size: 30px;
+    }
+
+    .schedule-x__fixed {
+        position: absolute;
+        top: 5vh;
+        left: 15vw;
+        min-width: 300px;
+        font-family: 'Neucha';
+        text-decoration: underline;
+        font-size: 30px;
     }
 }
+
 
 @media screen and (min-width: $mobileLandscape) {
     .social-img__fixed {
@@ -46,8 +57,8 @@
         left: 15vw;
     }
 
-    .social-x__fixed {
-        top: 0vh;
+    .social-label__fixed {
+        top: -10vh;
         left: 40vw;
     }
 }
@@ -71,8 +82,8 @@
 
 @media screen and (min-width: $desktop) {
     .social-img__fixed {
-        width: 50vh;
-        top: -10vh;
+        width: 60vh;
+        top: 5vh;
         left: 10vh;
     }
 
@@ -82,10 +93,15 @@
         left: 0vw;
     }
 
-    .social-x__fixed {
-        position: absolute;
-        top: -15vh;
-        left: 10vw;
+    .social-label__fixed {
+        top: -10vh;
+        left: 0vw;
+        min-width: 300px;
+    }
+
+    .schedule-x__fixed {
+        top: -20vh;
+        left: 40vw;
         min-width: 300px;
     }
 }

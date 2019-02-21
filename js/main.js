@@ -16,7 +16,9 @@ function getSteps() {
 
 function bindings() {
     $(window).scroll(function() {
-        this.onScroll();
+        setTimeout( function(){
+            this.onScroll();
+        },100);
     }.bind(this));
 
     $(document).on('input', '#myRange', function() {
@@ -81,12 +83,9 @@ function highlightStates(currentStep) {
         break
 
         case 'proposal':
-        $('.page__1').removeClass('image__shown');
-        $('.page__2').removeClass('image__shown');
-        $('.page__3').removeClass('image__shown');
-        $('.page__5').removeClass('image__shown');
         $('.page__6').addClass('image__shown');
-        $('.page__8').removeClass('image__shown');
+        $('.page__5').removeClass('image__shown');
+        $('.page__10').removeClass('image__shown');
         break
 
         case 'tools':
@@ -96,9 +95,9 @@ function highlightStates(currentStep) {
         $('.page__2').removeClass('image__shown');
         $('.page__5').removeClass('image__shown');
         $('.page__7').removeClass('image__shown');
-        $('.page__8').removeClass('image__shown');
         $('.page__9').removeClass('image__shown');
         $('.page__10').removeClass('image__shown');
+        $('.page__8').removeClass('image__shown');
         break
 
         case 'community':
@@ -106,29 +105,27 @@ function highlightStates(currentStep) {
         $('.page__9').addClass('image__shown');
         break
 
+        case 'budget':
+        $('.page__4').removeClass('image__shown');
+        $('.page__8').addClass('image__shown');
+        break
+
         case 'cloud':
         $('.page__5').addClass('image__shown');
-        $('.page__1').removeClass('image__shown');
-        $('.page__3').removeClass('image__shown');
-        $('.page__2').removeClass('image__shown');
-        $('.scene__3').removeClass('image__shown');
+
         $('.page__6').removeClass('image__shown');
-        $('.page__8').removeClass('image__shown');
         $('.page__7').removeClass('image__shown');
+
+        $('.page__1').removeClass('image__shown');
+        $('.page__2').removeClass('image__shown');
+        $('.page__3').removeClass('image__shown');
         break
 
         case 'process':
         $('.page__7').removeClass('image__shown');
         $('.page__10').addClass('image__shown');
         $('.page__4').removeClass('image__shown');
-        break
-
-        case 'portfolio':
-        $('.page__5').removeClass('image__shown');
         $('.page__6').removeClass('image__shown');
-        $('.page__8').addClass('image__shown');
-        $('.page__4').removeClass('image__shown');
-        $('.page__5').removeClass('image__shown');
         break
 
         case 'timeline':

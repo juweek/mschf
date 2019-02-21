@@ -129,7 +129,7 @@
         position: absolute;
         transition: opacity .5s ease-in-out;
         pointer-events: none;
-        top: 0vh;
+        top: -5vh;
         left: 60vh;
     }
 }
@@ -141,7 +141,7 @@
         transition: opacity .5s ease-in-out;
         pointer-events: none;
         top: 15vh;
-        left: 60vh;
+        left: 50vh;
     }
 }
 
@@ -155,6 +155,12 @@
         }
 
         .work_process-x__fixed {
+            position: absolute;
+            top: 10vh;
+            left: 60vw;
+            font-family: 'Neucha';
+        }
+        .work_process-x_2__fixed {
             position: absolute;
             top: 10vh;
             left: 60vw;
@@ -211,22 +217,32 @@
 
     @media screen and (min-width: $desktop) {
         .work_process-text__fixed {
-            width: 80vh;
-            top: 10vh;
-            left: -5vw;
+            width: 82vh;
+            top: 14vh;
+            left: -2vw;
         }
 
         .work_process-x__fixed {
-            top: 5vh;
-            left: 20vw;
+            top: 47vh;
+            left: 2vw;
+        }
+
+        .work_process-x_2__fixed {
+            top: 47vh;
+            left: 17vw;
         }
         .work_process-y__fixed {
-            top: 46vh;
-            left: 8vw;
+            top: 10vh;
+            left: 25vw;
         }
     }
 
     @media screen and (min-width: $wide) {
+        .work_process-text__fixed {
+            width: 45vh;
+            left: 0vw;
+        }
+
         .work_process-x__fixed {
             top: 5vh;
             left: 16vw;

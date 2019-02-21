@@ -6,47 +6,86 @@
   font-family: 'NHaasGrotesk';
   src: url("../fonts/NHaasGroteskBd.ttf");
   font-weight: bold; }
-.portfolio_phone {
-  pointer-events: none; }
+.budget__fixed {
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity .5s ease-in-out; }
 
 @media screen and (min-width: 319px) {
-  .portfolio_phone {
+  .budget-img__fixed {
+    width: 70vw;
     position: absolute;
-    width: 30vw;
-    height: 0;
-    padding-top: 190%;
-    background-size: 30vw; } }
+    transition: opacity .5s ease-in-out;
+    pointer-events: none;
+    top: 5vh; }
+
+  .budget-y__fixed {
+    position: absolute;
+    top: 30vh;
+    left: 70vw;
+    font-family: 'Neucha'; }
+
+  .budget-x__fixed {
+    position: absolute;
+    top: 5vh;
+    left: 15vw;
+    min-width: 300px;
+    font-family: 'Neucha';
+    text-decoration: underline;
+    font-size: 28px; } }
+@media screen and (min-width: 480px) {
+  .budget-img__fixed {
+    width: 50vw;
+    top: 5vh;
+    left: 30vw; }
+
+  .budget-y__fixed {
+    top: 30vh;
+    left: 15vw; }
+
+  .budget-x__fixed {
+    top: 0vh;
+    left: 40vw; } }
 @media screen and (min-width: 740px) {
-  .portfolio_phone {
-    width: 35vh;
-    padding-top: 120%;
-    background-size: 35vh; } }
+  .budget-img__fixed {
+    width: 40vh;
+    top: 10vh; }
+
+  .budget-y__fixed {
+    top: 30vh;
+    left: 20vw; }
+
+  .budget-x__fixed {
+    top: 10vh;
+    left: 40vw; } }
 @media screen and (min-width: 980px) {
-  .portfolio_phone {
-    width: 35vh;
-    padding-top: 120%;
-    background-size: 35vh; } }
-@media screen and (min-width: 319px) {
-  .phone_4 {
-    left: 000px;
-    background-image: url("../img/hand_4.png"); } }
-@media screen and (min-width: 319px) {
-  .phone_5 {
-    left: 100px;
-    animation-delay: -2s;
-    background-image: url("../img/hand_5.png"); } }
-@media screen and (min-width: 740px) {
-  .phone_5 {
-    left: 200px;
-    animation-delay: -2s; } }
-@media screen and (min-width: 319px) {
-  .phone_6 {
-    left: 200px;
-    animation-delay: -1s;
-    background-image: url("../img/hand_6.png"); } }
-@media screen and (min-width: 740px) {
-  .phone_6 {
-    left: 400px;
-    animation-delay: -1s; } }
+  .budget-img__fixed {
+    width: 50vh;
+    top: -10vh;
+    left: 10vh; }
+
+  .budget-y__fixed {
+    position: absolute;
+    top: 20vh;
+    left: 0vw; }
+
+  .budget-x__fixed {
+    position: absolute;
+    top: -15vh;
+    left: 10vw;
+    min-width: 300px; } }
+@media screen and (min-width: 1300px) {
+  .budget-img__fixed {
+    width: 18vw;
+    top: 10vh;
+    left: 10vw; }
+
+  .budget-y__fixed {
+    top: 25vh;
+    left: 5vw; }
+
+  .budget-x__fixed {
+    top: 10vh;
+    left: 15vw; } }
 
 /*# sourceMappingURL=page__8.css.map */
