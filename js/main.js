@@ -74,11 +74,10 @@ function highlightStates(currentStep) {
         break
 
         case 'skills':
+        $('.page__1').removeClass('image__shown');
         $('.page__2').addClass('image__shown');
-        $('.scene__3').removeClass('image__shown');
         $('.page__0').removeClass('image__shown');
         $('.page__6').removeClass('image__shown');
-        $('.page__1').addClass('image__shown');
         $('.page__5').removeClass('image__shown');
         break
 

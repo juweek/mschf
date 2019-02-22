@@ -6,10 +6,9 @@
   font-family: 'NHaasGrotesk';
   src: url("../fonts/NHaasGroteskBd.ttf");
   font-weight: bold; }
-.ball__fixed-container,
-.art__fixed-container,
+.data__fixed-container,
 .laptop__fixed-container,
-.notes__fixed-container {
+.draw__fixed-container {
   position: relative;
   z-index: 0;
   -moz-animation: z_orbit 4s linear 0.01s infinite;
@@ -20,21 +19,17 @@
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: -0.01s; }
 
-.notes__fixed-container {
+.draw__fixed-container {
   animation-delay: -1s;
   -webkit-animation-delay: -1s; }
-
-.art__fixed-container {
-  animation-delay: -2s;
-  -webkit-animation-delay: -2s; }
 
 .laptop__fixed-container {
   animation-delay: -3s;
   -webkit-animation-delay: -3s; }
 
-.ball__fixed {
+.data__fixed {
   position: absolute;
-  left: -5vh;
+  left: 0vh;
   width: 10vh;
   -moz-animation: orbit 2s linear 0.01s infinite alternate;
   -o-animation: orbit 2s linear 0.01s infinite alternate;
@@ -48,9 +43,9 @@
   display: block;
   transition: opacity .7s ease-in-out; }
 
-.notes__fixed {
+.draw__fixed {
   position: absolute;
-  left: -5vh;
+  left: 0vh;
   width: 11vh;
   -moz-animation: orbit 2s linear 0.01s infinite alternate;
   -o-animation: orbit 2s linear 0.01s infinite alternate;
@@ -65,26 +60,9 @@
   animation-delay: -1s;
   -webkit-animation-delay: -1s; }
 
-.art__fixed {
-  position: absolute;
-  left: -5vh;
-  width: 12vh;
-  -moz-animation: orbit 2s linear 0.01s infinite alternate;
-  -o-animation: orbit 2s linear 0.01s infinite alternate;
-  animation: orbit 2s linear 0.01s infinite alternate;
-  -webkit-animation-name: orbit;
-  -webkit-animation-duration: 2s;
-  -webkit-animation-direction: alternate;
-  -webkit-animation-iteration-count: infinite;
-  opacity: 0;
-  display: block;
-  transition: opacity .7s ease-in-out;
-  animation-delay: -2s;
-  -webkit-animation-delay: -2s; }
-
 .laptop__fixed {
   position: absolute;
-  left: -5vh;
+  left: 0vh;
   width: 12vh;
   -moz-animation: orbit 2s linear 0.01s infinite alternate;
   -o-animation: orbit 2s linear 0.01s infinite alternate;
@@ -100,12 +78,21 @@
   animation-delay: -3s;
   -webkit-animation-delay: -3s; }
 
+@media screen and (min-width: 980px) {
+  .laptop__fixed {
+    left: 15vh; }
+
+  .draw__fixed {
+    left: 15vh; }
+
+  .data__fixed {
+    left: 15vh; } }
 @media screen and (min-width: 319px) {
   .experience__fixed {
     width: 83vw;
-    left: 35vw;
+    left: 36vw;
     position: relative;
-    top: 8vh; }
+    top: -35vh; }
 
   .exp-text-code__fixed {
     left: 80vw;
@@ -144,9 +131,9 @@
 @media screen and (min-width: 980px) {
   .experience__fixed {
     width: 60vh;
-    left: 15vh;
+    left: -20vh;
     position: absolute;
-    top: -5vh; }
+    top: -12vh; }
 
   .exp-text-code__fixed {
     left: 20vw;

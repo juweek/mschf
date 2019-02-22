@@ -69,8 +69,8 @@
     left: 40vw; } }
 @media screen and (min-width: 980px) {
   .social-img__fixed {
-    width: 60vh;
-    top: 5vh;
+    width: 50vh;
+    top: 0vh;
     left: 10vh; }
 
   .social-y__fixed {

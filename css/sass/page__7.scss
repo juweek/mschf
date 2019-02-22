@@ -98,6 +98,19 @@
         font-family: 'Neucha';
     }
 
+    .experience-text__fixed {
+        background-color: #F1F0EC;
+        width: 100vw;
+        font-size: 18px;
+        position: absolute;
+        transition: opacity .5s ease-in-out;
+        pointer-events: none;
+        top: 15vh;
+        left: 30vh;
+        font-family: 'Neucha';
+
+    }
+
     p {
         margin: 8px;
     }
