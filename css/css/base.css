@@ -27,5 +27,8 @@ body {
 @media screen and (min-width: 980px) {
   .comic__main {
     max-width: 80%; } }
+@media screen and (min-width: 1300px) {
+  .comic__main {
+    max-width: 40%; } }
 
 /*# sourceMappingURL=base.css.map */

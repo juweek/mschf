@@ -91,15 +91,23 @@
   .social-img__fixed {
     width: 18vw;
     top: 10vh;
-    left: 10vw; }
+    left: -20vw; }
 
   .social-y__fixed {
     top: 25vh;
-    left: 5vw; }
+    left: -23vw; }
 
   .social-x__fixed {
     top: 10vh;
-    left: 15vw; } }
+    left: -5vw; }
+
+  .social-label__fixed {
+    top: 0vh;
+    left: -25vw; }
+
+  .schedule-x__fixed {
+    top: 0vh;
+    left: -20vw; } }
 .process__fixed {
   pointer-events: none;
   transition: opacity .5s ease-in-out; }

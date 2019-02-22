@@ -29,3 +29,9 @@ body {
         max-width: 80%;
     }
 }
+
+@media screen and (min-width: $wide) {
+    .comic__main {
+        max-width: 40%;
+    }
+}

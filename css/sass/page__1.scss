@@ -39,5 +39,6 @@
 @media screen and (min-width: $wide) {
     .image__fixed {
         width: 20vh;
+        left: -20vw;
     }
 }

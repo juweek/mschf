@@ -42,10 +42,10 @@
     left: 10vh; } }
 @media screen and (min-width: 1300px) {
   .rain_cloud__fixed {
-    width: 30vh;
-    left: 10vh;
+    width: 25vh;
+    left: -45vh;
     position: absolute;
-    top: 10vh; }
+    top: 0vh; }
 
   .cloud {
     position: absolute;
@@ -107,6 +107,10 @@
 @media screen and (min-width: 740px) {
   .slidecontainer {
     top: -10vh; } }
+@media screen and (min-width: 1300px) {
+  .slidecontainer {
+    top: -10vh;
+    left: 5vw; } }
 input[type=range] {
   -webkit-appearance: none;
   /* Hides the slider so that custom slider can be made */

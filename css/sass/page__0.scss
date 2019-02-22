@@ -49,7 +49,6 @@
 }
 
 .city2 {
-
     -moz-animation: move 2.1s linear infinite alternate;
     -o-animation: move 2.1s linear infinite alternate;
     animation: move 2.1s linear infinite alternate;
@@ -115,8 +114,12 @@
 @media screen and (min-width: $wide) {
     .city {
         width: 35vh;
-        left: 20vh;
+        left: -20vh;
         top: 0vh;
+    }
+
+    .city2 {
+        margin-top: 90px;
     }
 }
 
@@ -148,7 +151,8 @@
 @media screen and (min-width: $wide) {
     .sun__fixed {
         width: 8vh;
-        left: 5vh;
+        left: -5vh;
+        top: -10vh;
     }
 }
 

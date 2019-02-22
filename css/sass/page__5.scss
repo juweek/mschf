@@ -50,10 +50,10 @@
 
 @media screen and (min-width: $wide) {
     .rain_cloud__fixed {
-        width: 30vh;
-        left: 10vh;
+        width: 25vh;
+        left: -45vh;
         position: absolute;
-        top: 10vh;
+        top: 0vh;
     }
 
     .cloud {
@@ -131,6 +131,13 @@
 @media screen and (min-width: $tablet) {
     .slidecontainer {
         top: -10vh;
+    }
+}
+
+@media screen and (min-width: $wide) {
+    .slidecontainer {
+        top: -10vh;
+        left: 5vw;
     }
 }
 

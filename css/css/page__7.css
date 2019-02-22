@@ -33,8 +33,9 @@
     top: -20vh; } }
 @media screen and (min-width: 1300px) {
   .timeline-img__fixed {
-    width: 50vh;
-    top: 10vh; } }
+    width: 45vh;
+    top: 5vh;
+    left: -20vw; } }
 @media screen and (min-width: 319px) {
   .proposal-img__fixed {
     width: 90vw;
@@ -58,7 +59,8 @@
 @media screen and (min-width: 1300px) {
   .proposal-img__fixed {
     width: 40vh;
-    top: 10vh; } }
+    top: 10vh;
+    left: -20vw; } }
 @media screen and (min-width: 319px) {
   .timeline-text__fixed {
     background-color: #F1F0EC;
@@ -112,8 +114,8 @@
     position: absolute;
     transition: opacity .5s ease-in-out;
     pointer-events: none;
-    top: 15vh;
-    left: 50vh; } }
+    top: 5vh;
+    left: 00vh; } }
 @media screen and (min-width: 319px) {
   .work_process-text__fixed {
     width: 90vw;
@@ -188,14 +190,18 @@
 @media screen and (min-width: 1300px) {
   .work_process-text__fixed {
     width: 45vh;
-    left: 0vw; }
+    left: -25vw; }
 
   .work_process-x__fixed {
-    top: 5vh;
-    left: 16vw; }
+    top: 33vh;
+    left: -22vw; }
+
+  .work_process-x_2__fixed {
+    top: 33vh;
+    left: -15vw; }
 
   .work_process-y__fixed {
-    top: 46vh;
-    left: 4vw; } }
+    top: 10vh;
+    left: -10vw; } }
 
 /*# sourceMappingURL=page__7.css.map */
