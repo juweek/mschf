@@ -11,31 +11,31 @@
 .draw__fixed-container {
   position: relative;
   z-index: 0;
-  -moz-animation: z_orbit 4s linear 0.01s infinite;
-  -o-animation: z_orbit 4s linear 0.01s infinite;
-  animation: z_orbit 4s linear 0.01s infinite;
+  -moz-animation: z_orbit 5s linear 0.01s infinite;
+  -o-animation: z_orbit 5s linear 0.01s infinite;
+  animation: z_orbit 5s linear 0.01s infinite;
   -webkit-animation-name: z_orbit;
-  -webkit-animation-duration: 4s;
+  -webkit-animation-duration: 5s;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: -0.01s; }
 
 .draw__fixed-container {
-  animation-delay: -1s;
-  -webkit-animation-delay: -1s; }
+  animation-delay: -1.6s;
+  -webkit-animation-delay: -1.6s; }
 
 .laptop__fixed-container {
-  animation-delay: -3s;
-  -webkit-animation-delay: -3s; }
+  animation-delay: -3.2s;
+  -webkit-animation-delay: -3.2s; }
 
 .data__fixed {
   position: absolute;
   left: 0vh;
   width: 10vh;
-  -moz-animation: orbit 2s linear 0.01s infinite alternate;
-  -o-animation: orbit 2s linear 0.01s infinite alternate;
-  animation: orbit 2s linear 0.01s infinite alternate;
+  -moz-animation: orbit 2.5s linear 0.01s infinite alternate;
+  -o-animation: orbit 2.5s linear 0.01s infinite alternate;
+  animation: orbit 2.5s linear 0.01s infinite alternate;
   -webkit-animation-name: orbit;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 2.5s;
   -webkit-animation-direction: alternate;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 0.01s;
@@ -47,46 +47,49 @@
   position: absolute;
   left: 0vh;
   width: 11vh;
-  -moz-animation: orbit 2s linear 0.01s infinite alternate;
-  -o-animation: orbit 2s linear 0.01s infinite alternate;
-  animation: orbit 2s linear 0.01s infinite alternate;
+  -moz-animation: orbit 2.5s linear 0.01s infinite alternate;
+  -o-animation: orbit 2.5s linear 0.01s infinite alternate;
+  animation: orbit 2.5s linear 0.01s infinite alternate;
   -webkit-animation-name: orbit;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 2.5s;
   -webkit-animation-direction: alternate;
   -webkit-animation-iteration-count: infinite;
   opacity: 0;
   display: block;
   transition: opacity .7s ease-in-out;
-  animation-delay: -1s;
-  -webkit-animation-delay: -1s; }
+  animation-delay: -1.6s;
+  -webkit-animation-delay: -1.6s; }
 
 .laptop__fixed {
   position: absolute;
   left: 0vh;
   width: 12vh;
-  -moz-animation: orbit 2s linear 0.01s infinite alternate;
-  -o-animation: orbit 2s linear 0.01s infinite alternate;
-  animation: orbit 2s linear 0.01s infinite alternate;
+  -moz-animation: orbit 2.5s linear 0.01s infinite alternate;
+  -o-animation: orbit 2.5s linear 0.01s infinite alternate;
+  animation: orbit 2.5s linear 0.01s infinite alternate;
   -webkit-animation-name: orbit;
-  -webkit-animation-duration: 2s;
+  -webkit-animation-duration: 2.5s;
   -webkit-animation-direction: alternate;
   -webkit-animation-iteration-count: infinite;
   -webkit-animation-delay: 0.01s;
   opacity: 0;
   display: block;
   transition: opacity 1s ease-in-out;
-  animation-delay: -3s;
-  -webkit-animation-delay: -3s; }
+  animation-delay: -3.2s;
+  -webkit-animation-delay: -3.2s; }
 
 @media screen and (min-width: 980px) {
   .laptop__fixed {
-    left: 15vh; }
+    left: 15vh;
+    top: 3vh; }
 
   .draw__fixed {
-    left: 15vh; }
+    left: 15vh;
+    top: 3vh; }
 
   .data__fixed {
-    left: 15vh; } }
+    left: 15vh;
+    top: 3vh; } }
 @media screen and (min-width: 1300px) {
   .laptop__fixed, .draw__fixed, .data__fixed {
     left: -55vh; } }

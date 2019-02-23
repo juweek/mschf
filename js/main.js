@@ -56,7 +56,7 @@ function fixMap() {
 function setStep() {
     var stepToShow = null;
     $('.comic__main--text--step').each(function(i, el) {
-        if (windowTop > $(el).offset().top - this.percentageOfHeight(85)) {
+        if (windowTop > $(el).offset().top - this.percentageOfHeight(90)) {
             stepToShow = $(el).data('step');
         }
     }.bind(this));

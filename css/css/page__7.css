@@ -18,7 +18,7 @@
     position: absolute;
     transition: opacity .5s ease-in-out;
     pointer-events: none;
-    top: 10vh; } }
+    top: 20vh; } }
 @media screen and (min-width: 480px) {
   .timeline-img__fixed {
     width: 72vh;
@@ -69,7 +69,7 @@
     position: absolute;
     transition: opacity .5s ease-in-out;
     pointer-events: none;
-    top: -16vh;
+    top: -13vh;
     left: 0vh;
     font-family: 'Neucha'; }
 

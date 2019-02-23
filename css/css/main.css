@@ -30,24 +30,24 @@
 /* ----------------- */
 @-webkit-keyframes orbit {
   0% {
-    -webkit-transform: translate(5vh, -6vh); }
+    -webkit-transform: translate(3vh, -7vh); }
   100% {
-    -webkit-transform: translate(35vh, 0vh); } }
+    -webkit-transform: translate(36vh, 0vh); } }
 @-moz-keyframes orbit {
   0% {
-    transform: translate(5vh, -6vh); }
+    transform: translate(3vh, -7vh); }
   100% {
-    transform: translate(35vh, 0vh); } }
+    transform: translate(36vh, 0vh); } }
 @-o-keyframes orbit {
   0% {
-    transform: translate(5vh, -6vh); }
+    transform: translate(3vh, -7vh); }
   100% {
-    transform: translate(35vh, 0vh); } }
+    transform: translate(36vh, 0vh); } }
 @keyframes orbit {
   0% {
-    transform: translate(5vh, -6vh); }
+    transform: translate(3vh, -7vh); }
   100% {
-    transform: translate(35vh, 0vh); } }
+    transform: translate(36vh, 0vh); } }
 /* ----------------- */
 @-webkit-keyframes z_orbit {
   0% {
