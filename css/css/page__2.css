@@ -122,7 +122,16 @@
     top: 26vh;
     font-size: 18px;
     font-family: 'Neucha';
-    width: 100%; } }
+    width: 100%; }
+
+  .experience-x__fixed {
+    position: absolute;
+    top: -43vh;
+    left: 35vw;
+    min-width: 300px;
+    font-family: 'Neucha';
+    text-decoration: underline;
+    font-size: 28px; } }
 @media screen and (min-width: 480px) {
   .experience__fixed {
     width: 40vw;
@@ -154,7 +163,12 @@
   .exp-text-data__fixed {
     left: 12vw;
     top: 17vh;
-    font-size: 22px; } }
+    font-size: 22px; }
+
+  .experience-x__fixed {
+    left: -10vw;
+    top: -20vh;
+    font-size: 28px; } }
 @media screen and (min-width: 1300px) {
   .experience__fixed {
     width: 20vw;
