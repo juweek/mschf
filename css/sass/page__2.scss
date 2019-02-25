@@ -152,6 +152,16 @@
         text-decoration: underline;
         font-size: 28px;
     }
+
+    .experience-source__fixed {
+        position: absolute;
+        top: 44vh;
+        left: 33vw;
+        min-width: 300px;
+        font-family: 'Neucha';
+        text-decoration: underline;
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: $mobileLandscape) {
@@ -200,6 +210,11 @@
         top: -20vh;
         font-size: 28px;
     }
+
+    .experience-source__fixed {
+        left: -10vw;
+        top: 45vh;
+    }
 }
 
 @media screen and (min-width: $wide) {
@@ -225,5 +240,10 @@
         left: 26vw;
         top: 10vh;
         font-size: 24px;
+    }
+
+    .experience-source__fixed {
+        left: -10vw;
+        top: 25vh;
     }
 }

@@ -83,7 +83,7 @@
 @media screen and (min-width: $desktop) {
     .social-img__fixed {
         width: 50vh;
-        top: 0vh;
+        top: -2vh;
         left: 10vh;
     }
 
@@ -101,8 +101,8 @@
 
     .schedule-x__fixed {
         top: -20vh;
-        left: 40vw;
-        min-width: 300px;
+        left: 5vw;
+        min-width: 500px;
     }
 }
 

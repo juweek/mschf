@@ -70,7 +70,7 @@
 @media screen and (min-width: 980px) {
   .social-img__fixed {
     width: 50vh;
-    top: 0vh;
+    top: -2vh;
     left: 10vh; }
 
   .social-y__fixed {
@@ -85,8 +85,8 @@
 
   .schedule-x__fixed {
     top: -20vh;
-    left: 40vw;
-    min-width: 300px; } }
+    left: 5vw;
+    min-width: 500px; } }
 @media screen and (min-width: 1300px) {
   .social-img__fixed {
     width: 18vw;

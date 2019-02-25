@@ -33,8 +33,8 @@
 
 @media screen and (min-width: $desktop) {
     .timeline-img__fixed {
-        width: 80vh;
-        top: -20vh;
+        width: 70vh;
+        top: -12vh;
     }
 }
 
@@ -187,6 +187,32 @@
             left: 50vw;
             font-family: 'Neucha';
         }
+
+        .process-source__fixed {
+            position: absolute;
+            top: 55vh;
+            left: -2vw;
+            font-family: 'Neucha';
+            font-size: 16px;
+            width: 100%;
+            text-decoration: underline;
+        }
+
+        .calendar-source__fixed,
+        .budget-source__fixed,
+        .social-source__fixed {
+            position: absolute;
+            top: 63vh;
+            left: 0vw;
+            min-width: 300px;
+            font-family: 'Neucha';
+            text-decoration: underline;
+            font-size: 16px;
+        }
+
+        .social-source__fixed {
+            top: 55vh;
+        }
     }
 
     @media screen and (min-width: $mobileLandscape) {
@@ -232,23 +258,46 @@
 
     @media screen and (min-width: $desktop) {
         .work_process-text__fixed {
-            width: 82vh;
+            width: 76vh;
             top: 14vh;
             left: -2vw;
         }
 
         .work_process-x__fixed {
-            top: 47vh;
+            top: 44vh;
             left: 2vw;
         }
 
         .work_process-x_2__fixed {
-            top: 47vh;
+            top: 44vh;
             left: 17vw;
         }
         .work_process-y__fixed {
             top: 10vh;
             left: 25vw;
+        }
+
+        .process-source__fixed {
+            top: 51vh;
+            left: -2vw;
+        }
+
+        .calendar-source__fixed {
+            top: 51vh;
+            left: 5vw;
+            width: 500px;
+        }
+
+        .social-source__fixed {
+            top: 47vh;
+            left: 5vw;
+            width: 500px;
+        }
+
+        .budget-source__fixed {
+            top: 42vh;
+            left: -30vw;
+            width: 500px;
         }
     }
 
@@ -270,5 +319,28 @@
         .work_process-y__fixed {
             top: 10vh;
             left: -10vw;
+        }
+
+        .process-source__fixed {
+            left: -25vw;
+            top: 42vh;
+        }
+
+        .calendar-source__fixed {
+            top: 45vh;
+            left: -21vw;
+            width: 500px;
+        }
+
+        .social-source__fixed {
+            top: 40vh;
+            left: -20vw;
+            width: 500px;
+        }
+
+        .budget-source__fixed {
+            top: 32vh;
+            left: -20vw;
+            width: 500px;
         }
     }

@@ -85,12 +85,13 @@
   .budget-x__fixed {
     position: absolute;
     top: -15vh;
-    left: 10vw;
+    left: -30vw;
     min-width: 300px; }
 
   .timeline-x__fixed {
     top: -20vh;
-    left: 40vw; } }
+    left: 5vw;
+    width: 500px; } }
 @media screen and (min-width: 1300px) {
   .budget-img__fixed {
     width: 18vw;

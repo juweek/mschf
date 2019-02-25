@@ -131,7 +131,16 @@
     min-width: 300px;
     font-family: 'Neucha';
     text-decoration: underline;
-    font-size: 28px; } }
+    font-size: 28px; }
+
+  .experience-source__fixed {
+    position: absolute;
+    top: 44vh;
+    left: 33vw;
+    min-width: 300px;
+    font-family: 'Neucha';
+    text-decoration: underline;
+    font-size: 16px; } }
 @media screen and (min-width: 480px) {
   .experience__fixed {
     width: 40vw;
@@ -168,7 +177,11 @@
   .experience-x__fixed {
     left: -10vw;
     top: -20vh;
-    font-size: 28px; } }
+    font-size: 28px; }
+
+  .experience-source__fixed {
+    left: -10vw;
+    top: 45vh; } }
 @media screen and (min-width: 1300px) {
   .experience__fixed {
     width: 20vw;
@@ -190,6 +203,10 @@
   .exp-text-data__fixed {
     left: 26vw;
     top: 10vh;
-    font-size: 24px; } }
+    font-size: 24px; }
+
+  .experience-source__fixed {
+    left: -10vw;
+    top: 25vh; } }
 
 /*# sourceMappingURL=page__2.css.map */
