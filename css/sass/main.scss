@@ -48,25 +48,25 @@ $wide: 1300px;
 
 @-webkit-keyframes orbit {
     0% {
-        -webkit-transform: translate(0vh, -7vh); }
+        -webkit-transform: translate(-3vh, -7vh); }
         100% {
         -webkit-transform: translate(36vh, 0vh); }
 }
 @-moz-keyframes orbit {
     0% {
-        transform: translate(0vh, -7vh); }
+        transform: translate(-3vh, -7vh); }
         100% {
         transform: translate(36vh, 0vh); }
 }
 @-o-keyframes orbit {
     0% {
-        transform: translate(0vh, -7vh); }
+        transform: translate(-3vh, -7vh); }
         100% {
         transform: translate(36vh, 0vh); }
 }
 @keyframes orbit {
     0% {
-        transform: translate(0vh, -7vh); }
+        transform: translate(-3vh, -7vh); }
         100% {
         transform: translate(36vh, 0vh); }
 }
