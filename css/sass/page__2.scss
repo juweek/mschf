@@ -162,6 +162,26 @@
         text-decoration: underline;
         font-size: 16px;
     }
+
+    .motivation-source__fixed {
+        position: absolute;
+        top: 44vh;
+        left: -5vw;
+        min-width: 300px;
+        font-family: 'Neucha';
+        text-decoration: underline;
+        font-size: 16px;
+    }
+
+    .proposal-source__fixed {
+        position: absolute;
+        top: 50vh;
+        left: -5vw;
+        min-width: 300px;
+        font-family: 'Neucha';
+        text-decoration: underline;
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: $mobileLandscape) {
@@ -206,14 +226,27 @@
     }
 
     .experience-x__fixed {
-        left: -10vw;
+        left: -5vw;
         top: -20vh;
         font-size: 28px;
+        text-align: center;
     }
 
     .experience-source__fixed {
-        left: -10vw;
+        left: -8vw;
         top: 45vh;
+    }
+
+    .motivation-source__fixed {
+        left: 0vw;
+        top: 45vh;
+        min-width: 500px;
+    }
+
+    .proposal-source__fixed {
+        left: 18vw;
+        top: 50vh;
+        min-width: 500px;
     }
 }
 

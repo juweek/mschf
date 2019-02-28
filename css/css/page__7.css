@@ -38,11 +38,11 @@
     left: -20vw; } }
 @media screen and (min-width: 319px) {
   .proposal-img__fixed {
-    width: 90vw;
+    width: 80vw;
     position: absolute;
     transition: opacity .5s ease-in-out;
     pointer-events: none;
-    top: 0vh; } }
+    top: -5vh; } }
 @media screen and (min-width: 480px) {
   .proposal-img__fixed {
     width: 72vh;
@@ -53,9 +53,9 @@
     top: -10vh; } }
 @media screen and (min-width: 980px) {
   .proposal-img__fixed {
-    width: 75vh;
+    width: 50vh;
     top: -5vh;
-    left: 5vw; } }
+    left: 10vw; } }
 @media screen and (min-width: 1300px) {
   .proposal-img__fixed {
     width: 40vh;
@@ -156,14 +156,14 @@
   .social-source__fixed {
     position: absolute;
     top: 63vh;
-    left: 0vw;
+    left: -5vw;
     min-width: 300px;
     font-family: 'Neucha';
     text-decoration: underline;
     font-size: 16px; }
 
   .social-source__fixed {
-    top: 55vh; } }
+    top: 45vh; } }
 @media screen and (min-width: 480px) {
   .work_process-y__fixed {
     position: absolute;
@@ -212,8 +212,8 @@
     left: 25vw; }
 
   .process-source__fixed {
-    top: 51vh;
-    left: -2vw; }
+    top: 55vh;
+    left: 8vw; }
 
   .calendar-source__fixed {
     top: 51vh;
@@ -227,7 +227,7 @@
 
   .budget-source__fixed {
     top: 42vh;
-    left: -30vw;
+    left: -20vw;
     width: 500px; } }
 @media screen and (min-width: 1300px) {
   .work_process-text__fixed {

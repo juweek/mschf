@@ -48,11 +48,11 @@
 
 @media screen and (min-width: $mobile) {
     .proposal-img__fixed {
-        width: 90vw;
+        width: 80vw;
         position: absolute;
         transition: opacity .5s ease-in-out;
         pointer-events: none;
-        top: 0vh;
+        top: -5vh;
     }
 }
 
@@ -72,9 +72,9 @@
 
 @media screen and (min-width: $desktop) {
     .proposal-img__fixed {
-        width: 75vh;
+        width: 50vh;
         top: -5vh;
-        left: 5vw;
+        left: 10vw;
     }
 }
 
@@ -203,7 +203,7 @@
         .social-source__fixed {
             position: absolute;
             top: 63vh;
-            left: 0vw;
+            left: -5vw;
             min-width: 300px;
             font-family: 'Neucha';
             text-decoration: underline;
@@ -211,7 +211,7 @@
         }
 
         .social-source__fixed {
-            top: 55vh;
+            top: 45vh;
         }
     }
 
@@ -278,8 +278,8 @@
         }
 
         .process-source__fixed {
-            top: 51vh;
-            left: -2vw;
+            top: 55vh;
+            left: 8vw;
         }
 
         .calendar-source__fixed {
@@ -296,7 +296,7 @@
 
         .budget-source__fixed {
             top: 42vh;
-            left: -30vw;
+            left: -20vw;
             width: 500px;
         }
     }

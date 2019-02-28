@@ -106,7 +106,7 @@
     left: 5vh; } }
 @media screen and (min-width: 740px) {
   .slidecontainer {
-    top: -10vh; } }
+    top: -5vh; } }
 @media screen and (min-width: 1300px) {
   .slidecontainer {
     top: -10vh;
