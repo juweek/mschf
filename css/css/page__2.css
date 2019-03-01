@@ -220,7 +220,8 @@
   .proposal-source__fixed {
     left: 18vw;
     top: 50vh;
-    min-width: 500px; } }
+    min-width: 500px;
+    text-align: left; } }
 @media screen and (min-width: 1300px) {
   .experience__fixed {
     width: 20vw;
