@@ -54,6 +54,35 @@
         pointer-events: none;
         top: -5vh;
     }
+
+@-webkit-keyframes fade {
+    0%   { opacity: 0; }
+      50% { opacity: 1; }
+      100% { opacity: 0; }
+}
+@-moz-keyframes fade {
+    0%   { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+@-o-keyframes fade {
+    0%   { opacity: 0; }
+    50% { opacity: 1; }
+    100% { opacity: 0; }
+}
+@keyframes fade {
+    0%   { opacity: 0; }
+    40% { opacity: 1; }
+    60% { opacity: 1; }
+    100% { opacity: 0; }
+}
+
+.proposal-img__fade {
+    -webkit-animation: fade 1.6s ease-in infinite; /* Safari 4+ */
+      -moz-animation: fade 1.6s ease-in infinite; /* Fx 5+ */
+      -o-animation: fade 1.6s ease-in infinite; /* Opera 12+ */
+      animation: fade 1.6s ease-in infinite; /* IE 10+, Fx 29+ */
+}
 }
 
 @media screen and (min-width: $mobileLandscape) {
@@ -72,9 +101,9 @@
 
 @media screen and (min-width: $desktop) {
     .proposal-img__fixed {
-        width: 50vh;
+        width: 42vh;
         top: -5vh;
-        left: 10vw;
+        left: 14vw;
     }
 }
 
