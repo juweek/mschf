@@ -225,6 +225,7 @@
             font-size: 16px;
             width: 100%;
             text-decoration: underline;
+            text-align: center;
         }
 
         .calendar-source__fixed,
@@ -232,7 +233,7 @@
         .social-source__fixed {
             position: absolute;
             top: 63vh;
-            left: -5vw;
+            left: 0vw;
             min-width: 300px;
             font-family: 'Neucha';
             text-decoration: underline;
@@ -243,6 +244,18 @@
             top: 45vh;
         }
     }
+
+@media screen and (min-width: $mobileBig) {
+    .social-source__fixed {
+        top: 40vh;
+        text-align: center;
+        left: 0px;
+    }
+
+    .timeline-text__fixed {
+        top: -10vh;
+    }
+}
 
     @media screen and (min-width: $mobileLandscape) {
         .work_process-y__fixed {
@@ -309,6 +322,7 @@
         .process-source__fixed {
             top: 55vh;
             left: 8vw;
+            text-align: left;
         }
 
         .calendar-source__fixed {

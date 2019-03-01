@@ -127,20 +127,22 @@
   .experience-x__fixed {
     position: absolute;
     top: -43vh;
-    left: 35vw;
+    left: 31vw;
     min-width: 300px;
     font-family: 'Neucha';
     text-decoration: underline;
-    font-size: 28px; }
+    font-size: 26px;
+    vertical-align: center; }
 
   .experience-source__fixed {
     position: absolute;
     top: 44vh;
-    left: 33vw;
-    min-width: 300px;
+    left: 40vw;
+    min-width: 260px;
     font-family: 'Neucha';
     text-decoration: underline;
-    font-size: 16px; }
+    font-size: 16px;
+    vertical-align: center; }
 
   .motivation-source__fixed {
     position: absolute;
@@ -149,16 +151,24 @@
     min-width: 300px;
     font-family: 'Neucha';
     text-decoration: underline;
-    font-size: 16px; }
+    font-size: 16px;
+    text-align: center; }
 
   .proposal-source__fixed {
     position: absolute;
-    top: 50vh;
+    top: 46vh;
     left: -5vw;
     min-width: 300px;
     font-family: 'Neucha';
     text-decoration: underline;
-    font-size: 16px; } }
+    font-size: 16px;
+    text-align: center; } }
+@media screen and (min-width: 370px) {
+  .experience-x__fixed {
+    left: 40vw; }
+
+  .motivation-source__fixed {
+    left: 4vw; } }
 @media screen and (min-width: 480px) {
   .experience__fixed {
     width: 40vw;
@@ -203,7 +213,7 @@
     top: 45vh; }
 
   .motivation-source__fixed {
-    left: 0vw;
+    left: -8vw;
     top: 45vh;
     min-width: 500px; }
 

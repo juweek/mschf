@@ -21,7 +21,7 @@
 
   .social-y__fixed {
     position: absolute;
-    top: 30vh;
+    top: 27vh;
     left: 70vw;
     font-family: 'Neucha'; }
 
@@ -51,6 +51,14 @@
     font-family: 'Neucha';
     text-decoration: underline;
     font-size: 30px; } }
+@media screen and (min-width: 370px) {
+  .social-y__fixed {
+    top: 20vh; }
+
+  .social-source__fixed {
+    top: 35vh;
+    text-align: center;
+    left: 0px; } }
 @media screen and (min-width: 480px) {
   .social-img__fixed {
     width: 50vw;
@@ -94,13 +102,13 @@
 
   .motivation-label__fixed {
     top: -20vh;
-    left: -2vw;
+    left: -5vw;
     min-width: 500px; }
 
   .schedule-x__fixed {
     top: -20vh;
-    left: 5vw;
-    min-width: 500px; } }
+    left: 3vw;
+    min-width: 600px; } }
 @media screen and (min-width: 1300px) {
   .social-img__fixed {
     width: 18vw;

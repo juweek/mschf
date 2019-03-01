@@ -18,7 +18,7 @@
 
     .social-y__fixed {
         position: absolute;
-        top: 30vh;
+        top: 27vh;
         left: 70vw;
         font-family: 'Neucha';
     }
@@ -54,6 +54,17 @@
     }
 }
 
+@media screen and (min-width: $mobileBig) {
+    .social-y__fixed {
+        top: 20vh;
+    }
+
+    .social-source__fixed {
+        top: 35vh;
+        text-align: center;
+        left: 0px;
+    }
+}
 
 @media screen and (min-width: $mobileLandscape) {
     .social-img__fixed {
@@ -111,14 +122,14 @@
 
     .motivation-label__fixed {
         top: -20vh;
-        left: -2vw;
+        left: -5vw;
         min-width: 500px;
     }
 
     .schedule-x__fixed {
         top: -20vh;
-        left: 5vw;
-        min-width: 500px;
+        left: 3vw;
+        min-width: 600px;
     }
 }
 
