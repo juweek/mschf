@@ -122,7 +122,7 @@
   .schedule-x__fixed {
     top: -20vh;
     left: 3vw; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1460px) {
   .social-img__fixed {
     width: 18vw;
     top: 10vh;
@@ -160,7 +160,7 @@
     top: -10vh;
     width: 80vh;
     left: 10vh; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1460px) {
   .process__fixed {
     width: 30vh;
     top: 0vh; } }

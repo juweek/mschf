@@ -27,7 +27,7 @@ body {
 @media screen and (min-width: 980px) {
   .comic__main {
     max-width: 80%; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1460px) {
   .comic__main {
     max-width: 40%; } }
 

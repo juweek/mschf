@@ -93,7 +93,7 @@
   .data__fixed {
     left: 15vh;
     top: 3vh; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1460px) {
   .laptop__fixed, .draw__fixed, .data__fixed {
     left: -55vh; } }
 @media screen and (min-width: 319px) {
@@ -234,7 +234,7 @@
     top: 50vh;
     min-width: 650px;
     text-align: left; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1460px) {
   .experience__fixed {
     width: 20vw;
     left: -15vw;

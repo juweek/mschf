@@ -92,7 +92,7 @@
 
   .city2 {
     margin-top: 20px; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1460px) {
   .city {
     width: 35vh;
     left: -20vh;
@@ -115,7 +115,7 @@
     width: 12vh;
     left: 20vh;
     top: -20vh; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1460px) {
   .sun__fixed {
     width: 8vh;
     left: -5vh;

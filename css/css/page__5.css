@@ -40,7 +40,7 @@
   .cloud {
     position: absolute;
     left: 10vh; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1460px) {
   .rain_cloud__fixed {
     width: 25vh;
     left: -45vh;
@@ -107,7 +107,7 @@
 @media screen and (min-width: 740px) {
   .slidecontainer {
     top: -5vh; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1460px) {
   .slidecontainer {
     top: -10vh;
     left: 5vw; } }

@@ -31,7 +31,7 @@
   .timeline-img__fixed {
     width: 65vh;
     top: -12vh; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1460px) {
   .timeline-img__fixed {
     width: 45vh;
     top: 5vh;
@@ -112,7 +112,7 @@
     width: 42vh;
     top: -5vh;
     left: 14vw; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1460px) {
   .proposal-img__fixed {
     width: 40vh;
     top: 10vh;
@@ -164,7 +164,7 @@
     pointer-events: none;
     top: -5vh;
     left: 60vh; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1460px) {
   .timeline-text__fixed {
     width: 70vw;
     position: absolute;
@@ -296,7 +296,7 @@
     top: 42vh;
     left: -20vw;
     width: 500px; } }
-@media screen and (min-width: 1300px) {
+@media screen and (min-width: 1460px) {
   .work_process-text__fixed {
     width: 45vh;
     left: -25vw; }
