@@ -29,7 +29,7 @@
     top: 15vh; } }
 @media screen and (min-width: 980px) {
   .timeline-img__fixed {
-    width: 70vh;
+    width: 65vh;
     top: -12vh; } }
 @media screen and (min-width: 1300px) {
   .timeline-img__fixed {

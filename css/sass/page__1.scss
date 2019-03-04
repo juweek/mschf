@@ -36,6 +36,12 @@
     }
 }
 
+@media screen and (min-width: $desktop) {
+    .image__fixed {
+        width: 24vh;
+    }
+}
+
 @media screen and (min-width: $wide) {
     .image__fixed {
         width: 20vh;
