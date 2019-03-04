@@ -32,7 +32,14 @@
 
 @media screen and (min-width: $tablet) {
     .comic__main--text--intro img {
-        max-width: 90vh;
+        max-width: 70vh;
+        left: 5vw;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .comic__main--text--intro img {
+        max-width: 85vh;
         left: 25vw;
     }
 }

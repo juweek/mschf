@@ -26,8 +26,8 @@
 
 @media screen and (min-width: $tablet) {
     .timeline-img__fixed {
-        width: 70vh;
-        top: -18vh;
+        width: 55vh;
+        top: 15vh;
     }
 }
 
@@ -81,10 +81,10 @@
 }
 
 .proposal-img__fade {
-    -webkit-animation: fade 1.4s linear infinite alternate; /* Safari 4+ */
-      -moz-animation: fade 1.4s linear infinite alternate; /* Fx 5+ */
-      -o-animation: fade 1.4s linear infinite alternate; /* Opera 12+ */
-      animation: fade 1.4s linear infinite alternate; /* IE 10+, Fx 29+ */
+    -webkit-animation: fade 1.8s linear infinite alternate; /* Safari 4+ */
+      -moz-animation: fade 1.8s linear infinite alternate; /* Fx 5+ */
+      -o-animation: fade 1.8s linear infinite alternate; /* Opera 12+ */
+      animation: fade 1.8s linear infinite alternate; /* IE 10+, Fx 29+ */
 }
 
 .work_process-img__fade {
@@ -104,7 +104,7 @@
 
 @media screen and (min-width: $tablet) {
     .proposal-img__fixed {
-        width: 70vh;
+        width: 50vh;
         top: -10vh;
     }
 }
@@ -168,8 +168,8 @@
         position: absolute;
         transition: opacity .5s ease-in-out;
         pointer-events: none;
-        top: -15vh;
-        left: 50vh;
+        top: -9vh;
+        left: 0vh;
 
         p {
             padding-bottom: 3px;
@@ -294,17 +294,18 @@
 
     @media screen and (min-width: $tablet) {
         .work_process-text__fixed {
-            width: 70vh;
+            width: 60vh;
             top: 20vh;
+            left: 0px;
         }
 
         .work_process-x__fixed {
-            top: 15vh;
-            left: 45vw;
+            top: 46vh;
+            left: 8vw;
         }
         .work_process-y__fixed {
-            top: 53vh;
-            left: 8vw;
+            top: 15vh;
+            left: 45vw;
         }
     }
 

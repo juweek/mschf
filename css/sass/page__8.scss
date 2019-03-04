@@ -71,6 +71,7 @@
     .budget-img__fixed {
         width: 40vh;
         top: 10vh;
+        left: -4vw;
     }
 
     .budget-y__fixed {
@@ -79,8 +80,15 @@
     }
 
     .budget-x__fixed {
-        top: 10vh;
-        left: 40vw;
+        top: -8vh;
+        left: 0vw;
+        min-width: 600px;
+    }
+
+    .timeline-x__fixed {
+        top: -20vh;
+        left: 0vw;
+        min-width: 500px;
     }
 }
 

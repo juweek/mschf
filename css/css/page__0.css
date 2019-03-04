@@ -79,13 +79,19 @@
 @media screen and (min-width: 740px) {
   .city {
     width: 40vh;
-    left: 25vh;
-    top: 0vh; } }
+    left: 10vh;
+    top: 0vh; }
+
+  .city2 {
+    margin-top: 80px; } }
 @media screen and (min-width: 980px) {
   .city {
     width: 33vw;
     left: 15vw;
-    bottom: 0vh; } }
+    bottom: 0vh; }
+
+  .city2 {
+    margin-top: 0px; } }
 @media screen and (min-width: 1300px) {
   .city {
     width: 35vh;

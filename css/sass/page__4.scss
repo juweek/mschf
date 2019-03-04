@@ -87,17 +87,35 @@
 @media screen and (min-width: $tablet) {
     .social-img__fixed {
         width: 40vh;
-        top: 10vh;
+        top: 5vh;
+        left: 0px;
     }
 
     .social-y__fixed {
-        top: 30vh;
-        left: 20vw;
+        top: 20vh;
+        left: -7vw;
     }
 
     .social-x__fixed {
         top: 10vh;
         left: 40vw;
+    }
+
+    .schedule-x__fixed {
+        top: -18vh;
+        left: 0vw;
+        min-width: 600px;
+    }
+
+    .motivation-label__fixed {
+        top: -20vh;
+        left: -20vw;
+        min-width: 500px;
+    }
+
+    .social-label__fixed {
+        top: -15vh;
+        left: 0vw;
     }
 }
 
@@ -123,13 +141,11 @@
     .motivation-label__fixed {
         top: -20vh;
         left: -5vw;
-        min-width: 500px;
     }
 
     .schedule-x__fixed {
         top: -20vh;
         left: 3vw;
-        min-width: 600px;
     }
 }
 

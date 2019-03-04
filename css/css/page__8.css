@@ -62,15 +62,22 @@
 @media screen and (min-width: 740px) {
   .budget-img__fixed {
     width: 40vh;
-    top: 10vh; }
+    top: 10vh;
+    left: -4vw; }
 
   .budget-y__fixed {
     top: 30vh;
     left: 20vw; }
 
   .budget-x__fixed {
-    top: 10vh;
-    left: 40vw; } }
+    top: -8vh;
+    left: 0vw;
+    min-width: 600px; }
+
+  .timeline-x__fixed {
+    top: -20vh;
+    left: 0vw;
+    min-width: 500px; } }
 @media screen and (min-width: 980px) {
   .budget-img__fixed {
     width: 50vh;

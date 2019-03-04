@@ -16,7 +16,7 @@
 @media screen and (min-width: 319px) {
   .image__fixed {
     width: 25vh;
-    left: 20vw;
+    left: 25vw;
     top: -10vh; } }
 @media screen and (min-width: 480px) {
   .image__fixed {
@@ -28,7 +28,7 @@
     left: 5vh; } }
 @media screen and (min-width: 740px) {
   .image__fixed {
-    width: 25vh; } }
+    width: 20vh; } }
 @media screen and (min-width: 1300px) {
   .image__fixed {
     width: 20vh;

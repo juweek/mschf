@@ -30,7 +30,8 @@
 .data__fixed {
   position: absolute;
   left: 0vh;
-  width: 10vh;
+  width: 9vh;
+  top: -3vh;
   -moz-animation: orbit 2.5s linear 0.01s infinite alternate;
   -o-animation: orbit 2.5s linear 0.01s infinite alternate;
   animation: orbit 2.5s linear 0.01s infinite alternate;
@@ -46,7 +47,8 @@
 .draw__fixed {
   position: absolute;
   left: 0vh;
-  width: 11vh;
+  width: 9vh;
+  top: -3vh;
   -moz-animation: orbit 2.5s linear 0.01s infinite alternate;
   -o-animation: orbit 2.5s linear 0.01s infinite alternate;
   animation: orbit 2.5s linear 0.01s infinite alternate;
@@ -63,7 +65,8 @@
 .laptop__fixed {
   position: absolute;
   left: 0vh;
-  width: 12vh;
+  width: 10vh;
+  top: -3vh;
   -moz-animation: orbit 2.5s linear 0.01s infinite alternate;
   -o-animation: orbit 2.5s linear 0.01s infinite alternate;
   animation: orbit 2.5s linear 0.01s infinite alternate;
@@ -96,7 +99,7 @@
 @media screen and (min-width: 319px) {
   .experience__fixed {
     width: 83vw;
-    left: 32vw;
+    left: 40vw;
     position: relative;
     top: -35vh; }
 
@@ -158,7 +161,7 @@
     position: absolute;
     top: 46vh;
     left: -5vw;
-    min-width: 300px;
+    min-width: 350px;
     font-family: 'Neucha';
     text-decoration: underline;
     font-size: 16px;
@@ -176,10 +179,19 @@
     top: 20vh; } }
 @media screen and (min-width: 740px) {
   .experience__fixed {
-    width: 60vh;
-    left: 20vh;
+    width: 50vh;
+    left: -15vh;
     position: relative;
-    top: 10vh; } }
+    top: -20vh; }
+
+  .experience-source__fixed {
+    left: -8vw;
+    top: 40vh;
+    min-width: 300px; }
+
+  .proposal-source__fixed {
+    left: 10vw;
+    top: 42vh; } }
 @media screen and (min-width: 980px) {
   .experience__fixed {
     width: 60vh;
@@ -218,9 +230,9 @@
     min-width: 500px; }
 
   .proposal-source__fixed {
-    left: 18vw;
+    left: 0vw;
     top: 50vh;
-    min-width: 500px;
+    min-width: 650px;
     text-align: left; } }
 @media screen and (min-width: 1300px) {
   .experience__fixed {

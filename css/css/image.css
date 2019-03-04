@@ -28,7 +28,11 @@
     max-width: 85vw; } }
 @media screen and (min-width: 740px) {
   .comic__main--text--intro img {
-    max-width: 90vh;
+    max-width: 70vh;
+    left: 5vw; } }
+@media screen and (min-width: 980px) {
+  .comic__main--text--intro img {
+    max-width: 85vh;
     left: 25vw; } }
 
 /*# sourceMappingURL=image.css.map */
