@@ -81,10 +81,17 @@
 }
 
 .proposal-img__fade {
-    -webkit-animation: fade 2s linear infinite alternate; /* Safari 4+ */
-      -moz-animation: fade 2s linear infinite alternate; /* Fx 5+ */
-      -o-animation: fade 2s linear infinite alternate; /* Opera 12+ */
-      animation: fade 2s linear infinite alternate; /* IE 10+, Fx 29+ */
+    -webkit-animation: fade 1.4s linear infinite alternate; /* Safari 4+ */
+      -moz-animation: fade 1.4s linear infinite alternate; /* Fx 5+ */
+      -o-animation: fade 1.4s linear infinite alternate; /* Opera 12+ */
+      animation: fade 1.4s linear infinite alternate; /* IE 10+, Fx 29+ */
+}
+
+.work_process-img__fade {
+    -webkit-animation: fade 1.6s linear infinite; /* Safari 4+ */
+      -moz-animation: fade 1.6s linear infinite; /* Fx 5+ */
+      -o-animation: fade 1.6s linear infinite; /* Opera 12+ */
+      animation: fade 1.6s linear infinite; /* IE 10+, Fx 29+ */
 }
 }
 
