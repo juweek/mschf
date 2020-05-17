@@ -81,14 +81,16 @@
     100% {
       opacity: 0; } }
   .proposal-img__fade {
-    -webkit-animation: fade 1.8s linear infinite alternate;
-    /* Safari 4+ */
-    -moz-animation: fade 1.8s linear infinite alternate;
-    /* Fx 5+ */
-    -o-animation: fade 1.8s linear infinite alternate;
-    /* Opera 12+ */
-    animation: fade 1.8s linear infinite alternate;
-    /* IE 10+, Fx 29+ */ }
+    opacity: .75; }
+
+  .proposal-img__rotate {
+    -moz-animation: rotateGlobe 22s linear 0.01s infinite;
+    -o-animation: rotateGlobe 22s linear 0.01s infinite;
+    animation: rotateGlobe 22s linear 0.01s infinite;
+    -webkit-animation-name: rotateGlobe;
+    -webkit-animation-duration: 22s;
+    -webkit-animation-iteration-count: infinite, infinite;
+    -webkit-animation-delay: 0.01s; }
 
   .work_process-img__fade {
     -webkit-animation: fade 1.6s linear infinite;
@@ -111,7 +113,13 @@
   .proposal-img__fixed {
     width: 42vh;
     top: -5vh;
-    left: 14vw; } }
+    left: 14vw; }
+
+  .proposal-img__rotate {
+    width: 34vh;
+    top: -3vh;
+    left: 16vw;
+    position: absolute; } }
 @media screen and (min-width: 1460px) {
   .proposal-img__fixed {
     width: 40vh;
@@ -228,7 +236,7 @@
     left: 0px; }
 
   .timeline-text__fixed {
-    top: -10vh; } }
+    top: 0vh; } }
 @media screen and (min-width: 480px) {
   .work_process-y__fixed {
     position: absolute;

@@ -11,7 +11,7 @@
     animation: sun_orbit 2s linear 0.01s infinite;
 
     -webkit-animation-name: sun_orbit;
-    -webkit-animation-duration: 2s;
+    -webkit-animation-duration: 8s;
     -webkit-animation-iteration-count: infinite, infinite;
     -webkit-animation-delay: 0.01s;
 
@@ -161,6 +161,48 @@
         width: 8vh;
         left: -5vh;
         top: -10vh;
+    }
+}
+
+
+@-webkit-keyframes rotateGlobe {
+    0% {
+        opacity: 1;
+        -webkit-transform: rotate(0deg) translateX(0px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: rotate(360deg) translateX(0px);
+    }
+}
+@-moz-keyframes rotateGlobe {
+    0% {
+        opacity: 1;
+        -webkit-transform: rotate(0deg) translateX(0px);
+    }
+    100% {
+        opacity: 1;
+        -webkit-transform: rotate(360deg) translateX(0px);
+    }
+}
+@-o-keyframes rotateGlobe {
+    0% {
+        opacity: 1;
+        transform: rotate(0deg) translateX(0px);
+    }
+    100% {
+        opacity: 1;
+        transform:  rotate(360deg) translateX(0px);
+    }
+}
+@keyframes rotateGlobe {
+    0% {
+        opacity: 1;
+        transform: rotate(0deg) translateX(0px);
+    }
+    100% {
+        opacity: 1;
+        transform: rotate(360deg) translateX(0px);
     }
 }
 

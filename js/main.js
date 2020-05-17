@@ -83,6 +83,7 @@ function highlightStates(currentStep) {
 
         case 'proposal':
         $('.page__6').addClass('image__shown');
+        $('.page__2').removeClass('image__shown');
         $('.page__5').removeClass('image__shown');
         $('.page__10').removeClass('image__shown');
         break
@@ -97,16 +98,6 @@ function highlightStates(currentStep) {
         $('.page__9').removeClass('image__shown');
         $('.page__10').removeClass('image__shown');
         $('.page__8').removeClass('image__shown');
-        break
-
-        case 'community':
-        $('.page__4').removeClass('image__shown');
-        $('.page__9').addClass('image__shown');
-        break
-
-        case 'budget':
-        $('.page__4').removeClass('image__shown');
-        $('.page__8').addClass('image__shown');
         break
 
         case 'cloud':
