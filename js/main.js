@@ -78,6 +78,7 @@ function highlightStates(currentStep) {
         $('.page__2').addClass('image__shown');
         $('.page__0').removeClass('image__shown');
         $('.page__6').removeClass('image__shown');
+          $('.page__10').removeClass('image__shown');
         $('.page__5').removeClass('image__shown');
         break
 
@@ -86,29 +87,8 @@ function highlightStates(currentStep) {
         $('.page__2').removeClass('image__shown');
         $('.page__5').removeClass('image__shown');
         $('.page__10').removeClass('image__shown');
-        break
-
-        case 'tools':
-        $('.page__4').addClass('image__shown');
-        $('.page__3').removeClass('image__shown');
-        $('.page__10').removeClass('image__shown');
-        $('.page__2').removeClass('image__shown');
-        $('.page__5').removeClass('image__shown');
-        $('.page__7').removeClass('image__shown');
-        $('.page__9').removeClass('image__shown');
-        $('.page__10').removeClass('image__shown');
-        $('.page__8').removeClass('image__shown');
-        break
-
-        case 'cloud':
-        $('.page__5').addClass('image__shown');
-
-        $('.page__6').removeClass('image__shown');
-        $('.page__7').removeClass('image__shown');
-
         $('.page__1').removeClass('image__shown');
-        $('.page__2').removeClass('image__shown');
-        $('.page__3').removeClass('image__shown');
+        $('.page__0').removeClass('image__shown');
         break
 
         case 'process':
@@ -116,13 +96,16 @@ function highlightStates(currentStep) {
         $('.page__10').addClass('image__shown');
         $('.page__4').removeClass('image__shown');
         $('.page__6').removeClass('image__shown');
+        $('.page__1').removeClass('image__shown');
+        $('.page__0').removeClass('image__shown');
+          $('.page__2').removeClass('image__shown');
         break
 
         case 'timeline':
-        $('.page__7').addClass('image__shown');
+        $('.page__1').addClass('image__shown');
+        $('.page__0').addClass('image__shown');
+        $('.page__6').removeClass('image__shown');
         $('.page__2').removeClass('image__shown');
-        $('.page__5').removeClass('image__shown');
-        $('.page__4').removeClass('image__shown');
         $('.page__10').removeClass('image__shown');
         break
 
