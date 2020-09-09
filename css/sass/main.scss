@@ -558,6 +558,7 @@ $wide: 1300px;
 .image__shown {
     opacity: 1;
     display: block;
+    pointer-events: all;
 }
 
 .half__shown {
