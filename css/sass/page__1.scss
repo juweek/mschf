@@ -6,6 +6,7 @@
     transition: width 2s, opacity .4s ease-in-out;
     display: none;
     left: 10vh;
+    pointer-events: none;
 }
 
 @media screen and (min-width: $mobile) {
