@@ -73,7 +73,7 @@ function highlightStates(currentStep) {
         $('.page__2').removeClass('image__shown');
         break
 
-        case 'skills':
+        case 'process':
         $('.page__1').removeClass('image__shown');
         $('.page__2').addClass('image__shown');
         $('.page__0').removeClass('image__shown');
@@ -91,7 +91,7 @@ function highlightStates(currentStep) {
         $('.page__0').removeClass('image__shown');
         break
 
-        case 'process':
+        case 'skills':
         $('.page__7').removeClass('image__shown');
         $('.page__10').addClass('image__shown');
         $('.page__4').removeClass('image__shown');

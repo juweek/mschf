@@ -30,7 +30,7 @@
 .data__fixed {
   position: absolute;
   left: 0vh;
-  width: 9vh;
+  width: 13vh;
   top: -3vh;
   -moz-animation: orbit 2.5s linear 0.01s infinite alternate;
   -o-animation: orbit 2.5s linear 0.01s infinite alternate;
@@ -47,7 +47,7 @@
 .draw__fixed {
   position: absolute;
   left: 0vh;
-  width: 9vh;
+  width: 17vh;
   top: -3vh;
   -moz-animation: orbit 2.5s linear 0.01s infinite alternate;
   -o-animation: orbit 2.5s linear 0.01s infinite alternate;
@@ -65,7 +65,7 @@
 .laptop__fixed {
   position: absolute;
   left: 0vh;
-  width: 10vh;
+  width: 16vh;
   top: -3vh;
   -moz-animation: orbit 2.5s linear 0.01s infinite alternate;
   -o-animation: orbit 2.5s linear 0.01s infinite alternate;
